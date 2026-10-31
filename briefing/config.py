@@ -173,8 +173,8 @@ SIGNOFFS_BY_WEEKDAY = {
     ],
 }
 
-# Craft Corner: kurzes Segment am Ende, das eine Rhetorik-/Storytelling-Technik
-# benennt, die im heutigen Briefing benutzt wurde. Rotiert täglich.
+# Technik des Tages: wird im Briefing bewusst eingesetzt, aber nie benannt
+# (passives Lernen, kein Lern-Segment). Rotiert täglich.
 CRAFT_CORNER = True
 CRAFT_TECHNIQUES = [
     ("And-But-Therefore", "setup with 'and', tension with 'but', consequence with 'therefore'"),

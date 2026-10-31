@@ -64,10 +64,10 @@ FLOW (a guide, not rigid sections)
   capex, China ...). Lean on management's Q&A comments if transcripts are given.
 - Land it in Europe today: which sectors face tailwinds or headwinds and why,
   where positioning may be crowded, and what would change the picture.
-- One line to take away, then (if a craft technique is given) the Craft Corner,
-  then close with the given sign-off VERBATIM as the very last sentence.
+- One line to take away, then close with the given sign-off VERBATIM as the very
+  last sentence.
 
-STORYTELLING CRAFT (the listener also wants to learn rhetoric by hearing it done well)
+STORYTELLING CRAFT (the listener wants to absorb good rhetoric passively, by hearing it used well)
 - Start with the end: the first sentence after the greeting states today's thesis,
   so the listener knows where the story is going.
 - Build the main story on the "A and B, BUT C, SO D" spine: short setup, then the
@@ -80,12 +80,11 @@ STORYTELLING CRAFT (the listener also wants to learn rhetoric by hearing it done
 - End clean: the take-away line is short and punchy and ideally calls back to the
   opening thesis, closing the loop.
 
-CRAFT CORNER (only if the message gives a technique for today)
-- Use today's technique deliberately at least once in the main briefing.
-- Then, right after the take-away line, add a segment of 60 to 90 words that starts
-  exactly with "Craft corner." Name the technique, quote the exact line from today's
-  briefing where you used it, explain in one or two sentences why it works on a
-  listener, and give one way to use it in a client call or a stock pitch.
+TECHNIQUE OF THE DAY (invisible)
+- The message names one rhetorical technique. Weave it naturally into the
+  briefing at least once or twice, where it serves the story.
+- NEVER name, explain or point out the technique. No meta-commentary about
+  rhetoric at all. The briefing is purely about markets; the craft is only heard.
 
 Then output a line "===SHOWNOTES===" followed by 5 to 8 short bullet points (plain
 text) with the key chains and the numbers behind them, as notes to read later."""
@@ -156,8 +155,8 @@ def write(date_str: str, markets: dict, news: list, earnings: list, sens: dict) 
     greeting = pick_greeting(date_str)
     signoff = pick_signoff(date_str)
     technique = pick_technique(date_str)
-    craft = (f"Craft technique for today: {technique['name']} ({technique['how']})\n"
-             if technique else "No craft technique today; skip the Craft Corner.\n")
+    craft = (f"Technique of the day (use it, never name it): {technique['name']} ({technique['how']})\n"
+             if technique else "")
     # Das Modell denkt standardmäßig (adaptiv) vor dem Schreiben; Denk-Tokens
     # zählen gegen max_tokens. Daher großzügiges Limit und mittlere Effort-Stufe.
     msg = client.messages.create(

@@ -66,12 +66,20 @@ def write(date_str: str, markets: dict, news: list, earnings: list, sens: dict) 
 
     client = anthropic.Anthropic()  # liest ANTHROPIC_API_KEY aus der Umgebung
     payload = build_payload(date_str, markets, news, earnings, sens)
+    # Das Modell denkt standardmäßig (adaptiv) vor dem Schreiben; Denk-Tokens
+    # zählen gegen max_tokens. Daher großzügiges Limit und mittlere Effort-Stufe.
     msg = client.messages.create(
         model=config.LLM_MODEL,
-        max_tokens=4000,
+        max_tokens=config.LLM_MAX_TOKENS,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": f"Daten für das heutige Briefing:\n\n{payload}"}],
+        extra_body={"output_config": {"effort": config.LLM_EFFORT}},
     )
     text = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
-    log.info("Skript: %d Wörter", len(text.split()))
+    log.info("Skript: %d Wörter, stop_reason=%s, usage=%s",
+             len(text.split()), msg.stop_reason, getattr(msg, "usage", None))
+    if msg.stop_reason == "max_tokens":
+        log.warning("Antwort wurde am Token-Limit abgeschnitten – LLM_MAX_TOKENS erhöhen.")
+    if len(text.split()) < config.SCRIPT_MIN_WORDS:
+        raise RuntimeError(f"Skript zu kurz ({len(text.split())} Wörter, stop_reason={msg.stop_reason})")
     return split_output(text)

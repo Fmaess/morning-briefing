@@ -18,7 +18,7 @@ RUN_WINDOW_END = (8, 30)
 ASIA = {
     "Nikkei 225": "^N225",
     "Hang Seng": "^HSI",
-    "CSI 300": "000300.SS",
+    "Shanghai Composite": "000001.SS",
     "Kospi": "^KS11",
     "ASX 200": "^AXJO",
 }
@@ -32,14 +32,12 @@ EUROPE = {
     "Euro Stoxx 50": "^STOXX50E",
     "DAX": "^GDAXI",
     "Stoxx 600": "^STOXX",
-    "Euro-Stoxx-50-Future": "FESX=F",
 }
-# Renditen: Yahoo liefert ^TNX/^FVX in Prozent. Bund-Rendite gibt es dort nicht
-# zuverlässig, daher Bund-Future als Preis-Proxy (fällt der Future, steigt die Rendite).
+# Renditen: Yahoo liefert ^TNX/^FVX in Prozent. Bund-Rendite und Bund-Future
+# liefert Yahoo nicht (erster Lauf geprüft) – Bunds kommen bisher nur über News.
 RATES = {
     "US 10J Rendite": "^TNX",
     "US 5J Rendite": "^FVX",
-    "Bund-Future": "FGBL=F",
 }
 COMMODITIES = {
     "Brent": "BZ=F",
@@ -119,6 +117,9 @@ NEWS_MAX_ITEMS = 60
 
 # --- Sprachmodell ------------------------------------------------------------
 LLM_MODEL = os.getenv("BRIEFING_LLM_MODEL", "claude-sonnet-5-5")
+LLM_MAX_TOKENS = 16000        # deckt Nachdenken + Skript ab
+LLM_EFFORT = "medium"         # low / medium / high – höher = gründlicher, teurer
+SCRIPT_MIN_WORDS = 300        # kürzere Skripte gelten als Fehler (keine Mini-Folge)
 SCRIPT_TARGET_MINUTES = 8
 
 # --- Vertonung (lokal, kostenlos) --------------------------------------------

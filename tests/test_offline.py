@@ -108,3 +108,11 @@ def test_weekday_greetings_and_signoff():
     assert g2 in config.GREETINGS
     s = script_writer.pick_signoff("Friday, 6 November 2026")
     assert s in config.SIGNOFFS_BY_WEEKDAY["Friday"]
+
+
+def test_index_levels_removed_but_yields_kept():
+    m = {"asien": [{"name": "Kospi", "last": 4000.0, "change_pct": -3.5}],
+         "zinsen": [{"name": "Bund 10J Rendite", "last": 3.38, "change_bp": -1.0}]}
+    out = script_writer.strip_index_levels(m)
+    assert "last" not in out["asien"][0] and out["asien"][0]["change_pct"] == -3.5
+    assert out["zinsen"][0]["last"] == 3.38

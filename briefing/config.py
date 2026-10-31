@@ -176,9 +176,9 @@ SIGNOFFS_BY_WEEKDAY = {
 # --- Vertonung (lokal, kostenlos) --------------------------------------------
 # "kokoro" (Standard, natürlicher, Englisch) oder "piper" (kann Deutsch)
 TTS_ENGINE = os.getenv("TTS_ENGINE", "kokoro")
-TTS_SPEED = 1.07              # 0.9 = ruhiger, 1.1 = flotter
+TTS_SPEED = 1.12              # 0.9 = ruhiger, 1.1 = flotter
 # Tonhöhe: 1.0 = original, 0.95 = 5 % tiefer (Sprechtempo bleibt gleich)
-TTS_PITCH = 1.0
+TTS_PITCH = 0.95
 PARAGRAPH_PAUSE_S = 0.45      # Pause zwischen Absätzen in Sekunden
 
 # Kokoro: Stimmen-Mix aus männlichen US-Stimmen. Gewichte werden normiert.

@@ -12,6 +12,10 @@ on:
         description: "Zeitfenster ignorieren und neu erzeugen"
         type: boolean
         default: true
+      feed_only:
+        description: "Nur den Feed neu schreiben (keine neue Folge)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -67,7 +71,9 @@ jobs:
           FEED_SECRET_PATH: ${{ vars.FEED_SECRET_PATH }}
         run: |
           rm -rf public/.git
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.force }}" = "true" ]; then
+          if [ "${{ inputs.feed_only }}" = "true" ]; then
+            python -m briefing.main --feed-only
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.force }}" = "true" ]; then
             python -m briefing.main --force
           else
             python -m briefing.main

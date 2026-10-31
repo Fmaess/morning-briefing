@@ -42,8 +42,15 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--feed-only", action="store_true", help="nur feed.xml neu schreiben")
     args = ap.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
+
+    if args.feed_only:
+        from . import podcast
+        podcast.write_feed()
+        log.info("Feed neu geschrieben: %s", podcast.feed_url())
+        return 0
 
     now_local = datetime.now(ZoneInfo(config.TIMEZONE))
     if not args.force and not in_window(now_local):

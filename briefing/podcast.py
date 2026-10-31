@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import shutil
 from datetime import datetime
 from email.utils import format_datetime
 from pathlib import Path
@@ -37,8 +38,20 @@ def add_episode(mp3: Path, title: str, notes: str, published: datetime, seconds:
         (d / old["file"]).unlink(missing_ok=True)
     episodes = episodes[: config.FEED_KEEP_EPISODES]
     index_file.write_text(json.dumps(episodes, ensure_ascii=False, indent=1), "utf-8")
-    (d / "feed.xml").write_text(render_feed(episodes), "utf-8")
+    write_feed(episodes)
     return episodes
+
+
+def write_feed(episodes: list[dict] | None = None) -> None:
+    d = feed_dir()
+    d.mkdir(parents=True, exist_ok=True)
+    if episodes is None:
+        index_file = d / "episodes.json"
+        episodes = json.loads(index_file.read_text("utf-8")) if index_file.exists() else []
+    cover = Path(config.FEED_COVER)
+    if cover.exists():
+        shutil.copyfile(cover, d / "cover.png")
+    (d / "feed.xml").write_text(render_feed(episodes), "utf-8")
 
 
 def render_feed(episodes: list[dict]) -> str:
@@ -51,7 +64,7 @@ def render_feed(episodes: list[dict]) -> str:
    <title>{escape(e["title"])}</title>
    <description>{escape(e["notes"])}</description>
    <enclosure url="{escape(base + "/" + e["file"])}" length="{e["bytes"]}" type="audio/mpeg"/>
-   <guid isPermaLink="false">{escape(e["file"])}</guid>
+   <guid isPermaLink="false">{escape(e["file"] + "#" + e["published"])}</guid>
    <pubDate>{pub}</pubDate>
    <itunes:duration>{mins}:{secs:02d}</itunes:duration>
   </item>""")
@@ -63,7 +76,10 @@ def render_feed(episodes: list[dict]) -> str:
   <description>Private daily macro and European equities briefing</description>
   <language>en</language>
   <itunes:author>{escape(config.FEED_AUTHOR)}</itunes:author>
-  <itunes:block>Yes</itunes:block>
+  <itunes:image href="{escape(base)}/cover.png"/>
+  <image><url>{escape(base)}/cover.png</url><title>{escape(config.FEED_TITLE)}</title><link>{escape(base)}</link></image>
+  <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
+  <itunes:type>episodic</itunes:type>
   <itunes:explicit>false</itunes:explicit>
 {chr(10).join(items)}
  </channel>

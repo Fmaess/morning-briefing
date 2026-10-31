@@ -194,7 +194,8 @@ PIPER_VOICE_DIR = os.getenv("PIPER_VOICE_DIR", "voices")
 
 # --- Podcast-Feed ------------------------------------------------------------
 FEED_TITLE = "Morning Briefing – Macro & Europe"
-FEED_AUTHOR = "Privat"
+FEED_AUTHOR = "Morning Briefing"
+FEED_COVER = "assets/cover.png"
 FEED_BASE_URL = os.getenv("FEED_BASE_URL", "https://example.github.io/briefing-feed").rstrip("/")
 FEED_SECRET_PATH = os.getenv("FEED_SECRET_PATH", "changeme")
 FEED_KEEP_EPISODES = 14

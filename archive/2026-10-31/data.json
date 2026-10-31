@@ -1,0 +1,609 @@
+{
+ "datum": "Samstag, 31.10.2026",
+ "maerkte": {
+  "asien": [
+   {
+    "name": "Nikkei 225",
+    "ticker": "^N225",
+    "last": 63290.1094,
+    "as_of": "2026-10-30",
+    "change_pct": -2.12,
+    "change_5d_pct": 0.95
+   },
+   {
+    "name": "Hang Seng",
+    "ticker": "^HSI",
+    "last": 23294.4199,
+    "as_of": "2026-10-30",
+    "change_pct": 1.46,
+    "change_5d_pct": 0.87
+   },
+   {
+    "name": "Kospi",
+    "ticker": "^KS11",
+    "last": 5730.7402,
+    "as_of": "2026-10-30",
+    "change_pct": -3.48,
+    "change_5d_pct": 3.25
+   },
+   {
+    "name": "ASX 200",
+    "ticker": "^AXJO",
+    "last": 8908.0996,
+    "as_of": "2026-10-30",
+    "change_pct": 0.18,
+    "change_5d_pct": 1.28
+   }
+  ],
+  "usa": [
+   {
+    "name": "S&P 500",
+    "ticker": "^GSPC",
+    "last": 7580.0698,
+    "as_of": "2026-10-30",
+    "change_pct": -1.82,
+    "change_5d_pct": -0.57
+   },
+   {
+    "name": "Nasdaq 100",
+    "ticker": "^NDX",
+    "last": 28384.8496,
+    "as_of": "2026-10-30",
+    "change_pct": -3.46,
+    "change_5d_pct": -1.98
+   },
+   {
+    "name": "S&P 500 Future",
+    "ticker": "ES=F",
+    "last": 7614.0,
+    "as_of": "2026-10-30",
+    "change_pct": -1.81,
+    "change_5d_pct": -0.6
+   },
+   {
+    "name": "Nasdaq Future",
+    "ticker": "NQ=F",
+    "last": 28534.0,
+    "as_of": "2026-10-30",
+    "change_pct": -3.48,
+    "change_5d_pct": -2.0
+   }
+  ],
+  "europa": [
+   {
+    "name": "Euro Stoxx 50",
+    "ticker": "^STOXX50E",
+    "last": 6131.3101,
+    "as_of": "2026-10-30",
+    "change_pct": -1.22,
+    "change_5d_pct": 1.04
+   },
+   {
+    "name": "DAX",
+    "ticker": "^GDAXI",
+    "last": 25818.2109,
+    "as_of": "2026-10-30",
+    "change_pct": -0.85,
+    "change_5d_pct": 2.53
+   },
+   {
+    "name": "Stoxx 600",
+    "ticker": "^STOXX",
+    "last": 646.75,
+    "as_of": "2026-10-30",
+    "change_pct": -0.36,
+    "change_5d_pct": 1.73
+   }
+  ],
+  "zinsen": [
+   {
+    "name": "US 10J Rendite",
+    "ticker": "^TNX",
+    "last": 4.929,
+    "as_of": "2026-10-30",
+    "change_bp": -6.0
+   },
+   {
+    "name": "US 5J Rendite",
+    "ticker": "^FVX",
+    "last": 4.721,
+    "as_of": "2026-10-30",
+    "change_bp": -8.0
+   }
+  ],
+  "rohstoffe": [
+   {
+    "name": "Brent",
+    "ticker": "BZ=F",
+    "last": 117.64,
+    "as_of": "2026-10-30",
+    "change_pct": 2.4,
+    "change_5d_pct": 0.79
+   },
+   {
+    "name": "TTF Gas",
+    "ticker": "TTF=F",
+    "last": 103.944,
+    "as_of": "2026-10-30",
+    "change_pct": 5.43,
+    "change_5d_pct": 10.75
+   },
+   {
+    "name": "Gold",
+    "ticker": "GC=F",
+    "last": 3898.8999,
+    "as_of": "2026-10-30",
+    "change_pct": -3.29,
+    "change_5d_pct": -2.72
+   },
+   {
+    "name": "Kupfer",
+    "ticker": "HG=F",
+    "last": 6.4585,
+    "as_of": "2026-10-30",
+    "change_pct": -1.86,
+    "change_5d_pct": -0.27
+   }
+  ],
+  "devisen": [
+   {
+    "name": "EUR/USD",
+    "ticker": "EURUSD=X",
+    "last": 1.1183,
+    "as_of": "2026-10-30",
+    "change_pct": 0.24,
+    "change_5d_pct": -0.34
+   },
+   {
+    "name": "USD/JPY",
+    "ticker": "JPY=X",
+    "last": 157.804,
+    "as_of": "2026-10-30",
+    "change_pct": -0.02,
+    "change_5d_pct": 0.84
+   },
+   {
+    "name": "USD/CNY",
+    "ticker": "CNY=X",
+    "last": 6.654,
+    "as_of": "2026-10-31",
+    "change_pct": -0.11,
+    "change_5d_pct": -0.36
+   }
+  ],
+  "volatilitaet": [
+   {
+    "name": "VIX",
+    "ticker": "^VIX",
+    "last": 19.42,
+    "as_of": "2026-10-30",
+    "change_pct": 12.91,
+    "change_5d_pct": -0.15
+   }
+  ]
+ },
+ "nachrichten": [
+  {
+   "source": "CNBC World",
+   "title": "Qatari mediators held talks in Tehran aimed at restarting direct U.S.-Iran negotiations, source says",
+   "summary": "Axios reported that Qatari mediators held more than 12 hours of talks in Tehran on Friday to reach a deal to avoid a resumption of American-led attacks on Iran.",
+   "time_utc": "2026-10-31T13:47:03+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Google taught the world how to search. Now it faces a revolution it can’t afford to lose.",
+   "summary": "Wall Street is grappling with a fundamental question: Are Google’s AI Overviews bound to save search — or ruin the whole business?",
+   "time_utc": "2026-10-31T13:15:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Crypto industry pours more than $200 million into 2026 midterms to pressure Congress on favorable rules",
+   "summary": "Interest groups tied to cryptocurrency are spending millions to tilt the midterm elections. They had mixed success in 2024",
+   "time_utc": "2026-10-31T13:04:29+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "The stock market’s front-runners stumbled in October. Here’s where the smart money is moving now.",
+   "summary": "U.S. stocks saw a stronger reversal in fortunes in October, as worries about dwindling free cash flows and rising borrowing costs threw a wrench into the works of the artificial-intelligence trade.",
+   "time_utc": "2026-10-31T13:01:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "If you really want to help your adult kids and grandkids, give them money while you’re still alive",
+   "summary": "How to manage “giving while living” without endangering your own retirement.",
+   "time_utc": "2026-10-31T13:00:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "How to start an art collection on any budget",
+   "summary": "A guide to beginning an art collection, including how to research artists, what to buy, and where to connect, from galleries to fairs to auction houses.",
+   "time_utc": "2026-10-31T12:58:43+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Trump promised to slash energy costs — but gasoline, diesel and jet fuel all soared instead",
+   "summary": "President Donald Trump promised voters who were angry about inflation that he would slash gasoline prices below $2 a gallon in his first year in office.",
+   "time_utc": "2026-10-31T12:49:58+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Binance’s $6.3 billion hack raises questions about crypto wallet safety",
+   "summary": "Two high-profile security incidents this week, including the largest crypto theft in history, have raised custody and safety concerns.",
+   "time_utc": "2026-10-31T12:47:08+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "This Halloween, are full-size candy bars a better deal than fun-sized ones?",
+   "summary": "Several TikTokers influencers claim you can save money and be the coolest house on the block with bigger candy this year. Let’s see how that adds up.",
+   "time_utc": "2026-10-31T12:37:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Nvidia’s Megaspeed ties show potential blind spots in the U.S. effort to block China from accessing advanced chips",
+   "summary": "Nvidia CEO Jensen Huang’s business meetings are routine practice and existing U.S. export controls largely miss the cloud, experts say.",
+   "time_utc": "2026-10-31T12:30:00+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "France braces for fresh unrest, government vows tough response",
+   "summary": "",
+   "time_utc": "2026-10-31T12:00:23+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "These 10 megadonors have spent a total of $1 billion on the midterm elections",
+   "summary": "They’ve helped turn this year’s midterms into “the most expensive election cycle on record.”",
+   "time_utc": "2026-10-31T12:00:00+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "Anthropic's path to the Nasdaq just got a lot bumpier",
+   "summary": "Concerning projections from hyperscalers this week punished tech stocks and pushed the Nasdaq to its first three-week losing streak since March.",
+   "time_utc": "2026-10-31T11:00:01+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "UK PM Burnham says he is ’open’ to formal apology for slavery, but rules out reparations",
+   "summary": "",
+   "time_utc": "2026-10-31T10:12:25+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Rubio to host meeting of Indo-Pacific Quad, wrap up G20 gathering",
+   "summary": "",
+   "time_utc": "2026-10-31T10:06:54+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Swiss firms plan to expand China investments as trade deal deepens ties",
+   "summary": "",
+   "time_utc": "2026-10-31T08:45:23+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "China’s factory activity shrinks in October, third contraction in four months",
+   "summary": "",
+   "time_utc": "2026-10-31T08:18:38+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "China reports sharp increase in gold, nickel and strategic minerals - Xinhua",
+   "summary": "",
+   "time_utc": "2026-10-31T06:39:04+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Oil hits six-month highs as Hormuz attacks threaten Iran peace efforts",
+   "summary": "",
+   "time_utc": "2026-10-31T06:07:46+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
+   "summary": "Trump criticized Big Oil for making “too much money,” but oil majors have since reported surging refining earnings as fuel supplies tightened.",
+   "time_utc": "2026-10-31T06:00:02+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "AI is coming to construction sites. But does it make workers safer?",
+   "summary": "AI is flagging hazards on construction sites, but researchers say evidence that the technology prevents injuries remains limited.",
+   "time_utc": "2026-10-31T06:00:02+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore",
+   "summary": "After waiting 13 years for this videogame, almost one-fifth of workers plan to take the day off to play ‘Grand Theft Auto VI’ when it drops on Nov. 19",
+   "time_utc": "2026-10-31T04:30:00+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "BOJ speeds up ETF sales, potentially boosting funding for Takaichi’s plans",
+   "summary": "",
+   "time_utc": "2026-10-31T04:10:50+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "China factory activity contracts in October as economic recovery falters",
+   "summary": "",
+   "time_utc": "2026-10-31T03:26:00+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "What comes next for EU-China trade?",
+   "summary": "",
+   "time_utc": "2026-10-31T02:49:22+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
+   "summary": "Friday’s big plunge raises disturbing parallels with the top of the dot-com bubble",
+   "time_utc": "2026-10-30T23:14:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Meta outlook revised downward by S&P on cash flow and capex concerns",
+   "summary": "Meta has been given a negative outlook by S&amp;P Global Ratings due to the company's hefty capital expenditures and concerns about free cash flow.",
+   "time_utc": "2026-10-30T22:42:26+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "This cybersecurity stock will be the next to join the S&P 500",
+   "summary": "Okta is slated to join the index on Wednesday, replacing Kenvue.",
+   "time_utc": "2026-10-30T22:20:00+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "Cramer’s week ahead: Expect more volatility as tech earnings, midterms loom",
+   "summary": "Investors await earnings from Apple, AMD, and other major companies, as well as the midterm elections and the monthly jobs report.",
+   "time_utc": "2026-10-30T22:17:13+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Binance loses $6.3 billion in crypto heist—what happens to your money when an exchange gets hacked",
+   "summary": "Crypto exchanges make it easier to buy, sell and store digital assets, but they come with risks, too.",
+   "time_utc": "2026-10-30T21:45:52+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
+   "summary": "Safe-haven gold fell to its lowest price in a year, despite jitters around the potential for fresh Middle East attacks following the U.S. midterm elections on Tuesday",
+   "time_utc": "2026-10-30T21:30:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "$6.3 billion Binance hack is largest crypto theft on record",
+   "summary": "Binance says a security breach impacted about $6.3 billion in assets. The exchange says roughly $3 billion has been frozen and losses will be covered.",
+   "time_utc": "2026-10-30T21:21:17+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Intel stock has worst day since 1970s, wiping about $12 billion off government's stake",
+   "summary": "Investors are nervous about the massive AI spending from the tech giants and whether that will pay off.",
+   "time_utc": "2026-10-30T20:30:57+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Reddit stock plunges 29% after weak outlook, wrapping its worst day ever",
+   "summary": "Reddit shares sank on Friday after the company issued weak Q4 sales guidance and announced it will test requiring users to log in to see content.",
+   "time_utc": "2026-10-30T20:11:12+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "'Bad time to troll': Binance co-founder Zhao asks Musk for support after hack",
+   "summary": "Binance co-founder Changpeng Zhao asked Elon Musk to stop “trolling” after a $6.3 billion hack, pointing to Binance’s $1 billion-plus SpaceX stake.",
+   "time_utc": "2026-10-30T20:02:45+00:00"
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan's foreign caregivers face exam hurdle as grace period ends",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Thai highland tribe coffee brews following at home and in Tokyo",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Fatal dog attacks test Hong Kong's ambitions for a pet-friendly economy",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Thailand looks west after 30 years of struggles over Dawei",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "What Lies Ahead: Stephen Schwarzman (30)",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Yakitori chicken from Japan takes a stab at the Philippines, the land of Jollibee",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Foxconn unveils 3 EVs to grow contract manufacturing business",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan miner to address labor crunch with self-driving dump trucks",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Uniqlo shakes up China strategy with focus on store profitability",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan's Murata to invest $6.3bn in capacitor production for AI over 5 years",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan's Omron eyes India as export base for blood pressure monitors",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan's Sojitz to import rare earth yttrium from Malaysia",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Memory chip makers outearn Alphabet, other tech giants on AI demand",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Daiwa fund buy of Blackstone Tokyo office complex include retail digital securities",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Binance suspends withdrawals and freezes funds after $6.3bn hack",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Toyota and Waymo to roll out driverless robotaxis in Japan in 2027",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan asks Anthropic, OpenAI for more access to advanced models",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Kioxia net profit to surge 15-fold to $8.7bn this quarter",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Chinese shipping, coal stocks outperform AI as earnings outlooks diverge",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Who fell and who rose at China's fifth plenum",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Philippine Muslim region elects chief minister in historic vote",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "UN retains Bangladesh and Nepal's least developed country status",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "BOJ chief Ueda says 2% inflation goal not yet sustainably achieved",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Foxconn chief downplays AI bubble concerns, sees strong 2027 growth",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Trump holds off overcapacity tariffs as US midterms near",
+   "summary": "",
+   "time_utc": null
+  }
+ ],
+ "earnings": [
+  {
+   "ticker": "XOM",
+   "time_utc": "2026-10-30T10:00:00+00:00",
+   "eps_estimate": 4.04,
+   "eps_reported": 4.23,
+   "surprise_pct": 4.81,
+   "headlines": [],
+   "name": "ExxonMobil Holdings Corporation",
+   "last_move_pct": 2.16
+  }
+ ],
+ "sensitivitaeten": {
+  "hinweis": "Historische Daumenregel aus Tagesdaten, keine Prognose der Eröffnung.",
+  "faktoren_heute": {
+   "Nikkei": 0.0,
+   "Hang Seng": 0.0,
+   "S&P 500 (Vortag)": -1.82,
+   "Brent (Vortag)": 2.4,
+   "US 10J Rendite (Vortag)": -6.0,
+   "USD/JPY (Vortag)": -0.02
+  },
+  "faktoren_einheit": "Renditen in %, Renditeänderungen in bp",
+  "ergebnisse": [
+   {
+    "ziel": "Rohstoffe vs. Markt",
+    "erwarteter_effekt_bp": 27.0,
+    "treiber": [
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": 24.0,
+      "t_stat": -2.5
+     }
+    ],
+    "r2": 0.09
+   },
+   {
+    "ziel": "Öl & Gas vs. Markt",
+    "erwarteter_effekt_bp": 25.0,
+    "treiber": [
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": 22.0,
+      "t_stat": -2.5
+     }
+    ],
+    "r2": 0.02
+   },
+   {
+    "ziel": "Stoxx 600 (gesamt)",
+    "erwarteter_effekt_bp": -21.0,
+    "treiber": [
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": -28.0,
+      "t_stat": 5.1
+     }
+    ],
+    "r2": 0.22
+   }
+  ]
+ }
+}

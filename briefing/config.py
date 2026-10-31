@@ -130,10 +130,48 @@ LLM_MAX_TOKENS = 16000        # deckt Nachdenken + Skript ab
 LLM_EFFORT = "medium"         # low / medium / high – höher = gründlicher, teurer
 SCRIPT_MIN_WORDS = 300       # kürzere Skripte gelten als Fehler (keine Mini-Folge)
 SCRIPT_TARGET_MINUTES = 8
-# Begrüßung zum Start jeder Folge. Bei mehreren Einträgen wechselt sie täglich.
+# Begrüßung und Verabschiedung: wechseln täglich (am selben Tag stabil).
+# Für Montag/Freitag gibt es eigene Sprüche; alle anderen Tage ziehen aus der
+# allgemeinen Liste. Einfach erweitern oder kürzen.
 GREETINGS = [
     "Morning, champ!",
+    "Rise and grind, champ. The market waits for no one.",
+    "Good morning, legend. Let's go find some alpha.",
+    "Morning, big dog. Coffee in hand? Good. Let's do this.",
+    "What's up, chief. Asia didn't sleep, so neither did we.",
+    "Morning, hotshot. Let's see who got rich overnight.",
+    "Good morning, future PM. Your desk is waiting.",
+    "Morning, Gordon Gekko. Greed is good, but let's check the data first.",
+    "Wakey wakey, champ. Futures are moving.",
+    "Top of the morning, maestro. Let's beat the benchmark.",
+    "Morning, sharpshooter. Sharpe ratio ready?",
 ]
+GREETINGS_BY_WEEKDAY = {
+    "Monday": [
+        "Happy Monday, champ. New week, new alpha.",
+        "Morning, champ. It's Monday. Let's pretend we're excited.",
+        "Monday again, legend. Weekend's over, the market's back.",
+    ],
+    "Friday": [
+        "It's Friday, champ! One more session, then the weekend.",
+        "Happy Friday, legend. Let's close this week out strong.",
+        "Friday, big dog. Don't get caught long into the weekend without a plan.",
+    ],
+}
+SIGNOFFS = [
+    "That's your briefing. Go get 'em, champ.",
+    "That's it from me. Buy low, sell high, and don't forget to hydrate.",
+    "That's the tape. Now go make your risk manager proud.",
+    "That's all. Stay humble, stay hedged.",
+    "Briefing over. Go show the market who's boss.",
+    "That's your edge for today. Use it wisely, champ.",
+]
+SIGNOFFS_BY_WEEKDAY = {
+    "Friday": [
+        "That's the last briefing of the week. Have a great weekend, champ.",
+        "That's a wrap for the week. Square your book, then open a cold one.",
+    ],
+}
 
 # --- Vertonung (lokal, kostenlos) --------------------------------------------
 # "kokoro" (Standard, natürlicher, Englisch) oder "piper" (kann Deutsch)

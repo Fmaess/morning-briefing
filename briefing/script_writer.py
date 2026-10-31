@@ -45,7 +45,8 @@ STRUCTURE
    provided, lean on management's comments in the Q&A.
 7. What it means for Europe today: sectors with tailwinds and headwinds, backed by
    the data and the sensitivity model. Concrete, with reasons.
-8. One line to take away.
+8. One line to take away, then close with the given sign-off VERBATIM as the very
+   last sentence.
 
 Then output a line "===SHOWNOTES===" followed by 5 to 8 short bullet points (plain
 text, with numbers) as notes to read later."""
@@ -62,12 +63,26 @@ def build_payload(date_str: str, markets: dict, news: list, earnings: list, sens
     return json.dumps(payload, ensure_ascii=False, indent=1, default=str)
 
 
-def pick_greeting(date_str: str) -> str:
-    """Wählt pro Tag eine Begrüßung – wechselt täglich, ist am selben Tag stabil."""
+def _pick(options: list[str], date_str: str, salt: str) -> str:
+    """Deterministisch pro Tag: wechselt täglich, ist am selben Tag stabil."""
     import hashlib
-    options = config.GREETINGS or ["Morning."]
-    idx = int(hashlib.md5(date_str.encode()).hexdigest(), 16) % len(options)
+    idx = int(hashlib.md5(f"{salt}|{date_str}".encode()).hexdigest(), 16) % len(options)
     return options[idx]
+
+
+def _for_day(general: list[str], by_weekday: dict[str, list[str]], date_str: str) -> list[str]:
+    weekday = date_str.split(",")[0].strip()
+    return by_weekday.get(weekday) or general
+
+
+def pick_greeting(date_str: str) -> str:
+    options = _for_day(config.GREETINGS, config.GREETINGS_BY_WEEKDAY, date_str) or ["Morning."]
+    return _pick(options, date_str, "greeting")
+
+
+def pick_signoff(date_str: str) -> str:
+    options = _for_day(config.SIGNOFFS, config.SIGNOFFS_BY_WEEKDAY, date_str) or ["That's the briefing."]
+    return _pick(options, date_str, "signoff")
 
 
 def split_output(text: str) -> tuple[str, str]:
@@ -83,13 +98,16 @@ def write(date_str: str, markets: dict, news: list, earnings: list, sens: dict) 
     client = anthropic.Anthropic()  # liest ANTHROPIC_API_KEY aus der Umgebung
     payload = build_payload(date_str, markets, news, earnings, sens)
     greeting = pick_greeting(date_str)
+    signoff = pick_signoff(date_str)
     # Das Modell denkt standardmäßig (adaptiv) vor dem Schreiben; Denk-Tokens
     # zählen gegen max_tokens. Daher großzügiges Limit und mittlere Effort-Stufe.
     msg = client.messages.create(
         model=config.LLM_MODEL,
         max_tokens=config.LLM_MAX_TOKENS,
         system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": f"Greeting (use verbatim as the first sentence): {greeting}\n\nData for today's briefing:\n\n{payload}"}],
+        messages=[{"role": "user", "content": (f"Greeting (use verbatim as the first sentence): {greeting}\n"
+                     f"Sign-off (use verbatim as the last sentence): {signoff}\n\n"
+                     f"Data for today's briefing:\n\n{payload}")}],
         extra_body={"output_config": {"effort": config.LLM_EFFORT}},
     )
     text = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")

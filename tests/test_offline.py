@@ -99,3 +99,12 @@ def test_greeting_stable_per_day(monkeypatch):
     monkeypatch.setattr(config, "GREETINGS", ["A", "B", "C"])
     g = script_writer.pick_greeting("Montag, 02.11.2026")
     assert g in {"A", "B", "C"} and g == script_writer.pick_greeting("Montag, 02.11.2026")
+
+
+def test_weekday_greetings_and_signoff():
+    g = script_writer.pick_greeting("Monday, 2 November 2026")
+    assert g in config.GREETINGS_BY_WEEKDAY["Monday"]
+    g2 = script_writer.pick_greeting("Wednesday, 4 November 2026")
+    assert g2 in config.GREETINGS
+    s = script_writer.pick_signoff("Friday, 6 November 2026")
+    assert s in config.SIGNOFFS_BY_WEEKDAY["Friday"]

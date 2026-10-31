@@ -129,7 +129,7 @@ LLM_MODEL = os.getenv("BRIEFING_LLM_MODEL", "claude-sonnet-5-5")
 LLM_MAX_TOKENS = 16000        # deckt Nachdenken + Skript ab
 LLM_EFFORT = "medium"         # low / medium / high – höher = gründlicher, teurer
 SCRIPT_MIN_WORDS = 300       # kürzere Skripte gelten als Fehler (keine Mini-Folge)
-SCRIPT_TARGET_MINUTES = 8
+SCRIPT_TARGET_MINUTES = 7
 # Begrüßung und Verabschiedung: wechseln täglich (am selben Tag stabil).
 # Für Montag/Freitag gibt es eigene Sprüche; alle anderen Tage ziehen aus der
 # allgemeinen Liste. Einfach erweitern oder kürzen.
@@ -173,6 +173,26 @@ SIGNOFFS_BY_WEEKDAY = {
     ],
 }
 
+# Craft Corner: kurzes Segment am Ende, das eine Rhetorik-/Storytelling-Technik
+# benennt, die im heutigen Briefing benutzt wurde. Rotiert täglich.
+CRAFT_CORNER = True
+CRAFT_TECHNIQUES = [
+    ("And-But-Therefore", "setup with 'and', tension with 'but', consequence with 'therefore'"),
+    ("Start with the end", "state the conclusion first so the listener knows where you are going"),
+    ("The pause", "silence right before the key point makes it land"),
+    ("Rule of three", "group ideas in threes; it feels complete and is easy to remember"),
+    ("Contrast", "put two things side by side, this versus that, to sharpen both"),
+    ("Specificity", "one concrete detail beats three vague adjectives"),
+    ("The callback", "end by returning to the opening image or phrase to close the loop"),
+    ("The 'so what'", "after every fact, say why it matters to the listener"),
+    ("Analogy", "explain the unfamiliar through something the listener already knows"),
+    ("The open question", "pose the question the listener is already asking, then answer it"),
+    ("Steelman the other side", "state the strongest counter-argument fairly before your view"),
+    ("Short sentence after long", "a long build-up followed by a three-word sentence hits hard"),
+    ("The hidden variable", "name the assumption everyone takes for granted and question it"),
+    ("Signposting", "tell the listener where you are in the story: first, but here's the twist, bottom line"),
+]
+
 # --- Vertonung (lokal, kostenlos) --------------------------------------------
 # "kokoro" (Standard, natürlicher, Englisch) oder "piper" (kann Deutsch)
 TTS_ENGINE = os.getenv("TTS_ENGINE", "kokoro")
@@ -180,6 +200,7 @@ TTS_SPEED = 1.12              # 0.9 = ruhiger, 1.1 = flotter
 # Tonhöhe: 1.0 = original, 0.95 = 5 % tiefer (Sprechtempo bleibt gleich)
 TTS_PITCH = 0.95
 PARAGRAPH_PAUSE_S = 0.45      # Pause zwischen Absätzen in Sekunden
+DRAMATIC_PAUSE_S = 0.9       # Pause bei [pause]-Markern im Skript
 
 # Kokoro: Stimmen-Mix aus männlichen US-Stimmen. Gewichte werden normiert.
 # Weitere Stimmen: am_onyx, am_puck, am_echo, am_eric, am_liam (US),

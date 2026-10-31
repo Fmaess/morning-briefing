@@ -64,8 +64,28 @@ FLOW (a guide, not rigid sections)
   capex, China ...). Lean on management's Q&A comments if transcripts are given.
 - Land it in Europe today: which sectors face tailwinds or headwinds and why,
   where positioning may be crowded, and what would change the picture.
-- One line to take away, then close with the given sign-off VERBATIM as the very
-  last sentence.
+- One line to take away, then (if a craft technique is given) the Craft Corner,
+  then close with the given sign-off VERBATIM as the very last sentence.
+
+STORYTELLING CRAFT (the listener also wants to learn rhetoric by hearing it done well)
+- Start with the end: the first sentence after the greeting states today's thesis,
+  so the listener knows where the story is going.
+- Build the main story on the "A and B, BUT C, SO D" spine: short setup, then the
+  complication, then the consequence. Spend the most time on C, the tension.
+- Never chain "and then ... and then". Every step connects with "but" or "so /
+  therefore". That is what turns a list of moves into a story.
+- Prefer one specific, concrete detail over three vague ones.
+- Mark at most three dramatic pauses with "[pause]" on its own line, right before
+  a key reveal or the take-away line. They become real silence in the audio.
+- End clean: the take-away line is short and punchy and ideally calls back to the
+  opening thesis, closing the loop.
+
+CRAFT CORNER (only if the message gives a technique for today)
+- Use today's technique deliberately at least once in the main briefing.
+- Then, right after the take-away line, add a segment of 60 to 90 words that starts
+  exactly with "Craft corner." Name the technique, quote the exact line from today's
+  briefing where you used it, explain in one or two sentences why it works on a
+  listener, and give one way to use it in a client call or a stock pitch.
 
 Then output a line "===SHOWNOTES===" followed by 5 to 8 short bullet points (plain
 text) with the key chains and the numbers behind them, as notes to read later."""
@@ -109,6 +129,13 @@ def pick_greeting(date_str: str) -> str:
     return _pick(options, date_str, "greeting")
 
 
+def pick_technique(date_str: str) -> dict | None:
+    """Rotiert täglich durch den Technik-Lehrplan (deterministisch pro Tag)."""
+    if not config.CRAFT_CORNER or not config.CRAFT_TECHNIQUES:
+        return None
+    return dict(zip(("name", "how"), _pick(config.CRAFT_TECHNIQUES, date_str, "craft")))
+
+
 def pick_signoff(date_str: str) -> str:
     options = _for_day(config.SIGNOFFS, config.SIGNOFFS_BY_WEEKDAY, date_str) or ["That's the briefing."]
     return _pick(options, date_str, "signoff")
@@ -128,6 +155,9 @@ def write(date_str: str, markets: dict, news: list, earnings: list, sens: dict) 
     payload = build_payload(date_str, markets, news, earnings, sens)
     greeting = pick_greeting(date_str)
     signoff = pick_signoff(date_str)
+    technique = pick_technique(date_str)
+    craft = (f"Craft technique for today: {technique['name']} ({technique['how']})\n"
+             if technique else "No craft technique today; skip the Craft Corner.\n")
     # Das Modell denkt standardmäßig (adaptiv) vor dem Schreiben; Denk-Tokens
     # zählen gegen max_tokens. Daher großzügiges Limit und mittlere Effort-Stufe.
     msg = client.messages.create(
@@ -135,7 +165,8 @@ def write(date_str: str, markets: dict, news: list, earnings: list, sens: dict) 
         max_tokens=config.LLM_MAX_TOKENS,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": (f"Greeting (use verbatim as the first sentence): {greeting}\n"
-                     f"Sign-off (use verbatim as the last sentence): {signoff}\n\n"
+                     f"Sign-off (use verbatim as the last sentence): {signoff}\n"
+                     f"{craft}\n"
                      f"Data for today's briefing:\n\n{payload}")}],
         extra_body={"output_config": {"effort": config.LLM_EFFORT}},
     )

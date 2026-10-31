@@ -24,8 +24,26 @@ def _prepare(text: str) -> str:
     return text.strip()
 
 
+PAUSE = "[pause]"
+
+
+def segments(text: str) -> list[tuple[str, float]]:
+    """Text in (Abschnitt, Pause danach) zerlegen: Absätze und [pause]-Marker."""
+    out: list[tuple[str, float]] = []
+    for para in re.split(r"\n\s*\n", _prepare(text)):
+        parts = [p.strip() for p in re.split(r"\[pause\]", para, flags=re.I)]
+        for i, part in enumerate(parts):
+            last = i == len(parts) - 1
+            pause = config.PARAGRAPH_PAUSE_S if last else config.DRAMATIC_PAUSE_S
+            if part:
+                out.append((part, pause))
+            elif out and not last:
+                out[-1] = (out[-1][0], max(out[-1][1], config.DRAMATIC_PAUSE_S))
+    return out
+
+
 def paragraphs(text: str) -> list[str]:
-    return [p.strip() for p in re.split(r"\n\s*\n", _prepare(text)) if p.strip()]
+    return [seg for seg, _ in segments(text)]
 
 
 def voice_style(kokoro, mix: dict[str, float]):
@@ -43,10 +61,10 @@ def _kokoro_wav(text: str, wav: Path) -> None:
     k = Kokoro(str(model_dir / "kokoro-v1.0.onnx"), str(model_dir / "voices-v1.0.bin"))
     style = voice_style(k, config.KOKORO_VOICE_MIX)
     chunks, sr = [], 24000
-    for para in paragraphs(text):
-        samples, sr = k.create(para, voice=style, speed=config.TTS_SPEED, lang=config.KOKORO_LANG)
+    for seg, pause in segments(text):
+        samples, sr = k.create(seg, voice=style, speed=config.TTS_SPEED, lang=config.KOKORO_LANG)
         chunks.append(samples)
-        chunks.append(np.zeros(int(sr * config.PARAGRAPH_PAUSE_S), dtype=samples.dtype))
+        chunks.append(np.zeros(int(sr * pause), dtype=samples.dtype))
     sf.write(str(wav), np.concatenate(chunks), sr)
 
 
@@ -56,7 +74,7 @@ def _piper_wav(text: str, wav: Path) -> None:
         raise FileNotFoundError(f"Piper-Stimme fehlt: {voice} (siehe README)")
     subprocess.run(
         [sys.executable, "-m", "piper", "--model", str(voice), "--output_file", str(wav)],
-        input=_prepare(text).encode("utf-8"), check=True,
+        input=re.sub(r"\[pause\]", "", _prepare(text), flags=re.I).encode("utf-8"), check=True,
     )
 
 

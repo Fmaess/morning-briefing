@@ -128,3 +128,17 @@ def test_same_day_regeneration_replaces_episode(tmp_path, monkeypatch):
     assert [e["file"] for e in eps] == ["briefing-2026-10-31-1620.mp3"]
     assert not (d / "briefing-2026-10-31.mp3").exists()
     assert podcast.has_episode_for("2026-10-31") and not podcast.has_episode_for("2026-11-01")
+
+
+def test_pause_markers_become_silence():
+    from briefing import tts
+    segs = tts.segments("Setup sentence.\n[pause]\nBut here is the twist.\n\nNext paragraph.")
+    texts = [s for s, _ in segs]
+    assert texts == ["Setup sentence.", "But here is the twist.", "Next paragraph."]
+    assert segs[0][1] == config.DRAMATIC_PAUSE_S
+    assert "[pause]" not in " ".join(texts)
+
+
+def test_craft_technique_rotates():
+    t = script_writer.pick_technique("Monday, 2 November 2026")
+    assert t and t["name"] and t["how"]

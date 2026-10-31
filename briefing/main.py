@@ -91,6 +91,13 @@ def main(argv: list[str] | None = None) -> int:
     script, notes = script_writer.write(date_str, markets, headlines, reports, sens)
     (archive / "script.txt").write_text(script + "\n\n===SHOWNOTES===\n" + notes, "utf-8")
 
+    # Feste Adresse mit dem heutigen Skript – damit Claude (z. B. im Sprachmodus)
+    # Fragen zur aktuellen Folge im Kontext beantworten oder sie vorlesen kann.
+    podcast.feed_dir().mkdir(parents=True, exist_ok=True)
+    (podcast.feed_dir() / "latest.txt").write_text(
+        f"MORNING BRIEFING – {date_str}\n\n{script.replace('[pause]', '')}\n\n"
+        f"KEY POINTS\n{notes}\n", "utf-8")
+
     seconds = tts.synthesize(script, mp3)
     podcast.add_episode(mp3, f"Briefing – {date_str}", notes,
                         now_local.astimezone(timezone.utc), seconds)

@@ -209,6 +209,12 @@
  "nachrichten": [
   {
    "source": "MarketWatch",
+   "title": "My father has Alzheimer’s and his caregiver is using his debit card for DoorDash. Do I intervene?",
+   "summary": "“I suspect the live-in caregiver is benefiting from my parent’s generosity.”",
+   "time_utc": "2026-10-31T15:00:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
    "title": "The S&P 500 isn’t the big winner you may think it is",
    "summary": "The index’s weakness may surprise a generation of investors raised on the cult of “stocks always go up.”",
    "time_utc": "2026-10-31T14:54:00+00:00"
@@ -304,12 +310,6 @@
    "time_utc": "2026-10-31T12:30:00+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "These 10 megadonors have spent a total of $1 billion on the midterm elections",
-   "summary": "They’ve helped turn this year’s midterms into “the most expensive election cycle on record.”",
-   "time_utc": "2026-10-31T12:00:00+00:00"
-  },
-  {
    "source": "CNBC Earnings",
    "title": "Anthropic's path to the Nasdaq just got a lot bumpier",
    "summary": "Concerning projections from hyperscalers this week punished tech stocks and pushed the Nasdaq to its first three-week losing streak since March.",
@@ -398,6 +398,12 @@
    "title": "$6.3 billion Binance hack is largest crypto theft on record",
    "summary": "Binance says a security breach impacted about $6.3 billion in assets. The exchange says roughly $3 billion has been frozen and losses will be covered.",
    "time_utc": "2026-10-30T21:21:17+00:00"
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan weighs taxing real estate rental operators living overseas",
+   "summary": "",
+   "time_utc": null
   },
   {
    "source": "Nikkei Asia",
@@ -558,12 +564,6 @@
   {
    "source": "Nikkei Asia",
    "title": "Editor's Choice: What the US midterms mean for Asia",
-   "summary": "",
-   "time_utc": null
-  },
-  {
-   "source": "Nikkei Asia",
-   "title": "India's gold imports down 81%; global prices could be impacted",
    "summary": "",
    "time_utc": null
   }

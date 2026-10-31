@@ -72,4 +72,51 @@ def snapshot() -> dict:
             if r:
                 rows.append(r)
         out[key] = rows
+    try:
+        out["zinsen"].extend(bundesbank_yields())
+    except Exception as exc:  # noqa: BLE001 - Bundesbank-Ausfall soll nichts stoppen
+        log.warning("Bundesbank-Renditen nicht verfügbar: %s", exc)
     return out
+
+
+# --- Bundesbank: tägliche Umlaufrenditen von Bundeswertpapieren ---------------
+
+def parse_sdmx_generic(xml_text: str) -> pd.Series:
+    """Liest Beobachtungen (Datum -> Wert) aus SDMX-GenericData-XML."""
+    import xml.etree.ElementTree as ET
+
+    def local(tag: str) -> str:
+        return tag.rsplit("}", 1)[-1]
+
+    obs = {}
+    for el in ET.fromstring(xml_text).iter():
+        if local(el.tag) != "Obs":
+            continue
+        date = value = None
+        for child in el:
+            if local(child.tag) == "ObsDimension":
+                date = child.get("value")
+            elif local(child.tag) == "ObsValue":
+                value = child.get("value")
+        if date and value not in (None, "", "NaN"):
+            obs[pd.Timestamp(date)] = float(value)
+    return pd.Series(obs, dtype=float).sort_index()
+
+
+def bundesbank_yields() -> list[dict]:
+    import requests
+
+    rows = []
+    for name, key in config.BUNDESBANK_YIELDS.items():
+        resp = requests.get(
+            f"{config.BUNDESBANK_API}/data/BBSIS/{key}",
+            params={"lastNObservations": 10},
+            headers={"Accept": "application/vnd.sdmx.genericdata+xml;version=2.1"},
+            timeout=30,
+        )
+        resp.raise_for_status()
+        r = summarize_series(name, f"BBSIS.{key}", parse_sdmx_generic(resp.text), "diff")
+        if r:
+            r["quelle"] = "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+            rows.append(r)
+    return rows

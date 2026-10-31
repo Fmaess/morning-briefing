@@ -77,3 +77,19 @@ def test_feed_roundtrip(tmp_path, monkeypatch):
 def test_split_output():
     script, notes = script_writer.split_output("Guten Morgen.\n===SHOWNOTES===\n- Punkt")
     assert script == "Guten Morgen." and notes == "- Punkt"
+
+
+def test_bundesbank_xml_parser():
+    from briefing.market_data import parse_sdmx_generic, summarize_series
+    xml = """<?xml version="1.0"?>
+<message:GenericData xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+ xmlns:generic="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic">
+ <message:DataSet><generic:Series>
+  <generic:Obs><generic:ObsDimension value="2026-10-29"/><generic:ObsValue value="2.61"/></generic:Obs>
+  <generic:Obs><generic:ObsDimension value="2026-10-30"/><generic:ObsValue value="2.65"/></generic:Obs>
+  <generic:Obs><generic:ObsDimension value="2026-10-31"/><generic:ObsValue value="NaN"/></generic:Obs>
+ </generic:Series></message:DataSet></message:GenericData>"""
+    s = parse_sdmx_generic(xml)
+    assert list(s.values) == [2.61, 2.65]
+    row = summarize_series("Bund 10J Rendite", "x", s, "diff")
+    assert row["change_bp"] == 4.0 and row["as_of"] == "2026-10-30"

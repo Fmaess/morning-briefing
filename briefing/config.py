@@ -34,7 +34,7 @@ EUROPE = {
     "Stoxx 600": "^STOXX",
 }
 # Renditen: Yahoo liefert ^TNX/^FVX in Prozent. Bund-Rendite und Bund-Future
-# liefert Yahoo nicht (erster Lauf geprüft) – Bunds kommen bisher nur über News.
+# liefert Yahoo nicht – Bunds kommen von der Bundesbank (siehe unten).
 RATES = {
     "US 10J Rendite": "^TNX",
     "US 5J Rendite": "^FVX",
@@ -51,6 +51,14 @@ FX = {
     "USD/CNY": "CNY=X",
 }
 VOL = {"VIX": "^VIX"}
+
+# Bundesbank: tägliche Umlaufrenditen börsennotierter Bundeswertpapiere nach
+# Restlaufzeit (Datenreihe BBSIS). Veröffentlichung mit einem Tag Verzug.
+BUNDESBANK_API = "https://api.statistiken.bundesbank.de/rest"
+BUNDESBANK_YIELDS = {
+    "Bund 2J Rendite": "D.I.ZAR.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A",
+    "Bund 10J Rendite": "D.I.ZAR.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A",
+}
 
 # Europäische Sektoren: iShares STOXX Europe 600 Sektor-ETFs auf Xetra.
 # Beim ersten Lauf im Log prüfen, ob alle Ticker Daten liefern.
@@ -76,6 +84,7 @@ EU_MARKET_PROXY = "^STOXX"
 SENS_FACTORS = {
     "Nikkei": ("^N225", 0, "ret"),
     "Hang Seng": ("^HSI", 0, "ret"),
+    "Kospi": ("^KS11", 0, "ret"),
     "S&P 500 (Vortag)": ("^GSPC", 1, "ret"),
     "Brent (Vortag)": ("BZ=F", 1, "ret"),
     "US 10J Rendite (Vortag)": ("^TNX", 1, "diff"),

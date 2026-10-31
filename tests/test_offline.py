@@ -116,3 +116,15 @@ def test_index_levels_removed_but_yields_kept():
     out = script_writer.strip_index_levels(m)
     assert "last" not in out["asien"][0] and out["asien"][0]["change_pct"] == -3.5
     assert out["zinsen"][0]["last"] == 3.38
+
+
+def test_same_day_regeneration_replaces_episode(tmp_path, monkeypatch):
+    monkeypatch.setattr(config, "OUTPUT_DIR", str(tmp_path))
+    d = podcast.feed_dir(); d.mkdir(parents=True)
+    for name, hour in (("briefing-2026-10-31.mp3", 14), ("briefing-2026-10-31-1620.mp3", 16)):
+        f = d / name; f.write_bytes(b"x")
+        podcast.add_episode(f, "t", "n", datetime(2026, 10, 31, hour, tzinfo=timezone.utc), 60)
+    eps = __import__("json").loads((d / "episodes.json").read_text())
+    assert [e["file"] for e in eps] == ["briefing-2026-10-31-1620.mp3"]
+    assert not (d / "briefing-2026-10-31.mp3").exists()
+    assert podcast.has_episode_for("2026-10-31") and not podcast.has_episode_for("2026-11-01")

@@ -59,8 +59,10 @@ def main(argv: list[str] | None = None) -> int:
 
     from . import earnings, market_data, news, podcast, sensitivity
 
-    mp3 = podcast.feed_dir() / f"briefing-{now_local:%Y-%m-%d}.mp3"
-    if mp3.exists() and not args.force:
+    # Eindeutiger Dateiname pro Erzeugung (mit Uhrzeit), damit Podcast-Apps eine
+    # neu erzeugte Folge nie mit einer gecachten alten Datei verwechseln.
+    mp3 = podcast.feed_dir() / f"briefing-{now_local:%Y-%m-%d-%H%M}.mp3"
+    if podcast.has_episode_for(f"{now_local:%Y-%m-%d}") and not args.force:
         log.info("Heutige Folge existiert bereits – nichts zu tun.")
         return 0
 

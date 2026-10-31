@@ -19,12 +19,25 @@ def feed_url() -> str:
     return f"{config.FEED_BASE_URL}/{config.FEED_SECRET_PATH}/feed.xml"
 
 
+def _day_of(filename: str) -> str:
+    """'briefing-2026-11-02-0652.mp3' -> '2026-11-02' (auch altes Format ohne Uhrzeit)."""
+    return filename.removeprefix("briefing-")[:10]
+
+
+def has_episode_for(day: str) -> bool:
+    return any(feed_dir().glob(f"briefing-{day}*.mp3"))
+
+
 def add_episode(mp3: Path, title: str, notes: str, published: datetime, seconds: float) -> list[dict]:
     d = feed_dir()
     d.mkdir(parents=True, exist_ok=True)
     index_file = d / "episodes.json"
     episodes = json.loads(index_file.read_text("utf-8")) if index_file.exists() else []
-    episodes = [e for e in episodes if e["file"] != mp3.name]
+    # Eine Folge pro Tag: ältere Version desselben Tages ersetzen
+    day = _day_of(mp3.name)
+    for old in [e for e in episodes if _day_of(e["file"]) == day and e["file"] != mp3.name]:
+        (d / old["file"]).unlink(missing_ok=True)
+    episodes = [e for e in episodes if _day_of(e["file"]) != day]
     episodes.append({
         "file": mp3.name,
         "title": title,

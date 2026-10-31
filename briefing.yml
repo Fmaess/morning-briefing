@@ -1,0 +1,91 @@
+name: Morning Briefing
+
+on:
+  schedule:
+    # Zwei Starts wegen Sommer-/Winterzeit (UTC!):
+    #   Winter: 05:45 UTC = 6:45 Uhr   | Sommer: 04:45 UTC = 6:45 Uhr
+    # Der jeweils andere Start ist Backup bzw. bricht ab (siehe RUN_WINDOW in config.py).
+    - cron: "45 4,5 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Zeitfenster ignorieren und neu erzeugen"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: briefing
+  cancel-in-progress: false
+
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Bisherigen Feed holen
+        uses: actions/checkout@v4
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: public
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Abhängigkeiten
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -r requirements.txt
+
+      - name: Piper-Stimme aus dem Cache
+        id: voice-cache
+        uses: actions/cache@v4
+        with:
+          path: voices
+          key: piper-de_DE-thorsten-high
+
+      - name: Piper-Stimme laden
+        if: steps.voice-cache.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p voices
+          base=https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE/thorsten/high
+          curl -sSL -o voices/de_DE-thorsten-high.onnx      "$base/de_DE-thorsten-high.onnx"
+          curl -sSL -o voices/de_DE-thorsten-high.onnx.json "$base/de_DE-thorsten-high.onnx.json"
+
+      - name: Briefing erzeugen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          API_NINJAS_KEY: ${{ secrets.API_NINJAS_KEY }}
+          FEED_BASE_URL: ${{ vars.FEED_BASE_URL }}
+          FEED_SECRET_PATH: ${{ vars.FEED_SECRET_PATH }}
+        run: |
+          rm -rf public/.git
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.force }}" = "true" ]; then
+            python -m briefing.main --force
+          else
+            python -m briefing.main
+          fi
+
+      - name: Feed veröffentlichen
+        if: hashFiles('public/**/feed.xml') != ''
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+          force_orphan: true   # keine wachsende Git-Historie durch MP3s
+
+      - name: Archiv (Daten + Skript) sichern
+        run: |
+          git config user.name "briefing-bot"
+          git config user.email "briefing-bot@users.noreply.github.com"
+          git add archive || true
+          git diff --cached --quiet || git commit -m "Archiv $(date -u +%F)"
+          git push || true

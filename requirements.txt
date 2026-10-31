@@ -1,0 +1,7 @@
+yfinance>=0.2.54
+pandas>=2.2
+numpy>=1.26
+feedparser>=6.0
+requests>=2.31
+anthropic>=0.40
+piper-tts>=1.2

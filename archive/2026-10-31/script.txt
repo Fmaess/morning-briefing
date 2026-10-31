@@ -1,37 +1,43 @@
 Morning, big dog. Coffee in hand? Good. Let's do this.
 
-It's Saturday, October thirty-first, and the dominant theme is simple: AI-capex fatigue meets expensive oil, and tech took the hit.
+Today's thesis: the AI spending scare is colliding with a six-month high in oil, and that combination is what turned a promising week into a rough Friday.
 
-Let's start in the US, where Friday was ugly. The Nasdaq 100 fell three and a half percent, the S&P 500 dropped one point eight. That leaves the Nasdaq with its first three-week losing streak since March. The trigger, according to the headlines, was worrying projections from the hyperscalers this week, plus S&P Global putting Meta on negative outlook over heavy capex and free cash flow. That's the chain: the AI trade has been funded by cash flow, cash flow is shrinking as spending climbs, and borrowing costs are rising. So the market is asking who pays for all this, and what the return is.
+It's Saturday, October thirty-first, so this is your look back at Friday's close and what it means for Monday's setup in Europe.
 
-Asia felt it too. The Kospi fell three and a half percent, even after a strong week. That looks like profit-taking in a crowded, memory-heavy market. The Nikkei lost two point one percent. Shanghai slipped one point four, and the soft spot is real: China's factory activity contracted in October, the third contraction in four months. Hong Kong was the exception, up one point five percent.
+Start with the tech selloff. Big Tech earnings this week reignited fears about AI spending, and the Nasdaq 100 fell three and a half percent on Friday. That's the Nasdaq's first three-week losing streak since March. The S&P 500 lost one point eight percent. Nasdaq futures are down about the same, so there was no bounce into the weekend.
 
-Now the second leg: energy. Brent rose two point four percent to one hundred seventeen dollars sixty a barrel, a six-month high, as attacks around Hormuz threaten the Iran peace effort. European gas is the sharper signal. TTF rose five point four percent on the day and almost eleven percent over the week, to about one hundred four. For Europe, that matters more than the crude price. It means higher input costs for industry, margin pressure, and stickier inflation.
+But here's the twist. The same Asian tape that was selling tech also carried the counterargument. Memory chip makers are out-earning Alphabet and other tech giants on AI demand. Kioxia is guiding to a fifteen-fold jump in quarterly net profit, to eight point seven billion dollars. Murata is putting six point three billion into capacitor capacity for AI. Foxconn's chief is downplaying bubble talk and sees strong growth in 2027. So the suppliers are printing money, but the market is asking whether the customers can keep paying for it. The Kospi, with its memory exposure, fell three and a half percent on the day, even though it's still up three point two percent over five days. That looks like a crowded winner being sold, not a broken story.
 
-Here's the interesting part. Normally, an equity sell-off like this pulls yields down, and it did: the US ten-year fell six basis points to four point nine percent, and the five-year fell eight. But a yield near five percent is still a heavy valuation weight on long-duration tech, and with oil this high, the market can't count on easy relief. Bunds barely moved, down one basis point at the ten-year to three point four percent. So Europe is not getting a big rates cushion.
+[pause]
 
-Gold is the odd one out. It fell three point three percent, to about thirty-nine hundred dollars, which is not what you'd expect in a risk-off day. That suggests some forced selling, people raising cash from winners. The VIX jumped almost thirteen percent to nineteen point four. That's elevated, not panic. Copper dipped one point nine percent, consistent with the soft China data. The euro edged up to one point one two against the dollar.
+Now the complication. Normally a fall like this would bring relief from oil and rates. Rates did help: the US ten-year yield fell six basis points to four point nine percent, and the five-year dropped eight. But oil went the other way. Brent rose two point four percent to one hundred seventeen dollars sixty-four, a six-month high, as attacks around Hormuz threaten the Iran peace effort. Qatari mediators spent more than twelve hours in Tehran on Friday trying to restart direct US-Iran talks. That's the swing factor.
 
-Earnings were thin. ExxonMobil reported earnings of four dollars twenty-three a share against four oh four expected, a beat of almost five percent, and the stock rose about two percent. Beyond the beat, the headlines point to surging refining earnings across the majors as fuel supplies tighten. That's a pricing-power story, and it's politically loaded, given the criticism of Big Oil profits ahead of the midterms.
+So oil near one hundred eighteen dollars eats into margins and keeps inflation sticky. That limits how far central banks can ease, even when growth fears pull yields lower. And Europe is more exposed than the US. TTF gas jumped five point four percent to just over one hundred four euros, and it's up almost eleven percent in a week. That's a direct hit to industrial input costs.
 
-So, Europe on Monday. Our historical rule of thumb, and it's only that, points to a softer start for the Stoxx 600 after a weak US close. The model shows an expected drag of about twenty-one basis points, driven by the S&P move, though the explanatory power is modest. Historically, energy has tended to outperform the market on days like this, and so have commodity-linked names. So the energy complex looks like a relative tailwind, with gas and oil both climbing.
+Then there's China, which doesn't help. Factory activity shrank in October, the third contraction in four months. Shanghai fell one point four percent, and copper slipped one point nine percent. Interesting detail: China reported a sharp rise in gold, nickel and strategic mineral figures, and Chinese shipping and coal stocks are outperforming AI names as earnings outlooks diverge. Money is moving from the growth story to the hard-asset and cash-flow story.
 
-Headwinds? Tech and semiconductor-capex names, especially anything tied to the hyperscaler spending story. Note that Europe held up better on Friday, with the Stoxx 600 down only point four percent and a solid week behind it. That means less de-risking has happened here, and some positioning may still be exposed to catch-down. Energy-intensive industrials face the gas squeeze. Exporters with China exposure face weak demand data, though Swiss firms reportedly plan to expand there, so it isn't uniform.
+Even gold didn't hold up as a haven. It fell three point three percent to just under three thousand nine hundred dollars. India's gold imports are reportedly down eighty-one percent, a demand hole. Add the VIX jumping nearly thirteen percent to nineteen point four, and you get a market that is nervous but not panicking.
 
-Defensives are the likely destination for rotation. The open question is whether that's tactical positioning ahead of the US midterms and the jobs report, or a more structural shift away from capex-heavy growth. One data point on the structural side: memory chip makers reportedly outearn some tech giants, so AI demand isn't collapsing. The debate is about who captures the profits and who funds the spending.
+Now, Europe. Friday's close was already soft. The Euro Stoxx 50 lost one point two percent, the DAX eight-tenths of a percent, and the Stoxx 600 just over a third of a percent. But look at the five-day numbers: the DAX is up two and a half percent. Europe went into this selloff with gains to protect.
 
-Other risks to watch: France bracing for fresh unrest, and Qatari mediators pushing to restart US-Iran talks. A deal would pull oil lower and flip the energy trade fast. Failure does the opposite.
+The historical rule of thumb, which is not a forecast, points to a Stoxx 600 about twenty basis points lower, driven by the S&P's drop. The same model says energy and commodity names have tended to outperform on days like this, by roughly twenty-five basis points versus the market. The fit is weak, so treat it as a lean, not a call.
 
-The takeaway: this is a funding story, not a demand story. Expensive oil and gas plus expensive money are testing the AI trade.
+So what's the setup? Tailwinds: energy, where oil above one hundred fifteen dollars is lifting refining earnings, as the majors have already shown. Headwinds: European tech and semicap names tied to AI orders, and energy-intensive industrials facing gas near one hundred four euros. Defensives like healthcare are the natural parking spot. Whether that's temporary positioning or a lasting rotation depends on the next round of AI capex commentary.
+
+What changes the picture? A breakthrough in the Qatari-mediated talks would pull oil lower and ease the squeeze on margins. A fresh Hormuz escalation does the opposite. And in the background, the Bank of Japan is doubling its ETF selling pace from January, a slow supply overhang for Japanese equities.
+
+[pause]
+
+The takeaway: AI doubts hit the growth side, oil hits the cost side, and Europe is stuck in the middle.
 
 That's your edge for today. Use it wisely, champ.
 
 ===SHOWNOTES===
-- Hyperscaler capex worries and Meta's negative outlook from S&P: Nasdaq 100 down 3.5 percent, S&P 500 down 1.8 percent, third straight weekly Nasdaq loss.
-- Asia: Kospi down 3.5 percent on profit-taking, Nikkei down 2.1 percent, Shanghai down 1.4 percent on weak factory data, Hang Seng up 1.5 percent.
-- Energy: Brent up 2.4 percent to 117.6 dollars on Hormuz attacks; TTF gas up 5.4 percent on the day and 10.8 percent on the week, about 104.
-- Rates: US ten-year down 6 basis points to 4.9 percent, but still a valuation weight on tech; Bund ten-year steady at 3.4 percent.
-- Gold down 3.3 percent despite risk-off, suggesting cash-raising; VIX up 12.9 percent to 19.4.
-- ExxonMobil EPS 4.23 vs 4.04 expected, stock up about 2 percent; refining margins strong across the majors.
-- Model (rule of thumb only): Stoxx 600 about 21 basis points weaker, energy relative outperformance; R-squared low.
-- Watch: Iran mediation by Qatar, France unrest, China demand, US midterms and jobs report.
+- Thesis: AI capex fears plus Brent at a six-month high drove Friday's selloff.
+- Nasdaq 100 down 3.5%, S&P 500 down 1.8%, first three-week Nasdaq losing streak since March.
+- AI suppliers still strong (Kioxia profit up 15-fold, Murata $6.3bn capex), so this is a customer-spending doubt; Kospi down 3.5% but up 3.2% over five days.
+- Brent $117.6 (up 2.4%), TTF gas up 5.4% and 10.8% over five days: margin and inflation pressure, Europe more exposed.
+- US 10-year yield 4.9% (down 6bp), 5-year down 8bp, but oil limits the easing story.
+- China October factory activity contracted for the third time in four months; Shanghai down 1.4%, copper down 1.9%; gold down 3.3%.
+- Sensitivity model (rule of thumb only): Stoxx 600 about 21bp lower, oil and gas about 25bp ahead of the market; weak fit.
+- Swing factors: Qatari-mediated US-Iran talks, Hormuz attacks, BOJ ETF sales doubling from January.

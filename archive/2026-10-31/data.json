@@ -117,6 +117,22 @@
     "last": 4.721,
     "as_of": "2026-10-30",
     "change_bp": -8.0
+   },
+   {
+    "name": "Bund 2J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A",
+    "last": 3.06,
+    "as_of": "2026-10-30",
+    "change_bp": -1.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   },
+   {
+    "name": "Bund 10J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A",
+    "last": 3.38,
+    "as_of": "2026-10-30",
+    "change_bp": -1.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
    }
   ],
   "rohstoffe": [
@@ -191,6 +207,12 @@
   ]
  },
  "nachrichten": [
+  {
+   "source": "MarketWatch",
+   "title": "Your stock portfolio increasingly hinges on the bond market — and the midterm elections",
+   "summary": "Tech stocks in late October caught the cold that for months has been a drag on the corporate bond market.",
+   "time_utc": "2026-10-31T14:03:00+00:00"
+  },
   {
    "source": "Investing.com",
    "title": "France braces for fresh unrest, government vows tough response",
@@ -372,12 +394,6 @@
    "time_utc": "2026-10-30T21:45:52+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
-   "summary": "Safe-haven gold fell to its lowest price in a year, despite jitters around the potential for fresh Middle East attacks following the U.S. midterm elections on Tuesday",
-   "time_utc": "2026-10-30T21:30:00+00:00"
-  },
-  {
    "source": "CNBC World",
    "title": "$6.3 billion Binance hack is largest crypto theft on record",
    "summary": "Binance says a security breach impacted about $6.3 billion in assets. The exchange says roughly $3 billion has been frozen and losses will be covered.",
@@ -388,18 +404,6 @@
    "title": "Intel stock has worst day since 1970s, wiping about $12 billion off government's stake",
    "summary": "Investors are nervous about the massive AI spending from the tech giants and whether that will pay off.",
    "time_utc": "2026-10-30T20:30:57+00:00"
-  },
-  {
-   "source": "CNBC World",
-   "title": "Reddit stock plunges 29% after weak outlook, wrapping its worst day ever",
-   "summary": "Reddit shares sank on Friday after the company issued weak Q4 sales guidance and announced it will test requiring users to log in to see content.",
-   "time_utc": "2026-10-30T20:11:12+00:00"
-  },
-  {
-   "source": "CNBC World",
-   "title": "'Bad time to troll': Binance co-founder Zhao asks Musk for support after hack",
-   "summary": "Binance co-founder Changpeng Zhao asked Elon Musk to stop “trolling” after a $6.3 billion hack, pointing to Binance’s $1 billion-plus SpaceX stake.",
-   "time_utc": "2026-10-30T20:02:45+00:00"
   },
   {
    "source": "Nikkei Asia",
@@ -550,6 +554,18 @@
    "title": "Trump holds off overcapacity tariffs as US midterms near",
    "summary": "",
    "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "BOJ to accelerate ETF sales, more than doubling pace from January",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Editor's Choice: What the US midterms mean for Asia",
+   "summary": "",
+   "time_utc": null
   }
  ],
  "earnings": [
@@ -569,6 +585,7 @@
   "faktoren_heute": {
    "Nikkei": 0.0,
    "Hang Seng": 0.0,
+   "Kospi": 0.0,
    "S&P 500 (Vortag)": -1.82,
    "Brent (Vortag)": 2.4,
    "US 10J Rendite (Vortag)": -6.0,
@@ -578,12 +595,12 @@
   "ergebnisse": [
    {
     "ziel": "Rohstoffe vs. Markt",
-    "erwarteter_effekt_bp": 27.0,
+    "erwarteter_effekt_bp": 26.0,
     "treiber": [
      {
       "faktor": "S&P 500 (Vortag)",
       "effekt_bp": 24.0,
-      "t_stat": -2.5
+      "t_stat": -2.6
      }
     ],
     "r2": 0.09
@@ -595,7 +612,7 @@
      {
       "faktor": "S&P 500 (Vortag)",
       "effekt_bp": 22.0,
-      "t_stat": -2.5
+      "t_stat": -2.4
      }
     ],
     "r2": 0.02

@@ -27,14 +27,6 @@
     "change_5d_pct": -2.48
    },
    {
-    "name": "Kospi",
-    "ticker": "^KS11",
-    "last": 5730.7402,
-    "as_of": "2026-10-30",
-    "change_pct": -3.48,
-    "change_5d_pct": 3.25
-   },
-   {
     "name": "ASX 200",
     "ticker": "^AXJO",
     "last": 8908.0996,
@@ -208,22 +200,34 @@
  },
  "nachrichten": [
   {
+   "source": "Investing.com",
+   "title": "France braces for fresh unrest, government vows tough response",
+   "summary": "",
+   "time_utc": "2026-10-31T14:36:19+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Social Security’s fate — and your benefits — are in the hands of the candidates elected this year",
+   "summary": "The program is expected to run out of money in the next six years, which is the same amount of time as a senator’s term.",
+   "time_utc": "2026-10-31T14:35:00+00:00"
+  },
+  {
    "source": "MarketWatch",
    "title": "‘He was heartbroken’: My husband’s kids abandoned him when he was dying. Was he right to leave everything to me?",
    "summary": "“In the end, he left them a few sentimental mementos, some collectibles and old photographs.”",
    "time_utc": "2026-10-31T14:26:00+00:00"
   },
   {
+   "source": "Investing.com",
+   "title": "UK PM Burnham says he is ’open’ to formal apology for slavery, but rules out reparations",
+   "summary": "",
+   "time_utc": "2026-10-31T14:24:20+00:00"
+  },
+  {
    "source": "MarketWatch",
    "title": "Your stock portfolio increasingly hinges on the bond market — and the midterm elections",
    "summary": "Tech stocks in late October caught the cold that for months has been a drag on the corporate bond market.",
    "time_utc": "2026-10-31T14:03:00+00:00"
-  },
-  {
-   "source": "Investing.com",
-   "title": "France braces for fresh unrest, government vows tough response",
-   "summary": "",
-   "time_utc": "2026-10-31T13:54:22+00:00"
   },
   {
    "source": "CNBC World",
@@ -299,12 +303,6 @@
   },
   {
    "source": "Investing.com",
-   "title": "UK PM Burnham says he is ’open’ to formal apology for slavery, but rules out reparations",
-   "summary": "",
-   "time_utc": "2026-10-31T10:12:25+00:00"
-  },
-  {
-   "source": "Investing.com",
    "title": "Rubio to host meeting of Indo-Pacific Quad, wrap up G20 gathering",
    "summary": "",
    "time_utc": "2026-10-31T10:06:54+00:00"
@@ -368,12 +366,6 @@
    "title": "What comes next for EU-China trade?",
    "summary": "",
    "time_utc": "2026-10-31T02:49:22+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
-   "summary": "Friday’s big plunge raises disturbing parallels with the top of the dot-com bubble",
-   "time_utc": "2026-10-30T23:14:00+00:00"
   },
   {
    "source": "CNBC World",

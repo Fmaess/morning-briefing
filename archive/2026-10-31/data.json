@@ -1,5 +1,5 @@
 {
- "datum": "Samstag, 31.10.2026",
+ "datum": "Saturday, 31 October 2026",
  "maerkte": {
   "asien": [
    {
@@ -209,6 +209,12 @@
  "nachrichten": [
   {
    "source": "MarketWatch",
+   "title": "‘He was heartbroken’: My husband’s kids abandoned him when he was dying. Was he right to leave everything to me?",
+   "summary": "“In the end, he left them a few sentimental mementos, some collectibles and old photographs.”",
+   "time_utc": "2026-10-31T14:26:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
    "title": "Your stock portfolio increasingly hinges on the bond market — and the midterm elections",
    "summary": "Tech stocks in late October caught the cold that for months has been a drag on the corporate bond market.",
    "time_utc": "2026-10-31T14:03:00+00:00"
@@ -376,12 +382,6 @@
    "time_utc": "2026-10-30T22:42:26+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "This cybersecurity stock will be the next to join the S&P 500",
-   "summary": "Okta is slated to join the index on Wednesday, replacing Kenvue.",
-   "time_utc": "2026-10-30T22:20:00+00:00"
-  },
-  {
    "source": "CNBC Earnings",
    "title": "Cramer’s week ahead: Expect more volatility as tech earnings, midterms loom",
    "summary": "Investors await earnings from Apple, AMD, and other major companies, as well as the midterm elections and the monthly jobs report.",
@@ -398,12 +398,6 @@
    "title": "$6.3 billion Binance hack is largest crypto theft on record",
    "summary": "Binance says a security breach impacted about $6.3 billion in assets. The exchange says roughly $3 billion has been frozen and losses will be covered.",
    "time_utc": "2026-10-30T21:21:17+00:00"
-  },
-  {
-   "source": "CNBC World",
-   "title": "Intel stock has worst day since 1970s, wiping about $12 billion off government's stake",
-   "summary": "Investors are nervous about the massive AI spending from the tech giants and whether that will pay off.",
-   "time_utc": "2026-10-30T20:30:57+00:00"
   },
   {
    "source": "Nikkei Asia",
@@ -564,6 +558,12 @@
   {
    "source": "Nikkei Asia",
    "title": "Editor's Choice: What the US midterms mean for Asia",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "India's gold imports down 81%; global prices could be impacted",
    "summary": "",
    "time_utc": null
   }

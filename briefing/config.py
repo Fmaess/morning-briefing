@@ -173,9 +173,9 @@ SIGNOFFS_BY_WEEKDAY = {
     ],
 }
 
-# Technik des Tages: wird im Briefing bewusst eingesetzt, aber nie benannt
-# (passives Lernen, kein Lern-Segment). Rotiert täglich.
-CRAFT_CORNER = True
+# Optional: täglich wechselnde Rhetorik-Technik (nie benannt). Standard: aus –
+# das Storytelling-Grundgerüst im Prompt gilt immer.
+CRAFT_CORNER = False
 CRAFT_TECHNIQUES = [
     ("And-But-Therefore", "setup with 'and', tension with 'but', consequence with 'therefore'"),
     ("Start with the end", "state the conclusion first so the listener knows where you are going"),

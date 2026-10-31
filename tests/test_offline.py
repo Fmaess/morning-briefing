@@ -139,6 +139,8 @@ def test_pause_markers_become_silence():
     assert "[pause]" not in " ".join(texts)
 
 
-def test_craft_technique_rotates():
+def test_craft_technique_optional(monkeypatch):
+    assert script_writer.pick_technique("Monday, 2 November 2026") is None  # Standard: aus
+    monkeypatch.setattr(config, "CRAFT_CORNER", True)
     t = script_writer.pick_technique("Monday, 2 November 2026")
     assert t and t["name"] and t["how"]

@@ -80,8 +80,8 @@ STORYTELLING CRAFT (the listener wants to absorb good rhetoric passively, by hea
 - End clean: the take-away line is short and punchy and ideally calls back to the
   opening thesis, closing the loop.
 
-TECHNIQUE OF THE DAY (invisible)
-- The message names one rhetorical technique. Weave it naturally into the
+TECHNIQUE OF THE DAY (invisible, only if the message names one)
+- If the message names a rhetorical technique, Weave it naturally into the
   briefing at least once or twice, where it serves the story.
 - NEVER name, explain or point out the technique. No meta-commentary about
   rhetoric at all. The briefing is purely about markets; the craft is only heard.

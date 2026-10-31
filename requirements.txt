@@ -4,4 +4,6 @@ numpy>=1.26
 feedparser>=6.0
 requests>=2.31
 anthropic>=0.40
-piper-tts>=1.2
+kokoro-onnx>=0.4
+soundfile>=0.12
+# piper-tts>=1.2   # nur für TTS_ENGINE=piper

@@ -128,19 +128,32 @@ NEWS_MAX_ITEMS = 60
 LLM_MODEL = os.getenv("BRIEFING_LLM_MODEL", "claude-sonnet-5-5")
 LLM_MAX_TOKENS = 16000        # deckt Nachdenken + Skript ab
 LLM_EFFORT = "medium"         # low / medium / high – höher = gründlicher, teurer
-SCRIPT_MIN_WORDS = 300
+SCRIPT_MIN_WORDS = 300       # kürzere Skripte gelten als Fehler (keine Mini-Folge)
+SCRIPT_TARGET_MINUTES = 8
 # Begrüßung zum Start jeder Folge. Bei mehreren Einträgen wechselt sie täglich.
 GREETINGS = [
-    "Moin Champ!",
-]        # kürzere Skripte gelten als Fehler (keine Mini-Folge)
-SCRIPT_TARGET_MINUTES = 8
+    "Morning, champ!",
+]
 
 # --- Vertonung (lokal, kostenlos) --------------------------------------------
+# "kokoro" (Standard, natürlicher, Englisch) oder "piper" (kann Deutsch)
+TTS_ENGINE = os.getenv("TTS_ENGINE", "kokoro")
+TTS_SPEED = 1.0               # 0.9 = ruhiger, 1.1 = flotter
+PARAGRAPH_PAUSE_S = 0.45      # Pause zwischen Absätzen in Sekunden
+
+# Kokoro: Stimmen-Mix aus männlichen US-Stimmen. Gewichte werden normiert.
+# Weitere Stimmen: am_onyx, am_puck, am_echo, am_eric, am_liam (US),
+# bm_george, bm_fable, bm_daniel, bm_lewis (UK; dann KOKORO_LANG = "en-gb")
+KOKORO_VOICE_MIX = {"am_michael": 0.6, "am_fenrir": 0.4}
+KOKORO_LANG = "en-us"
+KOKORO_MODEL_DIR = os.getenv("KOKORO_MODEL_DIR", "models")
+
+# Piper (Alternative)
 PIPER_VOICE = os.getenv("PIPER_VOICE", "de_DE-thorsten-high")
 PIPER_VOICE_DIR = os.getenv("PIPER_VOICE_DIR", "voices")
 
 # --- Podcast-Feed ------------------------------------------------------------
-FEED_TITLE = "Morning Briefing – Makro & Europa"
+FEED_TITLE = "Morning Briefing – Macro & Europe"
 FEED_AUTHOR = "Privat"
 FEED_BASE_URL = os.getenv("FEED_BASE_URL", "https://example.github.io/briefing-feed").rstrip("/")
 FEED_SECRET_PATH = os.getenv("FEED_SECRET_PATH", "changeme")

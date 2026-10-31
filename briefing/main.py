@@ -19,7 +19,9 @@ from . import config
 
 log = logging.getLogger("briefing")
 
-WOCHENTAGE = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
+WEEKDAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+MONTHS = ["January", "February", "March", "April", "May", "June", "July",
+          "August", "September", "October", "November", "December"]
 
 
 def in_window(now_local: datetime) -> bool:
@@ -55,7 +57,7 @@ def main(argv: list[str] | None = None) -> int:
         log.info("Heutige Folge existiert bereits – nichts zu tun.")
         return 0
 
-    date_str = f"{WOCHENTAGE[now_local.weekday()]}, {now_local:%d.%m.%Y}"
+    date_str = f"{WEEKDAYS[now_local.weekday()]}, {now_local.day} {MONTHS[now_local.month - 1]} {now_local.year}"
     markets = safe("Märkte", market_data.snapshot, {})
     headlines = safe("News", news.collect, [])
     reports = safe("Earnings", earnings.screen, [])
@@ -81,7 +83,7 @@ def main(argv: list[str] | None = None) -> int:
     (archive / "script.txt").write_text(script + "\n\n===SHOWNOTES===\n" + notes, "utf-8")
 
     seconds = tts.synthesize(script, mp3)
-    podcast.add_episode(mp3, f"Briefing {date_str}", notes,
+    podcast.add_episode(mp3, f"Briefing – {date_str}", notes,
                         now_local.astimezone(timezone.utc), seconds)
     log.info("Fertig: %s (%.1f min) – Feed: %s", mp3.name, seconds / 60, podcast.feed_url())
     return 0

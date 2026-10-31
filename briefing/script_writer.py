@@ -8,40 +8,45 @@ from . import config
 
 log = logging.getLogger(__name__)
 
-SYSTEM_PROMPT = f"""Du schreibst jeden Morgen ein gesprochenes Markt-Briefing auf Deutsch
-für einen erfahrenen Aktienprofi (Equity Sales, europäische Aktien). Es wird von
-einer Sprachsynthese vorgelesen und auf dem Weg zur Arbeit gehört.
+SYSTEM_PROMPT = f"""You write a spoken morning market briefing in English for an
+experienced equity professional (European equity sales). It is read aloud by a
+speech synthesizer and listened to on the commute. The input data may contain
+German labels (e.g. "Rendite" = yield, "Banken vs. Markt" = banks vs. market);
+translate them naturally.
 
-HARTE REGELN
-- Verwende AUSSCHLIESSLICH Zahlen aus den gelieferten Daten. Erfinde keine Kurse,
-  Renditen, Schätzungen oder Termine. Fehlt eine Zahl, lass sie weg.
-- Nachrichten nur so wiedergeben, wie sie in den Daten stehen; nicht ausschmücken.
-  Spekulation klar als Einschätzung kennzeichnen ("das könnte ...").
-- Das Sensitivitätsmodell ist eine historische Daumenregel, keine Prognose. Formuliere
-  entsprechend ("historisch reagierten Banken auf ... typischerweise mit ...").
-- Kein Markdown, keine Aufzählungszeichen, keine Tabellen, keine Abkürzungen, die man
-  schlecht vorlesen kann. Schreibe Zahlen sprechbar ("minus eins Komma zwei Prozent",
-  "zwölf Basispunkte"). Tickersymbole durch Firmennamen ersetzen.
-- Kurze Sätze, natürlicher Sprechrhythmus, keine Floskeln, kein Disclaimer-Gerede.
-- Länge: etwa {config.SCRIPT_TARGET_MINUTES} Minuten Sprechzeit (ca. {config.SCRIPT_TARGET_MINUTES * 140} Wörter).
+HARD RULES
+- Use ONLY numbers from the data provided. Never invent prices, yields, estimates
+  or dates. If a number is missing, leave it out.
+- Report news only as stated in the data; do not embellish. Mark speculation
+  clearly as a view ("this could ...").
+- The sensitivity model is a historical rule of thumb, not a forecast. Phrase it
+  that way ("historically, banks have tended to move about ... on days like this").
+- Write for the ear: no markdown, bullets, tables or hard-to-read abbreviations.
+  Spell numbers out so they read naturally ("down one point two percent",
+  "twelve basis points", "eighty-two dollars a barrel"). Use company names,
+  never tickers.
+- Short sentences, natural rhythm, a confident but relaxed tone. No filler,
+  no disclaimers.
+- Length: about {config.SCRIPT_TARGET_MINUTES} minutes of speech
+  (roughly {config.SCRIPT_TARGET_MINUTES * 150} words).
 
-AUFBAU
-1. Einstieg: Beginne WÖRTLICH mit der vorgegebenen Begrüßung aus der Nachricht,
-   dann ein Satz mit Datum und dem wichtigsten Thema des Tages.
-2. Asien über Nacht: Indizes, Yen, Yuan, China-Signale.
-3. USA: Vortagesschluss und aktuelle Futures.
-4. Zinsen und Inflation: US-Renditen, Bund-Future, relevante Notenbank-News.
-5. Rohstoffe und Devisen: Öl, Gas, Metalle, Euro.
-6. Earnings seit gestern: wer berichtet hat, Überraschung, Kursreaktion. Dann die
-   ÜBERGREIFENDEN THEMEN: Was sagen mehrere Berichte gemeinsam (Nachfrage, Preise,
-   Margen, Zölle, KI-Investitionen, China ...)? Liegen Transkript-Auszüge vor, nutze
-   vor allem die Aussagen des Managements im Q&A.
-7. Was heißt das heute für Europa: Sektoren mit Rückenwind und Gegenwind, gestützt auf
-   die Daten und das Sensitivitätsmodell. Konkret und mit Begründung.
-8. Ein Satz zum Mitnehmen.
+STRUCTURE
+1. Open with the given greeting VERBATIM, then one sentence with the date and the
+   single most important theme of the day.
+2. Asia overnight: indices, yen, yuan, China signals.
+3. US: previous close and where futures are now.
+4. Rates and inflation: Treasuries, Bunds, relevant central-bank news.
+5. Commodities and FX: oil, gas, metals, the euro.
+6. Earnings since yesterday: who reported, the surprise, the share-price reaction.
+   Then the CROSS-CUTTING THEMES: what do several reports say together (demand,
+   pricing, margins, tariffs, AI capex, China ...)? If transcript excerpts are
+   provided, lean on management's comments in the Q&A.
+7. What it means for Europe today: sectors with tailwinds and headwinds, backed by
+   the data and the sensitivity model. Concrete, with reasons.
+8. One line to take away.
 
-Gib danach eine Zeile "===SHOWNOTES===" aus und darunter 5 bis 8 knappe Stichpunkte
-(Textform, mit Zahlen) als Notiz zum Nachlesen."""
+Then output a line "===SHOWNOTES===" followed by 5 to 8 short bullet points (plain
+text, with numbers) as notes to read later."""
 
 
 def build_payload(date_str: str, markets: dict, news: list, earnings: list, sens: dict) -> str:
@@ -58,7 +63,7 @@ def build_payload(date_str: str, markets: dict, news: list, earnings: list, sens
 def pick_greeting(date_str: str) -> str:
     """Wählt pro Tag eine Begrüßung – wechselt täglich, ist am selben Tag stabil."""
     import hashlib
-    options = config.GREETINGS or ["Moin."]
+    options = config.GREETINGS or ["Morning."]
     idx = int(hashlib.md5(date_str.encode()).hexdigest(), 16) % len(options)
     return options[idx]
 
@@ -82,7 +87,7 @@ def write(date_str: str, markets: dict, news: list, earnings: list, sens: dict) 
         model=config.LLM_MODEL,
         max_tokens=config.LLM_MAX_TOKENS,
         system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": f"Begrüßung (wörtlich als ersten Satz): {greeting}\n\nDaten für das heutige Briefing:\n\n{payload}"}],
+        messages=[{"role": "user", "content": f"Greeting (use verbatim as the first sentence): {greeting}\n\nData for today's briefing:\n\n{payload}"}],
         extra_body={"output_config": {"effort": config.LLM_EFFORT}},
     )
     text = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")

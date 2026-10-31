@@ -7,7 +7,7 @@ schreiben, vertont es lokal und stellt die Folge in einen Podcast-Feed.
 
 ```
 yfinance / RSS / Earnings ─┐
-Sensitivitätsmodell ───────┼─> Skript (Claude API) ─> Piper (lokal) ─> MP3 ─> feed.xml (GitHub Pages)
+Sensitivitätsmodell ───────┼─> Skript (Claude API) ─> Kokoro (lokal) ─> MP3 ─> feed.xml (GitHub Pages)
                            └─> archive/JJJJ-MM-TT/data.json + script.txt
 ```
 
@@ -48,7 +48,7 @@ python -m briefing.main --force --dry-run   # nur Daten -> archive/…/data.json
 ```
 
 Für einen kompletten lokalen Lauf zusätzlich `ffmpeg` installieren und die
-Stimme nach `voices/` laden (URLs im Workflow).
+Kokoro-Modell nach `models/` laden (URLs im Workflow).
 
 ## Anpassen
 
@@ -58,7 +58,9 @@ Stimme nach `voices/` laden (URLs im Workflow).
 | Aufbau, Ton, Länge des Briefings | `SYSTEM_PROMPT` in `briefing/script_writer.py` |
 | Faktoren des Sensitivitätsmodells | `SENS_FACTORS` in `config.py` |
 | Andere Transkript-Quelle | `fetch_transcript()` in `briefing/earnings.py` |
-| Andere Stimme | `PIPER_VOICE` (z. B. `de_DE-thorsten-medium`, schneller) |
+| Stimme, Tempo, Pausen | `KOKORO_VOICE_MIX`, `TTS_SPEED`, `PARAGRAPH_PAUSE_S` in `config.py` |
+| Begrüßung | `GREETINGS` in `config.py` |
+| Zurück auf Deutsch | `TTS_ENGINE = "piper"`, Prompt in `script_writer.py` auf Deutsch, Piper-Download im Workflow ergänzen |
 
 ## Grenzen
 

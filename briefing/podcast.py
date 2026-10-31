@@ -60,8 +60,8 @@ def render_feed(episodes: list[dict]) -> str:
  <channel>
   <title>{escape(config.FEED_TITLE)}</title>
   <link>{escape(base)}</link>
-  <description>Privates tägliches Makro- und Europa-Briefing</description>
-  <language>de-de</language>
+  <description>Private daily macro and European equities briefing</description>
+  <language>en</language>
   <itunes:author>{escape(config.FEED_AUTHOR)}</itunes:author>
   <itunes:block>Yes</itunes:block>
   <itunes:explicit>false</itunes:explicit>

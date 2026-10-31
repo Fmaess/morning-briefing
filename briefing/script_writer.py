@@ -8,7 +8,7 @@ from . import config
 
 log = logging.getLogger(__name__)
 
-SYSTEM_PROMPT = f"""You write a spoken morning market briefing in English for an
+SYSTEM_PROMPT = f"""You write a spoken morning market briefing in American English for an
 experienced equity professional (European equity sales). It is read aloud by a
 speech synthesizer and listened to on the commute. The input data may contain
 German labels (e.g. "Rendite" = yield, "Banken vs. Markt" = banks vs. market);

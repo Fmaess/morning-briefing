@@ -93,3 +93,9 @@ def test_bundesbank_xml_parser():
     assert list(s.values) == [2.61, 2.65]
     row = summarize_series("Bund 10J Rendite", "x", s, "diff")
     assert row["change_bp"] == 4.0 and row["as_of"] == "2026-10-30"
+
+
+def test_greeting_stable_per_day(monkeypatch):
+    monkeypatch.setattr(config, "GREETINGS", ["A", "B", "C"])
+    g = script_writer.pick_greeting("Montag, 02.11.2026")
+    assert g in {"A", "B", "C"} and g == script_writer.pick_greeting("Montag, 02.11.2026")

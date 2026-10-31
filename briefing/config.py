@@ -128,7 +128,11 @@ NEWS_MAX_ITEMS = 60
 LLM_MODEL = os.getenv("BRIEFING_LLM_MODEL", "claude-sonnet-5-5")
 LLM_MAX_TOKENS = 16000        # deckt Nachdenken + Skript ab
 LLM_EFFORT = "medium"         # low / medium / high – höher = gründlicher, teurer
-SCRIPT_MIN_WORDS = 300        # kürzere Skripte gelten als Fehler (keine Mini-Folge)
+SCRIPT_MIN_WORDS = 300
+# Begrüßung zum Start jeder Folge. Bei mehreren Einträgen wechselt sie täglich.
+GREETINGS = [
+    "Moin Champ!",
+]        # kürzere Skripte gelten als Fehler (keine Mini-Folge)
 SCRIPT_TARGET_MINUTES = 8
 
 # --- Vertonung (lokal, kostenlos) --------------------------------------------

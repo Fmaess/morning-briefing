@@ -26,7 +26,8 @@ HARTE REGELN
 - Länge: etwa {config.SCRIPT_TARGET_MINUTES} Minuten Sprechzeit (ca. {config.SCRIPT_TARGET_MINUTES * 140} Wörter).
 
 AUFBAU
-1. Einstieg: ein Satz mit Datum und dem wichtigsten Thema des Tages.
+1. Einstieg: Beginne WÖRTLICH mit der vorgegebenen Begrüßung aus der Nachricht,
+   dann ein Satz mit Datum und dem wichtigsten Thema des Tages.
 2. Asien über Nacht: Indizes, Yen, Yuan, China-Signale.
 3. USA: Vortagesschluss und aktuelle Futures.
 4. Zinsen und Inflation: US-Renditen, Bund-Future, relevante Notenbank-News.
@@ -54,6 +55,14 @@ def build_payload(date_str: str, markets: dict, news: list, earnings: list, sens
     return json.dumps(payload, ensure_ascii=False, indent=1, default=str)
 
 
+def pick_greeting(date_str: str) -> str:
+    """Wählt pro Tag eine Begrüßung – wechselt täglich, ist am selben Tag stabil."""
+    import hashlib
+    options = config.GREETINGS or ["Moin."]
+    idx = int(hashlib.md5(date_str.encode()).hexdigest(), 16) % len(options)
+    return options[idx]
+
+
 def split_output(text: str) -> tuple[str, str]:
     if "===SHOWNOTES===" in text:
         script, notes = text.split("===SHOWNOTES===", 1)
@@ -66,13 +75,14 @@ def write(date_str: str, markets: dict, news: list, earnings: list, sens: dict) 
 
     client = anthropic.Anthropic()  # liest ANTHROPIC_API_KEY aus der Umgebung
     payload = build_payload(date_str, markets, news, earnings, sens)
+    greeting = pick_greeting(date_str)
     # Das Modell denkt standardmäßig (adaptiv) vor dem Schreiben; Denk-Tokens
     # zählen gegen max_tokens. Daher großzügiges Limit und mittlere Effort-Stufe.
     msg = client.messages.create(
         model=config.LLM_MODEL,
         max_tokens=config.LLM_MAX_TOKENS,
         system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": f"Daten für das heutige Briefing:\n\n{payload}"}],
+        messages=[{"role": "user", "content": f"Begrüßung (wörtlich als ersten Satz): {greeting}\n\nDaten für das heutige Briefing:\n\n{payload}"}],
         extra_body={"output_config": {"effort": config.LLM_EFFORT}},
     )
     text = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")

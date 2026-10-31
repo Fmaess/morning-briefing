@@ -27,6 +27,14 @@
     "change_5d_pct": -2.48
    },
    {
+    "name": "Kospi",
+    "ticker": "^KS11",
+    "last": 5730.7402,
+    "as_of": "2026-10-30",
+    "change_pct": -3.48,
+    "change_5d_pct": 3.25
+   },
+   {
     "name": "ASX 200",
     "ticker": "^AXJO",
     "last": 8908.0996,
@@ -200,6 +208,12 @@
  },
  "nachrichten": [
   {
+   "source": "MarketWatch",
+   "title": "The S&P 500 isn’t the big winner you may think it is",
+   "summary": "The index’s weakness may surprise a generation of investors raised on the cult of “stocks always go up.”",
+   "time_utc": "2026-10-31T14:54:00+00:00"
+  },
+  {
    "source": "Investing.com",
    "title": "France braces for fresh unrest, government vows tough response",
    "summary": "",
@@ -342,12 +356,6 @@
    "title": "AI is coming to construction sites. But does it make workers safer?",
    "summary": "AI is flagging hazards on construction sites, but researchers say evidence that the technology prevents injuries remains limited.",
    "time_utc": "2026-10-31T06:00:02+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore",
-   "summary": "After waiting 13 years for this videogame, almost one-fifth of workers plan to take the day off to play ‘Grand Theft Auto VI’ when it drops on Nov. 19",
-   "time_utc": "2026-10-31T04:30:00+00:00"
   },
   {
    "source": "Investing.com",

@@ -25,8 +25,10 @@ HARD RULES
   Spell numbers out so they read naturally ("down one point two percent",
   "twelve basis points", "eighty-two dollars a barrel"). Use company names,
   never tickers.
-- Short sentences, natural rhythm, a confident but relaxed tone. No filler,
-  no disclaimers.
+- Style: a business-TV morning anchor (think CNBC's early show). Energetic,
+  punchy and conversational, with varied sentence length and quick transitions
+  ("Here's the thing.", "Let's get to Europe."). Confident, never hype; the
+  facts stay exact. No filler, no disclaimers.
 - Length: about {config.SCRIPT_TARGET_MINUTES} minutes of speech
   (roughly {config.SCRIPT_TARGET_MINUTES * 150} words).
 

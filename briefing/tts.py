@@ -60,6 +60,14 @@ def _piper_wav(text: str, wav: Path) -> None:
     )
 
 
+def pitch_filter(sr: int = 24000) -> list[str]:
+    """Tonhöhe verschieben, ohne das Tempo zu ändern (ffmpeg asetrate + atempo)."""
+    p = config.TTS_PITCH
+    if abs(p - 1.0) < 1e-3:
+        return []
+    return ["-af", f"asetrate={sr}*{p},aresample={sr},atempo={1 / p:.4f}"]
+
+
 def synthesize(text: str, out_mp3: Path) -> float:
     """Erzeugt die MP3 und gibt die Dauer in Sekunden zurück."""
     out_mp3.parent.mkdir(parents=True, exist_ok=True)
@@ -70,7 +78,7 @@ def synthesize(text: str, out_mp3: Path) -> float:
         else:
             _kokoro_wav(text, wav)
         subprocess.run(
-            ["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav),
+            ["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), *pitch_filter(),
              "-ac", "1", "-codec:a", "libmp3lame", "-b:a", "96k", str(out_mp3)],
             check=True,
         )

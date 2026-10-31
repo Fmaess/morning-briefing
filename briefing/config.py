@@ -138,13 +138,15 @@ GREETINGS = [
 # --- Vertonung (lokal, kostenlos) --------------------------------------------
 # "kokoro" (Standard, natürlicher, Englisch) oder "piper" (kann Deutsch)
 TTS_ENGINE = os.getenv("TTS_ENGINE", "kokoro")
-TTS_SPEED = 1.0               # 0.9 = ruhiger, 1.1 = flotter
+TTS_SPEED = 1.12              # 0.9 = ruhiger, 1.1 = flotter
+# Tonhöhe: 1.0 = original, 0.95 = 5 % tiefer (Sprechtempo bleibt gleich)
+TTS_PITCH = 1.0
 PARAGRAPH_PAUSE_S = 0.45      # Pause zwischen Absätzen in Sekunden
 
 # Kokoro: Stimmen-Mix aus männlichen US-Stimmen. Gewichte werden normiert.
 # Weitere Stimmen: am_onyx, am_puck, am_echo, am_eric, am_liam (US),
 # bm_george, bm_fable, bm_daniel, bm_lewis (UK; dann KOKORO_LANG = "en-gb")
-KOKORO_VOICE_MIX = {"am_michael": 0.6, "am_fenrir": 0.4}
+KOKORO_VOICE_MIX = {"am_michael": 1.0}
 KOKORO_LANG = "en-us"
 KOKORO_MODEL_DIR = os.getenv("KOKORO_MODEL_DIR", "models")
 

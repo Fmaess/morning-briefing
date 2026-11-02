@@ -1,0 +1,41 @@
+Happy Monday, champ. New week, new alpha.
+
+Today's thesis: the market is trading an AI wobble, not an inflation scare, and with oil falling on Iran diplomacy, that tension decides how Europe opens.
+
+Start with Friday in the US. The S&P 500 fell one point eight percent, and the Nasdaq 100 dropped three and a half percent. The VIX jumped almost thirteen percent to nineteen point four. Tech took the hit. But here's what's odd: US ten-year yields fell six basis points to four point nine percent, and the five-year dropped eight. Normally, when oil sits near a hundred and ten dollars, yields rise on inflation worries. This time they fell. So the bond market is telling you investors fear an AI crash more than they fear inflation. One of the headlines today says exactly that.
+
+[pause]
+
+Now the complication. Asia didn't follow Wall Street down. The Kospi jumped two point six percent, and it's up seven and a half percent over five days. Why? Memory and chips. Sam Altman made an unannounced visit to South Korea over the weekend, meeting Samsung and reportedly SK executives, as OpenAI builds out chip partnerships. So the AI capex story is still feeding suppliers, even while US investors question what it pays back. That's the split: the spenders get sold, the suppliers get bid. The risk is that this is a crowded trade. Korea up seven and a half percent in a week is positioning, not a slow build.
+
+The rest of Asia was calm. The Nikkei was flat, the Hang Seng gained half a percent, and Shanghai rose two thirds of a percent, though it's still down two percent on the week. China's private manufacturing survey showed factory growth slowing as export orders eased. But a shift to a new policy rate signals easier funding conditions. So weak data, but a supportive central bank. Beijing is leaning on the cushion.
+
+Oil is the swing factor. Brent is down six point seven percent to about a hundred and ten dollars. Reports say both the US and Iran are seeking diplomacy, and Iran has floated a forty-eight-hour plan to reopen Hormuz. But Rubio says Washington wants peace even as both sides prepare for possible strikes after the midterms. So oil is falling on hope, not on resolution. Lower crude eases the squeeze on margins and inflation, which is good for airlines, chemicals and consumers. It's a headwind for energy. Even so, the sensitivity model, a historical rule of thumb and not a forecast, says that after a down day like Friday's in the S&P, oil and gas has tended to outperform the market by around twenty basis points. That's a weak relationship, so treat it lightly. And with crude sliding, that pattern is fighting the tape.
+
+Central banks matter too. The Bank of England is reportedly poised to raise rates but may push back on bets for more. The Reserve Bank of Australia is expected to hike by twenty-five basis points as inflation worsens. Australian home prices have fallen seven months in a row, and the ASX slipped half a percent. So tightening is still on the menu in places. Bund yields barely moved Friday, the two-year at three point one percent, the ten-year at three point four. Europe isn't pricing the same fear Washington is.
+
+Euro-dollar is steady at one point one one nine. Dollar-yen is near one fifty-eight. Gold is up slightly at about thirty-nine hundred dollars, and copper gained eight tenths of a percent. No stress signal there.
+
+Earnings. The data shows no reports since yesterday, but Apple reports today, a rare Monday print and the first under new CEO John Ternus. The questions are inflated memory prices and a tougher consumer. That ties straight back to Korea: memory pricing helps the suppliers and squeezes the buyers. Earlier reports from Santander and Novartis suggested AI is starting to lift revenue and cut costs in Europe. That's a useful counterpoint to the bubble worry.
+
+Now Europe. On Friday the Stoxx 600 fell point four percent, the DAX nearly point nine, the Euro Stoxx 50 one point two. Yet they're all up over five days. US futures are higher this morning, the S&P up half a percent and the Nasdaq up point nine, so the opening may be a bounce. But the model, again just a rule of thumb, points to the Stoxx 600 underperforming by around twenty basis points, driven by the US drop. Same model says healthcare has tended to lag by about thirty-six basis points when Korea rallies hard. That fits the story: when risk appetite returns to tech, defensives get sold.
+
+So where are the tailwinds? Cyclicals that benefit from cheaper oil, and anything tied to AI hardware. Headwinds: energy if diplomacy holds, and healthcare if the rotation reverses. Add one more thing. France saw isolated clashes after weekend marches, a small local risk, not a market driver yet.
+
+What changes the picture? A collapse in Iran talks sends oil back up, and yields with it. A weak Apple print revives the AI doubts.
+
+[pause]
+
+The take-away: it's an AI wobble, not an inflation scare, and cheaper oil gives Europe room to breathe.
+
+That's your briefing. Go get 'em, champ.
+
+===SHOWNOTES===
+- Friday: S&P 500 down 1.8 percent, Nasdaq 100 down 3.5 percent, VIX up 12.9 percent to 19.4.
+- US 10-year yield fell 6 basis points to 4.93 percent despite Brent near 110 dollars, suggesting AI-crash fear outweighs inflation fear.
+- Kospi up 2.6 percent, 7.5 percent over five days; Altman visited Samsung and reportedly SK. Possible crowded AI supplier trade.
+- Brent down 6.7 percent to 109.8 dollars on US-Iran diplomacy and Iran's 48-hour Hormuz reopening offer; Rubio notes strike preparation after midterms.
+- China: private PMI slows on weaker export orders, new policy rate signals easier funding.
+- Bank of England and RBA are expected to hike; Bund 2-year 3.06 percent, 10-year 3.38 percent.
+- Apple reports today under new CEO Ternus; watch memory costs and consumer spending.
+- Sensitivity model (rule of thumb): Stoxx 600 about minus 20 basis points, healthcare about minus 36 versus market, oil and gas about plus 20, all with low R-squared.

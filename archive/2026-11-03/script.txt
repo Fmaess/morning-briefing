@@ -1,0 +1,43 @@
+What's up, chief. Asia didn't sleep, so neither did we.
+
+It's Tuesday, the third of November, and the thesis is simple: the AI trade is cracking, but cheaper oil and falling yields are handing Europe a cushion, so Europe gets to be the place to hide today.
+
+Start with Asia. The Kospi fell three point nine percent. That's Korea, the memory-chip heartland, and it's the loudest signal of the night. The Nasdaq 100 fell one point four percent yesterday, and it's down more than four percent over five days, its third correction this year. Apple reported a beat, earnings per share of two dollars ten against one ninety-nine expected, and the iPhone is booming. But the stock slipped almost two percent anyway. Why? A worsening memory crunch and a slowing services business. A Nikkei Asia headline says DRAM prices have doubled this year. So the AI build-out is eating the memory supply, and the device makers are paying for it.
+
+Palantir tells the same story from another angle. Commercial revenue jumped a hundred and forty-eight percent and topped government revenue for the first time. A bombastic quarter. But U.S. commercial contract growth decelerated, and the stock fell. The market is no longer paying for good. It's paying for perfect. And there's a Chinese official warning that AI investment is getting overly concentrated, plus a Marvell and Lumentum all-stock deal that shareholders of both companies hated.
+
+[pause]
+
+Here's the tension. Tech is selling off, and normally that sends money running to safety and pushes yields down. Yields did slip: the US ten-year is at four point nine percent, down three and a half basis points, and the Bund ten-year is at three point three percent, down four. But the VIX jumped almost nine percent to twenty-one. So investors are nervous, but not panicking. And the geopolitics won't let up. The U.S. reportedly struck Iran's Qeshm Island, even as officials talk about a negotiated settlement.
+
+Oil shows that push and pull. Brent sold off more than seven percent on Monday on peace-talk hopes and sits at a hundred and five dollars. Still high. So the relief is real, but it's partial. Ryanair's boss is already warning fares could rise up to twenty percent next year on fuel costs. And European gas fell almost nine percent, which helps industrial margins.
+
+Now, central banks. Australia hiked to an eighteen-year high, its fifth increase this year, and sharply raised its inflation forecasts. The vote was split, which points to a pause. But it's a reminder that inflation is not dead. Meanwhile China raised its foreign-exchange reserve requirement to slow the yuan's rally. That tells you Beijing is leaning against a stronger currency, which matters for exporters everywhere.
+
+Gold fell almost one percent and copper nearly two. So this isn't a flight to hard assets. It's de-grossing, and a cooling growth signal.
+
+[pause]
+
+So what does that mean for Europe today? Europe actually closed higher yesterday. The Stoxx 600 rose zero point four percent, and the DAX six tenths. But the historical rule of thumb, and it's only that, says that on days with this kind of oil drop and Korean weakness, the broad Stoxx 600 has tended to lag by about twenty-eight basis points. Why? Oil falling sharply has often coincided with risk-off days, which hurts cyclicals.
+
+Within that, healthcare has historically tended to outperform the market, by roughly forty-nine basis points on a setup like this. Treat that with caution. The explanatory power is low, so it's a tilt, not a call. But the logic fits: earnings visibility, no AI exposure, and a place to rotate. Utilities, by contrast, have tended to lag a little, around ten basis points, as the Korea weakness weighs.
+
+And watch positioning. One story today says Wall Street's most hated stocks are beating its favorites. That's the crowding unwinding. The open question is whether this is a temporary rotation or a structural reallocation away from AI leaders. The S&P 500's forward multiple is now below its five and ten-year averages, which argues for a bargain. But bargains can get cheaper.
+
+What changes the picture? Three things. Oil jumping back if the Iran talks collapse. The US midterms, with markets bracing for tougher oversight if Democrats win Congress. And the Nasdaq futures, flat this morning, either stabilizing or breaking lower.
+
+[pause]
+
+The take-away: the AI trade is cracking, and Europe's cushion is cheaper oil, softer yields and defensives, as long as Tehran stays quiet.
+
+That's your briefing. Go get 'em, champ.
+
+===SHOWNOTES===
+- Core chain: AI worries, Nasdaq 100 down 1.4% (down 4.4% over five days), Kospi down 3.9%. Memory crunch (DRAM prices doubled this year) hits Apple and device makers.
+- Apple: EPS 2.10 vs 1.99 expected (5.8% surprise), stock down about 1.8% on memory costs and slower services.
+- Palantir: commercial revenue up 148% to 984 million dollars, above government at 953 million. Stock fell on slower U.S. commercial contract growth.
+- Rates: US 10-year 4.89% (down 3.5 bp), Bund 10-year 3.34% (down 4 bp). VIX 21.2, up 8.9%.
+- Oil: Brent about 105 dollars after a 7%+ drop on Iran peace hopes. Qeshm Island strike keeps risk alive. TTF gas down 8.7%. Ryanair warns of fares up to 20%.
+- RBA hiked to an 18-year high (fifth hike this year) and raised inflation forecasts. China raised FX reserve requirement to 6% to slow the yuan's rally.
+- Sensitivity model (historical rule of thumb, low R-squared): Stoxx 600 about minus 28 bp, healthcare vs market plus 49 bp, utilities vs market minus 10 bp.
+- Watch: Iran talks and oil, US midterms, Nasdaq futures, crowding unwind in AI leaders.

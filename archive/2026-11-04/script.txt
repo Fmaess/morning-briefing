@@ -1,0 +1,43 @@
+Rise and grind, champ. The market waits for no one.
+
+Today's thesis: the midterms just handed Democrats the Senate, tech is paying for it first, and with oil still above a hundred dollars, Europe gets dragged into a risk-off tape it didn't start.
+
+Here's the setup. Wall Street closed higher yesterday, with the Nasdaq 100 up zero point seven percent. Democrats were winning early, and the dollar dropped sharply. Gold rose. Euro-dollar is up to one point one two.
+
+But overnight the mood flipped. Futures slid as a bigger Democratic result looked likely. The Nasdaq future is down zero point seven percent, the S&P future down half a percent. One headline captured it: AI stocks slide as the Texas governor result raises data center risks. So the market is pricing a policy risk to the AI buildout. Treasury yields fell overnight as money crowded into bonds, even though the ten-year closed yesterday at four point nine five, up almost six basis points.
+
+Now the tension. The AI trade doesn't actually look broken. AMD jumped about eight percent as data center revenue nearly doubled. Super Micro popped on booming server demand. Eaton's quarter was called a possible bottom for an AI buildout winner. But the market is jittery anyway. Apple fell almost two percent on a soft gross margin outlook and slower services growth, and Shopify dropped over eight percent on a revenue miss. In a less forgiving tape, good news gets sold, and a miss gets punished.
+
+So who's funding all this? Meta wants to raise up to twenty-five billion dollars in bonds. Hyperscalers have burned through their cash, and their debt deals are now a force in the bond market. That matters because yields near five percent make that funding pricier. The risk is that politics and the cost of capital hit the AI spending story at the same time.
+
+[pause]
+
+Asia already showed you the damage. The Nikkei fell two point six percent, and the Kospi fell one percent. The Kospi is down almost seven percent over five days, which tells you the tech unwind is not new. Hang Seng rose, but China's services growth slowed to a three-month low, so confidence there is thin.
+
+Now the oil leg. Brent is at one hundred and four dollars. That's down about ten percent in five days on hopes for a diplomatic solution to the Iran war, but it's still painfully high. The U.S. struck Qeshm Island this week, so the diplomacy is fragile. JetBlue raising bag fees for a third time in a year because of fuel is the small, concrete example of how this reaches margins. High oil feeds inflation, inflation keeps yields up, and higher yields squeeze growth stocks and small caps. Copper is down more than four percent in five days, a sign that the growth side is wobbling.
+
+Then there's the Bund. Ten-year yield is at three point three five, two-year at three point zero. Moves were small, only one basis point. So Europe isn't seeing the rate shock, it's importing the equity one.
+
+Which brings us to Europe today. Yesterday the Stoxx 600 fell about half a percent. Our historical rule of thumb, driven by the Nikkei, points to another soft start, around a quarter of a percent lower. It's a rule of thumb, not a forecast, and the explanatory power is modest. But the sector pattern is clear. Historically, on days like this, technology and industrials have tended to lag the market. Utilities, real estate and telecoms have tended to hold up better. That's the classic defensive rotation.
+
+Is it temporary or structural? The data says positioning. The VIX is about twenty-one, up nineteen percent in five days, and the Nasdaq is down five percent over that stretch. That's de-risking, not a new allocation regime. One warning from the headlines: a JPMorgan strategist says a break below the S&P's key technical level could accelerate selling. And Bill Ackman is calling this a casino market. Crowded long tech is the vulnerability.
+
+Company color in Europe is mixed. Intesa Sanpaolo posted a record nine-month profit, raised guidance, and the stock rose one percent. Ferrari also raised its 2026 guidance. Those are quality and pricing power stories. But Schaeffler is cutting three thousand four hundred and sixty jobs and closing five plants as it tries to compete with China on cost. That's the German industrial story in one headline: margin pressure, with a defense pivot as the escape hatch.
+
+What changes the picture? A real Iran settlement that pulls oil lower. Clarity on how a divided Washington treats data centers and energy. And Ukraine talks in Abu Dhabi next week.
+
+[pause]
+
+The take-away: the midterms started the selloff, but oil and yields decide whether it lasts.
+
+That's the tape. Now go make your risk manager proud.
+
+===SHOWNOTES===
+- Democrats winning the Senate leads to a weaker dollar, with euro-dollar at 1.12, and a tech and AI data center policy risk, so futures are down (Nasdaq future minus 0.7 percent).
+- AI fundamentals remain strong (AMD up 8 percent, data center revenue nearly doubled; Super Micro up), but Apple and Shopify were punished, so the tape is less forgiving.
+- Meta is seeking up to 25 billion dollars in bonds, and the US ten-year yield is 4.95 percent (up 5.8 basis points), so the AI funding cost is rising.
+- Asia: Nikkei minus 2.6 percent, Kospi minus 1.0 percent and minus 7.0 percent over five days; China services growth at a three-month low.
+- Brent at 103.9 dollars (minus 10 percent over five days) amid Iran diplomacy hopes; high fuel costs hit margins (JetBlue); copper minus 4.3 percent over five days.
+- Bund 10-year at 3.35 percent and 2-year at 3.04 percent, little changed, so Europe is importing an equity shock rather than a rates shock.
+- Sensitivity model (historical, low R-squared): Stoxx 600 around minus 26 basis points; technology and industrials lag; utilities, real estate and telecoms tend to outperform.
+- Earnings: Intesa up 1.1 percent on record profit and raised guidance; Ferrari raised guidance; Schaeffler cutting 3,460 jobs. VIX at 20.8, up 19 percent in five days, which points to positioning.

@@ -1,0 +1,666 @@
+{
+ "datum": "Wednesday, 4 November 2026",
+ "maerkte": {
+  "asien": [
+   {
+    "name": "Nikkei 225",
+    "ticker": "^N225",
+    "last": 61422.8086,
+    "as_of": "2026-11-04",
+    "change_pct": -2.63,
+    "change_5d_pct": -2.92
+   },
+   {
+    "name": "Hang Seng",
+    "ticker": "^HSI",
+    "last": 23677.1309,
+    "as_of": "2026-11-04",
+    "change_pct": 0.64,
+    "change_5d_pct": 2.52
+   },
+   {
+    "name": "Shanghai Composite",
+    "ticker": "000001.SS",
+    "last": 3609.5564,
+    "as_of": "2026-11-04",
+    "change_pct": 0.04,
+    "change_5d_pct": -1.95
+   },
+   {
+    "name": "Kospi",
+    "ticker": "^KS11",
+    "last": 5594.0698,
+    "as_of": "2026-11-04",
+    "change_pct": -0.97,
+    "change_5d_pct": -6.96
+   },
+   {
+    "name": "ASX 200",
+    "ticker": "^AXJO",
+    "last": 8834.5,
+    "as_of": "2026-11-04",
+    "change_pct": -0.59,
+    "change_5d_pct": -0.14
+   }
+  ],
+  "usa": [
+   {
+    "name": "S&P 500",
+    "ticker": "^GSPC",
+    "last": 7568.9199,
+    "as_of": "2026-11-03",
+    "change_pct": 0.36,
+    "change_5d_pct": -1.99
+   },
+   {
+    "name": "Nasdaq 100",
+    "ticker": "^NDX",
+    "last": 28180.2598,
+    "as_of": "2026-11-03",
+    "change_pct": 0.68,
+    "change_5d_pct": -4.96
+   },
+   {
+    "name": "S&P 500 Future",
+    "ticker": "ES=F",
+    "last": 7556.5,
+    "as_of": "2026-11-04",
+    "change_pct": -0.53,
+    "change_5d_pct": -2.91
+   },
+   {
+    "name": "Nasdaq Future",
+    "ticker": "NQ=F",
+    "last": 28115.5,
+    "as_of": "2026-11-04",
+    "change_pct": -0.67,
+    "change_5d_pct": -6.22
+   }
+  ],
+  "europa": [
+   {
+    "name": "Euro Stoxx 50",
+    "ticker": "^STOXX50E",
+    "last": 6144.5601,
+    "as_of": "2026-11-03",
+    "change_pct": -0.51,
+    "change_5d_pct": -0.33
+   },
+   {
+    "name": "DAX",
+    "ticker": "^GDAXI",
+    "last": 25864.6191,
+    "as_of": "2026-11-03",
+    "change_pct": -0.45,
+    "change_5d_pct": 1.07
+   },
+   {
+    "name": "Stoxx 600",
+    "ticker": "^STOXX",
+    "last": 645.66,
+    "as_of": "2026-11-03",
+    "change_pct": -0.58,
+    "change_5d_pct": 0.31
+   }
+  ],
+  "zinsen": [
+   {
+    "name": "US 10J Rendite",
+    "ticker": "^TNX",
+    "last": 4.952,
+    "as_of": "2026-11-03",
+    "change_bp": 5.8
+   },
+   {
+    "name": "US 5J Rendite",
+    "ticker": "^FVX",
+    "last": 4.743,
+    "as_of": "2026-11-03",
+    "change_bp": 5.0
+   },
+   {
+    "name": "Bund 2J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A",
+    "last": 3.04,
+    "as_of": "2026-11-03",
+    "change_bp": 1.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   },
+   {
+    "name": "Bund 10J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A",
+    "last": 3.35,
+    "as_of": "2026-11-03",
+    "change_bp": 1.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   }
+  ],
+  "rohstoffe": [
+   {
+    "name": "Brent",
+    "ticker": "BZ=F",
+    "last": 103.85,
+    "as_of": "2026-11-04",
+    "change_pct": 0.24,
+    "change_5d_pct": -9.95
+   },
+   {
+    "name": "Gold",
+    "ticker": "GC=F",
+    "last": 3967.0,
+    "as_of": "2026-11-04",
+    "change_pct": 0.68,
+    "change_5d_pct": -2.09
+   },
+   {
+    "name": "Kupfer",
+    "ticker": "HG=F",
+    "last": 6.353,
+    "as_of": "2026-11-04",
+    "change_pct": -0.4,
+    "change_5d_pct": -4.34
+   }
+  ],
+  "devisen": [
+   {
+    "name": "EUR/USD",
+    "ticker": "EURUSD=X",
+    "last": 1.1233,
+    "as_of": "2026-11-04",
+    "change_pct": 0.37,
+    "change_5d_pct": 0.93
+   },
+   {
+    "name": "USD/JPY",
+    "ticker": "JPY=X",
+    "last": 157.913,
+    "as_of": "2026-11-04",
+    "change_pct": -0.0,
+    "change_5d_pct": -0.05
+   },
+   {
+    "name": "USD/CNY",
+    "ticker": "CNY=X",
+    "last": 6.6732,
+    "as_of": "2026-11-04",
+    "change_pct": 0.38,
+    "change_5d_pct": 0.08
+   }
+  ],
+  "volatilitaet": [
+   {
+    "name": "VIX",
+    "ticker": "^VIX",
+    "last": 20.83,
+    "as_of": "2026-11-03",
+    "change_pct": -1.51,
+    "change_5d_pct": 18.89
+   }
+  ]
+ },
+ "nachrichten": [
+  {
+   "source": "CNBC World",
+   "title": "AI stocks slide as Texas governor result raises data center risks",
+   "summary": "Tech stocks were down in overnight trading, and grew more severe as the night wore on, as the likelihood of a blue wave grew.",
+   "time_utc": "2026-11-04T05:36:19+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "McDonald's is about to report earnings. Here's what to expect",
+   "summary": "McDonald's stock has fallen about 11% over the last year.",
+   "time_utc": "2026-11-04T05:01:01+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Investors poised for gridlock with Trump as Democrats projected to sweep Congress",
+   "summary": "",
+   "time_utc": "2026-11-04T04:48:21+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Democrats win the Senate but control of the House is still up in the air. Here’s what it means for your finances.",
+   "summary": "The results from the U.S. midterm elections are getting tabulated and look likely to have effects on Americans’ investments and their wallets.",
+   "time_utc": "2026-11-04T04:46:00+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Gold rises as dollar weakens; Democrats score early wins in US midterm elections",
+   "summary": "",
+   "time_utc": "2026-11-04T04:36:28+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Trump tells NYT he will accept election results",
+   "summary": "",
+   "time_utc": "2026-11-04T04:17:51+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Market analysts react to US midterm election results",
+   "summary": "",
+   "time_utc": "2026-11-04T04:13:20+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Dollar drops sharply on Democrats’ early gains in US midterm election",
+   "summary": "",
+   "time_utc": "2026-11-04T03:48:56+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Midterm elections could jolt stocks as Democrats look poised to sweep Congress",
+   "summary": "Wall Street weighs how the 2026 midterms could affect stocks, Treasury yields, artificial intelligence, energy prices, banks, defense and healthcare.",
+   "time_utc": "2026-11-04T03:38:08+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "U.S. midterm election results: Dems seen taking Senate majority, lead in House",
+   "summary": "",
+   "time_utc": "2026-11-04T03:37:34+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "OpenAI employees warned about operational security lapses for years, sources say",
+   "summary": "",
+   "time_utc": "2026-11-04T03:25:24+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off",
+   "summary": "Treasury yields fell on Tuesday night, as investors sought shelter from a sell-off in equity futures sparked by big victories from Democrats in the U.S. midterm elections.",
+   "time_utc": "2026-11-04T03:24:03+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "China’s services growth slows to three-month low as confidence weakens",
+   "summary": "",
+   "time_utc": "2026-11-04T01:54:43+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "New Zealand jobless rate hits 11-year high in run-up to polls",
+   "summary": "",
+   "time_utc": "2026-11-04T01:48:38+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Here’s why AMD’s stock is rising — and sending a confident message about the AI trade",
+   "summary": "The chip maker is showing “real” revenue from AI, shrugging off sustainability concerns and leading to an upbeat forecast.",
+   "time_utc": "2026-11-04T01:16:00+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "US stock futures dip as investors await midterm election results",
+   "summary": "",
+   "time_utc": "2026-11-04T01:12:35+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Super Micro’s stock pops as earnings show booming demand for AI servers",
+   "summary": "Super Micro is building out a “high-quality customer base” that’s fueling revenue growth, CFO Mark Long told MarketWatch.",
+   "time_utc": "2026-11-04T01:12:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Google responds to political backlash over removing search from schools that ban AI",
+   "summary": "After elected officials voiced outrage over Google turning off search at schools that ban AI, the company said search can be turned back on with AI Overviews.",
+   "time_utc": "2026-11-04T01:07:01+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Jim Cramer sees signs of life in tech stocks — but not from the usual winners",
+   "summary": "Cramer said a new group of technology stocks may be emerging as market leaders.",
+   "time_utc": "2026-11-03T23:58:09+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "CrowdStrike's new kill switch can stop rogue AI agents in their tracks, CEO says",
+   "summary": "\"Enabling agents to work safely is a massive market opportunity for CrowdStrike,\" CrowdStrike CEO George Kurtz told CNBC's Jim Cramer.",
+   "time_utc": "2026-11-03T23:37:07+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Strand bookstore to pay nearly $1.5 million over Covid loan tied to Sen. Wyden's wife",
+   "summary": "Nancy Bass Wyden, whose grandfather founded the New York City bookstore, had signed off on the PPP, which was off-limits because she is a senator's wife.",
+   "time_utc": "2026-11-03T23:28:01+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Trump DOJ sends target letters to Democrats in Alaska Senate criminal probe: Reports",
+   "summary": "\"There's no doubt that the threats are threats to our democracy,\" said John Cusick, assistant counsel at the Legal Defense Fund.",
+   "time_utc": "2026-11-03T23:26:39+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "AMD stock jumps 8% on earnings as data center revenue nearly doubles",
+   "summary": "AMD reported better-than-expected third-quarter results, driven by booming sales of AI chips",
+   "time_utc": "2026-11-03T23:04:37+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "What analysts are telling us while Apple’s stock falls after earnings report",
+   "summary": "Shares in Apple declined nearly 2% on Tuesday after investors were left feeling disappointed about the company’s gross margin outlook and slowing services revenue growth.",
+   "time_utc": "2026-11-03T22:48:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Shopify’s stock slides after earnings. This is what’s worrying Wall Street.",
+   "summary": "The company missed revenue expectations, a tough outcome in today’s less-forgiving tech market.",
+   "time_utc": "2026-11-03T22:45:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "JetBlue raises bag fees for third time in a year as fuel costs bite",
+   "summary": "JetBlue raised baggage fees for the third time in a year as fuel costs continued to climb.",
+   "time_utc": "2026-11-03T22:26:20+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "AI’s control over the bond market is growing — even rivaling war and elections",
+   "summary": "“Hyperscalers” burned through their cash. Now their bond deals are helping fuel the economy.",
+   "time_utc": "2026-11-03T22:06:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "S&P 500 is looking over the edge of a technical cliff — what happens if it falls off?",
+   "summary": "Falling below 7,500 would lead to a dramatic increase in selling pressure and volatility, a J.P. Morgan strategist says, and that could end in a full-blown correction",
+   "time_utc": "2026-11-03T21:30:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Depressing, but true: If you want to get ahead at work, embrace virtue signaling",
+   "summary": "Strategically embracing the right symbols in the office really can advance your career.",
+   "time_utc": "2026-11-03T21:27:00+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "Ferrari raises 2026 guidance after Q3 earnings beat",
+   "summary": "Ferrari raised its 2026 guidance Tuesday after third-quarter revenue and adjusted earnings per share edged past Wall Street expectations.",
+   "time_utc": "2026-11-03T21:11:34+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Anthropic’s IPO is a high-stakes referendum on Big Tech — and this chart proves it",
+   "summary": "Tech giants like Broadcom, Google and SpaceX have plenty of skin in the game as Anthropic heads for the public market.",
+   "time_utc": "2026-11-03T21:04:00+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "Shopify falls over 8% after Q3 revenue and merchandise volume miss estimates",
+   "summary": "Shopify's stock fell after the e-commerce platform's Q3 revenue and gross merchandise volume missed estimates, despite an adjusted earnings beat.",
+   "time_utc": "2026-11-03T21:03:30+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Fannie Mae, Freddie Mac rally as Ackman presses for conservatorship exit",
+   "summary": "The midterm elections could be a turning point for the release of Fannie Mae and Freddie Mac from government control, according to Bill Ackman.",
+   "time_utc": "2026-11-03T20:52:14+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Options traders are betting heavily on these stocks ahead of election results",
+   "summary": "Solar stocks see heavy call activity as voting gets underway",
+   "time_utc": "2026-11-03T20:51:21+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "Eaton's strong quarter should mark a bottom for shares of the AI buildout winner",
+   "summary": "The stock has struggled in recent months.",
+   "time_utc": "2026-11-03T20:46:59+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "The internet is ‘dying’: AI is eating it and obliterating these business models",
+   "summary": "“The internet as we’ve known it for the past 20-plus years is going away, and it’s going to completely change,” one CEO says.",
+   "time_utc": "2026-11-03T20:46:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "The next wave of luxury real estate: marina developments with yacht parking",
+   "summary": "Marinas are becoming the next big draw for luxury real estate, as the global wealthy search for homes to park their ever-larger yachts.",
+   "time_utc": "2026-11-03T20:41:27+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "AMD has been crushed into earnings. Here’s one way to trade it",
+   "summary": "AMD has been crushed into earnings. Here’s one way to trade it",
+   "time_utc": "2026-11-03T20:40:51+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "CrowdStrike launches AI kill switch that it says can stop internal agents that go rogue",
+   "summary": "CrowdStrike launched an AI kill switch that the company says can stop internal agents, block relaunches and cut enterprise network access.",
+   "time_utc": "2026-11-03T20:27:21+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Binance breach puts custody at center of crypto infrastructure trade",
+   "summary": "Lessons from the $6.3 billion Binance hack could help shape the next phase of the crypto infrastructure trade.",
+   "time_utc": "2026-11-03T20:13:37+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Apple warns of risks related to AI agents behaving in 'unintended or unpredictable' ways",
+   "summary": "Apple’s annual filing warns that AI agents could exceed permissions, resist instructions or take actions that are difficult to reverse.",
+   "time_utc": "2026-11-03T20:10:41+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war",
+   "summary": "The rebound in oil prices come a day after the U.S. and Iranian presidents signalled they are open to a diplomatic solution to Iran war.",
+   "time_utc": "2026-11-03T20:02:10+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Sen. Chris Murphy still hospitalized after suffering a stroke over the weekend",
+   "summary": "Sen. Chris Murphy, a Connecticut Democrat, was still in the hospital as of Tuesday, his office confirmed.",
+   "time_utc": "2026-11-03T19:36:16+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "Why we're keeping a hold rating on DuPont despite its beat-and-raise quarter",
+   "summary": "The stock could beat its February record high close.",
+   "time_utc": "2026-11-03T19:26:02+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "Pfizer hikes full-year outlook on new product growth, taps company veteran as new CFO",
+   "summary": "Pfizer announced that Cecile Guegan, who has held various leadership roles at the company over the last 20 years, stepped in as CFO this month.",
+   "time_utc": "2026-11-03T19:25:44+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto",
+   "summary": "Binance has replenished 98% of $6.34 billion in affected assets, according to a security report the crypto exchange issued Tuesday.",
+   "time_utc": "2026-11-03T18:40:37+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Meta seeks to raise up to $25 billion in debt sale as AI spending jumps",
+   "summary": "Meta is aiming to raise between $20 billion and $25 billion in a bond sale as the company ramps up spending on infrastructure and AI models and services.",
+   "time_utc": "2026-11-03T18:33:49+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "What the 2026 midterm elections could mean for Trump's final two years",
+   "summary": "Oddsmakers and public polls place Democrats in a favorable position ahead of Election Day.",
+   "time_utc": "2026-11-03T18:29:24+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Russia confirms new Ukraine peace talks as Melania Trump prepares to host ceasefire meeting",
+   "summary": "Russia confirmed Ukraine peace talks in Abu Dhabi next week and signaled a possible Trump-Putin-Xi summit, raising questions over Kyiv's role in negotiations.",
+   "time_utc": "2026-11-03T18:25:57+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Stock market after midterm elections: What S&P 500 history shows",
+   "summary": "Midterms historically precede a strong year for the S&amp;P 500. What to know if Democrats win back Congress",
+   "time_utc": "2026-11-03T18:21:05+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "U.S. strikes Iran’s Qeshm Island as Vance hopes for ‘negotiated settlement’ with Tehran",
+   "summary": "U.S. military carried out attacks on Iran's Qeshm Island on Monday, even as the Trump administration has been underplaying war risks.",
+   "time_utc": "2026-11-03T18:15:40+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Disney plans several thousand layoffs, asks some managers to cut costs by up to 20%",
+   "summary": "Disney expects to lay off several thousand employees in the latest round of job cuts for the entertainment giant.",
+   "time_utc": "2026-11-03T17:05:29+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Bill Ackman warns of 'casino' stock market as speculative trading grows",
+   "summary": "\"We're back to the casino-type markets when there was 95% leverage,\" said the founder of Pershing Square Capital Management.",
+   "time_utc": "2026-11-03T16:23:26+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "Yum Brands earnings beat estimates, but cyclospora outbreak weighs on Taco Bell",
+   "summary": "Taco Bell's same-store sales declined as a Cyclospora outbreak tied to lettuce served at its restaurants weighed on traffic.",
+   "time_utc": "2026-11-03T15:19:14+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Supermarket fridges hit with cyberattacks across Europe — here's what's happening",
+   "summary": "European supermarkets have become the center of another cyberattack, with hackers remotely heating fridges and spoiling food.",
+   "time_utc": "2026-11-03T14:31:25+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "Versant earnings beat expectations as digital platforms drive growth",
+   "summary": "Versant posted third-quarter earnings that beat Wall Street expectations and reaffirmed its full-year guidance.",
+   "time_utc": "2026-11-03T14:17:42+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "'Industry crisis': Germany's auto sector faces fresh cuts as Schaeffler axes 3,460 jobs and eyes defense",
+   "summary": "Schaeffler will shutter five plants across Europe as it looks to compete with China on cost and pivot into defense and robotics.",
+   "time_utc": "2026-11-03T14:08:51+00:00"
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "US midterms live: Democrats take control of Senate in blow to Trump",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "ASEAN auto sales rose 13% in Q3 on EV and hybrid demand in key markets",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Mitsui Chemicals to buy Japan chip material maker JSR for over $8.2bn",
+   "summary": "",
+   "time_utc": null
+  }
+ ],
+ "earnings": [
+  {
+   "ticker": "ISP.MI",
+   "time_utc": "2026-11-03T07:00:00+00:00",
+   "eps_estimate": 0.15,
+   "eps_reported": 0.15,
+   "surprise_pct": 4.68,
+   "headlines": [
+    "Financial Services Roundup: Market Talk",
+    "Intesa Sanpaolo (IITSF) (Q3 2026) Earnings Call Highlights: Record Nine-Month Profit, Upgraded ...",
+    "Intesa Raises Profit Guidance as Monte Dei Paschi Bid Nears"
+   ],
+   "name": "INTESA SANPAOLO",
+   "last_move_pct": 1.09
+  }
+ ],
+ "sensitivitaeten": {
+  "hinweis": "Historische Daumenregel aus Tagesdaten, keine Prognose der Eröffnung.",
+  "faktoren_heute": {
+   "Nikkei": -2.72,
+   "Hang Seng": 0.58,
+   "Kospi": -0.62,
+   "S&P 500 (Vortag)": 0.36,
+   "Brent (Vortag)": -1.12,
+   "US 10J Rendite (Vortag)": 5.8,
+   "USD/JPY (Vortag)": 0.15
+  },
+  "faktoren_einheit": "Renditen in %, Renditeänderungen in bp",
+  "ergebnisse": [
+   {
+    "ziel": "Telekom vs. Markt",
+    "erwarteter_effekt_bp": 32.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 35.0,
+      "t_stat": -4.7
+     }
+    ],
+    "r2": 0.08
+   },
+   {
+    "ziel": "Technologie vs. Markt",
+    "erwarteter_effekt_bp": -27.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -24.0,
+      "t_stat": 2.8
+     }
+    ],
+    "r2": 0.06
+   },
+   {
+    "ziel": "Stoxx 600 (gesamt)",
+    "erwarteter_effekt_bp": -26.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -35.0,
+      "t_stat": 5.9
+     }
+    ],
+    "r2": 0.22
+   },
+   {
+    "ziel": "Industrie vs. Markt",
+    "erwarteter_effekt_bp": -21.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -19.0,
+      "t_stat": 3.6
+     }
+    ],
+    "r2": 0.06
+   },
+   {
+    "ziel": "Versorger vs. Markt",
+    "erwarteter_effekt_bp": 15.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 27.0,
+      "t_stat": -3.6
+     }
+    ],
+    "r2": 0.07
+   },
+   {
+    "ziel": "Immobilien vs. Markt",
+    "erwarteter_effekt_bp": 12.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 28.0,
+      "t_stat": -3.4
+     }
+    ],
+    "r2": 0.04
+   }
+  ]
+ }
+}

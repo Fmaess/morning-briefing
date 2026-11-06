@@ -1,0 +1,749 @@
+{
+ "datum": "Friday, 6 November 2026",
+ "maerkte": {
+  "asien": [
+   {
+    "name": "Nikkei 225",
+    "ticker": "^N225",
+    "last": 57212.0391,
+    "as_of": "2026-11-06",
+    "change_pct": -6.33,
+    "change_5d_pct": -11.52
+   },
+   {
+    "name": "Hang Seng",
+    "ticker": "^HSI",
+    "last": 24470.2695,
+    "as_of": "2026-11-06",
+    "change_pct": -1.32,
+    "change_5d_pct": 5.05
+   },
+   {
+    "name": "Shanghai Composite",
+    "ticker": "000001.SS",
+    "last": 3642.5847,
+    "as_of": "2026-11-06",
+    "change_pct": -1.28,
+    "change_5d_pct": 1.21
+   },
+   {
+    "name": "Kospi",
+    "ticker": "^KS11",
+    "last": 5120.7002,
+    "as_of": "2026-11-06",
+    "change_pct": -4.89,
+    "change_5d_pct": -10.65
+   },
+   {
+    "name": "ASX 200",
+    "ticker": "^AXJO",
+    "last": 9020.7998,
+    "as_of": "2026-11-06",
+    "change_pct": -0.49,
+    "change_5d_pct": 1.27
+   }
+  ],
+  "usa": [
+   {
+    "name": "S&P 500",
+    "ticker": "^GSPC",
+    "last": 7353.73,
+    "as_of": "2026-11-05",
+    "change_pct": -4.36,
+    "change_5d_pct": -4.75
+   },
+   {
+    "name": "Nasdaq 100",
+    "ticker": "^NDX",
+    "last": 26629.8105,
+    "as_of": "2026-11-05",
+    "change_pct": -6.36,
+    "change_5d_pct": -9.43
+   },
+   {
+    "name": "S&P 500 Future",
+    "ticker": "ES=F",
+    "last": 7381.5,
+    "as_of": "2026-11-06",
+    "change_pct": -0.02,
+    "change_5d_pct": -3.05
+   },
+   {
+    "name": "Nasdaq Future",
+    "ticker": "NQ=F",
+    "last": 26962.0,
+    "as_of": "2026-11-06",
+    "change_pct": 0.78,
+    "change_5d_pct": -5.51
+   }
+  ],
+  "europa": [
+   {
+    "name": "Euro Stoxx 50",
+    "ticker": "^STOXX50E",
+    "last": 6231.54,
+    "as_of": "2026-11-05",
+    "change_pct": -0.55,
+    "change_5d_pct": 0.39
+   },
+   {
+    "name": "DAX",
+    "ticker": "^GDAXI",
+    "last": 26325.0098,
+    "as_of": "2026-11-05",
+    "change_pct": -0.43,
+    "change_5d_pct": 1.1
+   },
+   {
+    "name": "Stoxx 600",
+    "ticker": "^STOXX",
+    "last": 654.87,
+    "as_of": "2026-11-05",
+    "change_pct": -0.38,
+    "change_5d_pct": 0.89
+   }
+  ],
+  "zinsen": [
+   {
+    "name": "US 10J Rendite",
+    "ticker": "^TNX",
+    "last": 4.837,
+    "as_of": "2026-11-05",
+    "change_bp": -5.7
+   },
+   {
+    "name": "US 5J Rendite",
+    "ticker": "^FVX",
+    "last": 4.608,
+    "as_of": "2026-11-05",
+    "change_bp": -8.1
+   },
+   {
+    "name": "Bund 2J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A",
+    "last": 3.01,
+    "as_of": "2026-11-05",
+    "change_bp": -4.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   },
+   {
+    "name": "Bund 10J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A",
+    "last": 3.31,
+    "as_of": "2026-11-05",
+    "change_bp": -4.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   }
+  ],
+  "rohstoffe": [
+   {
+    "name": "Brent",
+    "ticker": "BZ=F",
+    "last": 99.37,
+    "as_of": "2026-11-06",
+    "change_pct": 1.1,
+    "change_5d_pct": -15.53
+   },
+   {
+    "name": "TTF Gas",
+    "ticker": "TTF=F",
+    "last": 90.679,
+    "as_of": "2026-11-05",
+    "change_pct": 2.95,
+    "change_5d_pct": -8.02
+   },
+   {
+    "name": "Gold",
+    "ticker": "GC=F",
+    "last": 4050.5,
+    "as_of": "2026-11-06",
+    "change_pct": -1.53,
+    "change_5d_pct": 3.89
+   },
+   {
+    "name": "Kupfer",
+    "ticker": "HG=F",
+    "last": 6.216,
+    "as_of": "2026-11-06",
+    "change_pct": -0.53,
+    "change_5d_pct": -3.75
+   }
+  ],
+  "devisen": [
+   {
+    "name": "EUR/USD",
+    "ticker": "EURUSD=X",
+    "last": 1.1201,
+    "as_of": "2026-11-06",
+    "change_pct": -0.3,
+    "change_5d_pct": 0.16
+   },
+   {
+    "name": "USD/JPY",
+    "ticker": "JPY=X",
+    "last": 157.835,
+    "as_of": "2026-11-06",
+    "change_pct": -0.33,
+    "change_5d_pct": 0.02
+   },
+   {
+    "name": "USD/CNY",
+    "ticker": "CNY=X",
+    "last": 6.6688,
+    "as_of": "2026-11-06",
+    "change_pct": -0.06,
+    "change_5d_pct": 0.12
+   }
+  ],
+  "volatilitaet": [
+   {
+    "name": "VIX",
+    "ticker": "^VIX",
+    "last": 28.18,
+    "as_of": "2026-11-05",
+    "change_pct": 69.66,
+    "change_5d_pct": 63.84
+   }
+  ]
+ },
+ "nachrichten": [
+  {
+   "source": "CNBC World",
+   "title": "The world's best airline is updating its business and first-class experience",
+   "summary": "Singapore Airlines is rolling out new onboard seating, dining and entertainment options that are part of an over $2 billion Singapore dollar investment.",
+   "time_utc": "2026-11-06T05:36:10+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Japan to tap proceeds from BOJ asset sales as AI rout stokes fiscal worries",
+   "summary": "",
+   "time_utc": "2026-11-06T05:30:19+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy",
+   "summary": "Bob McNally predicts that both Brent and West Texas Intermediate futures will jump above $100.",
+   "time_utc": "2026-11-06T05:27:24+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Markets fret over growth and inflation despite easing oil prices",
+   "summary": "",
+   "time_utc": "2026-11-06T05:24:24+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Japanese investors snap up foreign long-term bonds as tech stocks slide",
+   "summary": "",
+   "time_utc": "2026-11-06T05:12:54+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "North Korea’s army of world-class hackers is secret weapon that took down Binance",
+   "summary": "",
+   "time_utc": "2026-11-06T05:12:23+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Oil prices rise as investors weigh renewed U.S.-Iran conflict risks after midterm elections",
+   "summary": "Oil prices rose Friday as investors weighed the risk of renewed U.S.-Iran military escalation after the midterms, alongside prospects for a diplomatic breakthrough.",
+   "time_utc": "2026-11-06T05:06:56+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Dollar lures bids for safety as AI rout grips Asian markets",
+   "summary": "",
+   "time_utc": "2026-11-06T04:36:16+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Asia stocks tumble after AI rout rocks US markets",
+   "summary": "",
+   "time_utc": "2026-11-06T03:54:20+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
+   "summary": "Elon Musk's Tesla and SpaceX lose $420 billion in combined market cap after midterms",
+   "time_utc": "2026-11-06T03:20:43+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
+   "summary": "“Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”",
+   "time_utc": "2026-11-06T03:15:00+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Japan Q3 GDP growth seen slowing sharply as consumption, external demand drag: Reuters poll",
+   "summary": "",
+   "time_utc": "2026-11-06T03:06:24+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "‘My life could be cut short’: I’m 55, married and have a brain tumor. Should I splash out on a $210,000 Porsche?",
+   "summary": "“I also want to preserve the opportunity to leave a meaningful legacy for my two sons.”",
+   "time_utc": "2026-11-06T03:00:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
+   "summary": "Asian technology stocks tumbled Friday, tracking a sharp sell-off on Wall Street overnight that sent the tech-heavy Nasdaq Composite into correction territory.",
+   "time_utc": "2026-11-06T02:40:15+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Texas governor-elect says state will have laws to shield citizens from data centers",
+   "summary": "",
+   "time_utc": "2026-11-06T02:06:56+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Here’s what’s driving Iren’s stock higher after a brutal selloff",
+   "summary": "Iren announced a new cloud-computing deal and noted that much of its backlog is tied to “investment-grade counterparties.”",
+   "time_utc": "2026-11-06T01:07:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Cloudflare’s stock mounts a big comeback after fastest sales surge in nearly 4 years",
+   "summary": "Demand for automated AI protection is on the rise — and manifesting in Cloudflare’s earnings results.",
+   "time_utc": "2026-11-06T01:06:00+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Analysis-China’s yuan dilemma: too weak abroad and too strong at home",
+   "summary": "",
+   "time_utc": "2026-11-06T00:01:03+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Analysis-Lula’s election win dashes US hopes of quick access to Brazil’s rare earths",
+   "summary": "",
+   "time_utc": "2026-11-06T00:00:27+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Costco is taking aim at its May record high — how it got here and where's it going",
+   "summary": "Costco is finally back.",
+   "time_utc": "2026-11-05T23:56:24+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Here are the 2027 capital-gains tax rates for each income level",
+   "summary": "How much will you pay in capital-gains taxes next year? The IRS just released this crucial information.",
+   "time_utc": "2026-11-05T23:48:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Jim Cramer explains why no AI stock seems safe from the market carnage",
+   "summary": "CNBC’s Jim Cramer said AI stocks are becoming increasingly difficult to value.",
+   "time_utc": "2026-11-05T23:25:04+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
+   "summary": "Following a dramatic plunge in its stock price, IREN said some revenue is being delayed from 2026 until early next year.",
+   "time_utc": "2026-11-05T23:25:02+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Jim Cramer says the AI sell-off isn't over, but it isn't another dot-com crash",
+   "summary": "Cramer warned that the sell-off in AI stocks likely has further to run.",
+   "time_utc": "2026-11-05T23:17:51+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Tech stocks log worst day since 2020 as carnage comes to the AI trade",
+   "summary": "The S&amp;P 500 lost an estimated $2.9 trillion in market capitalization, the largest one-day loss of market value on record.",
+   "time_utc": "2026-11-05T22:48:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
+   "summary": "The tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.",
+   "time_utc": "2026-11-05T22:40:00+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "Here's where we stand on Kimberly-Clark shares after a better-than-feared quarter",
+   "summary": "The stock rose more than 1% Thursday during Wall Street's sell-off.",
+   "time_utc": "2026-11-05T22:31:03+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "How much in Roth conversions can you do in 2027 with the new tax brackets?",
+   "summary": "The math should actually start with “if” — not “how much.”",
+   "time_utc": "2026-11-05T22:24:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
+   "summary": "President Donald Trump was briefed about a year ago about those intelligence findings, The New York Times reported.",
+   "time_utc": "2026-11-05T22:21:29+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Buy the dip or wait it out? Young investors react as retail stock selling hits one of its highest levels since COVID crash.",
+   "summary": "Some see another buying opportunity. Others fear the worst isn’t over. A market rout is testing the instincts of a generation raised on quick rebounds.",
+   "time_utc": "2026-11-05T21:44:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "The ‘Musk selloff’ deepens as Tesla and SpaceX combine for $456 billion two-day wipeout",
+   "summary": "Investors worry a divided Washington could derail “Elon, Inc.”",
+   "time_utc": "2026-11-05T21:43:00+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "AI meltdown: Nvidia and Qualcomm drop more than 9%, pushing Nasdaq to worst day since April 2025",
+   "summary": "Companies tied to the AI buildout are all selling off as concerns mount about a slowdown following the midterm elections.",
+   "time_utc": "2026-11-05T21:16:39+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+   "summary": "Democratic winners and progressive lawmakers are calling for tougher limits on AI and data centers after the 2026 midterm elections.",
+   "time_utc": "2026-11-05T20:17:16+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Trump's energy deals are about to face a wave of investigations by Democrats",
+   "summary": "Democrats are certain to scrutinize the U.S. intervention in Venezuela, administration mineral deals and the cancellation of previously funded energy projects.",
+   "time_utc": "2026-11-05T19:13:06+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "Jim Cramer says the AI trade is not going away as Nasdaq enters correction",
+   "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+   "time_utc": "2026-11-05T18:46:23+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Democrats to probe JPMorgan's relationship with Jeffrey Epstein when they take Senate control",
+   "summary": "JPMorgan kept Jeffrey Epstein as a client for years after top executive Mary Erdoes hearing claims he paid to have underage girls brought to his home.",
+   "time_utc": "2026-11-05T17:42:29+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "Figma sinks after earnings beat as company prioritizes long-term growth with AI changes",
+   "summary": "Figma is letting clients use more artificial intelligence features for the same price. The company would like the move to boost results in the long term.",
+   "time_utc": "2026-11-05T16:58:35+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "We're raising our price target on Cardinal Health after another stellar quarter of profits",
+   "summary": "The drug distributor also raised its full-year earnings guidance.",
+   "time_utc": "2026-11-05T16:51:58+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Democratic sweep puts crypto on defensive in Washington",
+   "summary": "Democrats in Congress could impose tougher rules on crypto and investigate President Donald Trump, ushering in a tougher era for the industry.",
+   "time_utc": "2026-11-05T16:48:34+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Barkin sees interest rate hikes ahead, but at a gradual pace",
+   "summary": "In a CNBC interview, the policymaker expressed concern over inflation and said monetary policy will need to adjust.",
+   "time_utc": "2026-11-05T16:34:33+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Marc Lore's Wonder confidentially files for IPO",
+   "summary": "Marc Lore's latest startup Wonder has confidentially filed for an initial public offering.",
+   "time_utc": "2026-11-05T16:27:10+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "California’s billionaire tax faces defeat, but Democrats plan higher taxes on the wealthy",
+   "summary": "The likely defeat of the California billionaire tax may energize Democrats in Congress to propose federal tax hikes on high earners, according to tax experts.",
+   "time_utc": "2026-11-05T16:19:21+00:00"
+  },
+  {
+   "source": "Fed",
+   "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+   "summary": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+   "time_utc": "2026-11-05T16:00:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Bomb threats disrupt flights across Europe for the second time. Here’s what we know",
+   "summary": "Dozens of flights across Europe reported bomb threats on Thursday for the second time this week, disrupting air travel across London, Dublin, and Helsinki.",
+   "time_utc": "2026-11-05T15:26:06+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Nationwide strikes loom as French budget is unanimously rejected by lawmakers",
+   "summary": "The National Assembly unanimously voted against adopting the government's proposed 2027 budget.",
+   "time_utc": "2026-11-05T14:53:59+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Here's what the Democratic election rout could mean for the U.S. economy",
+   "summary": "The biggest forces shaping the economy aren't going to change just because the party in power did.",
+   "time_utc": "2026-11-05T14:33:32+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "World's largest olive oil company plummets 20% after rivals agree to takeover deal",
+   "summary": "The world's largest olive oil company, Deoleo, plummeted in early trading after two of its rivals announced plans to acquire the firm.",
+   "time_utc": "2026-11-05T14:25:23+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Banks are turning cautious on lending, according to the Fed. What it means for the economy",
+   "summary": "The Fed’s October bank lending survey shows tighter standards for small firms and commercial real estate, while subprime borrowers face tougher credit.",
+   "time_utc": "2026-11-05T13:52:38+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "What Wall Street billionaires are saying about Democrats' midterm sweep",
+   "summary": "Billionaire political spending met criticism from ... billionaires in the wake of Tuesday's blue wave election.",
+   "time_utc": "2026-11-05T13:44:27+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
+   "summary": "Moonshot AI has sought leasing agreements with neoclouds for advanced chips in Europe, as U.S. export controls restrict their import to China.",
+   "time_utc": "2026-11-05T13:34:14+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "What Trump losing power over Congress means for Iran, Ukraine and foreign policy",
+   "summary": "Democratic control of Congress could bring greater scrutiny of Trump’s handling of the Iran and Ukraine wars, while leaving him broad foreign-policy powers.",
+   "time_utc": "2026-11-05T12:24:08+00:00"
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Hong Kong's Joshua Wong sentence sparks war of words with US, Europe",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan's Don Quijote owner reshapes Toys R Us, tripling product lineup",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "New Zealand election campaign dominated by cost of living, healthcare",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "In Focus: Salmon disappearing as Japan's catch just 3% of 2003 peak",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Taiwan stocks in steepest-ever fall, South Korea halts trading amid AI rout",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "US war in Iran leaves Sri Lanka in troubled diplomatic waters",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Asia's AI supply chain and US data centers set to weather 'blue wave'",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan demands Russia reverse seizure of Japan Tobacco units",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "India's IT lobby chief warns grads could struggle to find jobs due to AI",
+   "summary": "",
+   "time_utc": null
+  }
+ ],
+ "earnings": [
+  {
+   "ticker": "DTE.DE",
+   "time_utc": "2026-11-05T01:00:00+00:00",
+   "eps_estimate": 0.62,
+   "eps_reported": 0.63,
+   "surprise_pct": 2.1,
+   "headlines": [
+    "3 Eurozone Dividend Stocks Built For Higher Rates",
+    "What Deutsche Telekom (DTE) Said on Its Q3 Earnings Call",
+    "Deutsche Telekom lifts 2026 targets in Q3, buyback below forecasts"
+   ],
+   "name": "DEUTSCHE TELEKOM AG           N",
+   "last_move_pct": 3.6
+  }
+ ],
+ "sensitivitaeten": {
+  "hinweis": "Historische Daumenregel aus Tagesdaten, keine Prognose der Eröffnung.",
+  "faktoren_heute": {
+   "Nikkei": -6.32,
+   "Hang Seng": -1.33,
+   "Kospi": -4.84,
+   "S&P 500 (Vortag)": -4.36,
+   "Brent (Vortag)": 3.88,
+   "US 10J Rendite (Vortag)": -5.7,
+   "USD/JPY (Vortag)": -0.07
+  },
+  "faktoren_einheit": "Renditen in %, Renditeänderungen in bp",
+  "ergebnisse": [
+   {
+    "ziel": "Stoxx 600 (gesamt)",
+    "erwarteter_effekt_bp": -142.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -79.0,
+      "t_stat": 5.7
+     },
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": -67.0,
+      "t_stat": 5.1
+     }
+    ],
+    "r2": 0.22
+   },
+   {
+    "ziel": "Telekom vs. Markt",
+    "erwarteter_effekt_bp": 79.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 81.0,
+      "t_stat": -4.7
+     }
+    ],
+    "r2": 0.08
+   },
+   {
+    "ziel": "Versorger vs. Markt",
+    "erwarteter_effekt_bp": 77.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 64.0,
+      "t_stat": -3.6
+     },
+     {
+      "faktor": "Kospi",
+      "effekt_bp": -23.0,
+      "t_stat": 2.5
+     }
+    ],
+    "r2": 0.07
+   },
+   {
+    "ziel": "Öl & Gas vs. Markt",
+    "erwarteter_effekt_bp": 69.0,
+    "treiber": [
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": 46.0,
+      "t_stat": -2.1
+     }
+    ],
+    "r2": 0.02
+   },
+   {
+    "ziel": "Industrie vs. Markt",
+    "erwarteter_effekt_bp": -51.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -46.0,
+      "t_stat": 3.8
+     }
+    ],
+    "r2": 0.06
+   },
+   {
+    "ziel": "Immobilien vs. Markt",
+    "erwarteter_effekt_bp": 50.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 63.0,
+      "t_stat": -3.4
+     }
+    ],
+    "r2": 0.05
+   },
+   {
+    "ziel": "Technologie vs. Markt",
+    "erwarteter_effekt_bp": -49.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -60.0,
+      "t_stat": 3.0
+     }
+    ],
+    "r2": 0.06
+   },
+   {
+    "ziel": "Rohstoffe vs. Markt",
+    "erwarteter_effekt_bp": -21.0,
+    "treiber": [
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": 59.0,
+      "t_stat": -2.6
+     },
+     {
+      "faktor": "Hang Seng",
+      "effekt_bp": -29.0,
+      "t_stat": 6.9
+     }
+    ],
+    "r2": 0.09
+   },
+   {
+    "ziel": "Gesundheit vs. Markt",
+    "erwarteter_effekt_bp": 21.0,
+    "treiber": [
+     {
+      "faktor": "Kospi",
+      "effekt_bp": 29.0,
+      "t_stat": -3.5
+     }
+    ],
+    "r2": 0.07
+   },
+   {
+    "ziel": "Versicherungen vs. Markt",
+    "erwarteter_effekt_bp": 16.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 34.0,
+      "t_stat": -2.7
+     }
+    ],
+    "r2": 0.03
+   },
+   {
+    "ziel": "Luxus vs. Markt",
+    "erwarteter_effekt_bp": -12.0,
+    "treiber": [
+     {
+      "faktor": "Hang Seng",
+      "effekt_bp": -24.0,
+      "t_stat": 4.8
+     }
+    ],
+    "r2": 0.04
+   }
+  ]
+ }
+}

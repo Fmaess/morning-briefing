@@ -1,0 +1,43 @@
+MORNING BRIEFING – Friday, 6 November 2026
+
+It's Friday, champ! One more session, then the weekend.
+
+Today is Friday, the sixth of November, and the thesis is simple: the AI trade just broke, and Europe is about to be hit by the shockwave, even though it barely owns the problem.
+
+Start with the scale. The Nasdaq 100 fell six point four percent yesterday, and the S&P 500 lost four point four percent. One report says that wiped out an estimated two point nine trillion dollars of market value, the largest one-day loss on record. Nvidia and Qualcomm dropped more than nine percent each. The VIX jumped almost seventy percent to twenty-eight.
+
+The trigger was political. Democrats swept the midterms, and the loudest voices are already calling for a national data center moratorium. A Texas governor-elect talked about shielding citizens from data centers. So the AI buildout, which investors treated as a one-way bet, suddenly has a policy risk attached. Add the news that IREN is seeing four billion dollars of annualized revenue delayed at a customer's request, and the question becomes whether the capex wave slows.
+
+
+
+Asia took the hit overnight. The Nikkei fell six point three percent, the Kospi four point nine percent, and one headline says Korea halted trading and Taiwan had its steepest fall ever. These markets are the AI supply chain: chips, memory, and SoftBank. So the pain landed where the hardware is made.
+
+Here's the twist. Oil is not the villain this time. Brent is up one percent today at ninety-nine dollars, but it is down more than fifteen percent over five days. Renewed US-Iran tension after the midterms could push it back above one hundred, according to Rapidan Energy. So energy relief is fragile.
+
+Now the tension. Yields fell. The US ten-year dropped almost six basis points to four point eight percent, and the Bund ten-year fell four basis points to three point three percent. Normally that eases the pressure. But the Fed's Barkin said rate hikes are ahead, at a gradual pace, and the tax brackets for 2027 underline that inflation is back. So bonds are rallying on fear, not on comfort. Growth worries and inflation worries are arriving together. That is a nasty combination for equities.
+
+The dollar is catching safety bids. Euro-dollar is down point three percent at one point one two. Japanese investors are reportedly buying foreign bonds as tech slides, and Japan is looking at tapping proceeds from Bank of Japan asset sales amid fiscal worries. So a falling Nikkei is also a Japanese bond and fiscal story.
+
+Earnings add a little color. Deutsche Telekom beat slightly, with earnings per share of sixty-three cents against sixty-two expected. It raised its 2026 targets, though the buyback came in below forecasts. The stock rose three point six percent. That is a defensive, cash-generative name rewarded in a storm. Beyond that, Figma sank despite a beat because it is giving customers more AI features at the same price. That is the market punishing long-term investment in AI when it can't see the revenue. Meanwhile Cloudflare rebounded on its fastest sales growth in nearly four years, so real AI demand still exists. The market is separating AI revenue from AI promises.
+
+So what does it mean for Europe today? Europe fell less yesterday, with the Stoxx 600 down point four percent. But the historical rule of thumb says the catch-up could be large. Based on the Nikkei and the S&P, the model points to a drop of about one point four percent for the Stoxx 600. That is a rule of thumb, not a forecast, and the model explains only about a fifth of the variance. Still, the direction is clear.
+
+Historically, on days like this, relative winners have been telecoms, utilities, real estate, oil and gas, and healthcare. Telecom and utilities lead, each about three-quarters of a percentage point ahead of the market. Losers have been industrials and technology, each roughly half a point behind. Luxury has tended to lag when Hong Kong is weak. Hong Kong fell one point three percent today.
+
+But here's the risk: defensives are the obvious trade. If everyone rushes into telecoms and utilities, positioning gets crowded, and the next move could hurt. Also, Europe has its own problems. The French National Assembly unanimously rejected the 2027 budget, and strikes loom. Bomb threats disrupted flights again.
+
+What would change the picture? Futures offer a clue. S&P futures are flat and Nasdaq futures are up point eight percent, so a bounce is possible. If it fails, Europe's defensive rotation has further to run. Watch oil near one hundred dollars, and watch whether Washington's tone on data centers hardens.
+
+The take-away: the AI trade broke, and Europe's job today is to be the shelter.
+
+That's the last briefing of the week. Have a great weekend, champ.
+
+KEY POINTS
+- Chain: Democratic midterm sweep, data center moratorium calls, AI capex doubt, Nasdaq 100 down 6.4%, S&P 500 down 4.4%, VIX 28.2 (up about 70%).
+- Asia as AI supply chain: Nikkei down 6.3%, Kospi down 4.9%, Hang Seng down 1.3%; headlines say Korea halted trading and Taiwan had its steepest fall ever.
+- Rates: US 10-year 4.84% (down 5.7bp), Bund 10-year 3.31% (down 4bp); yields fall on fear while Barkin signals gradual hikes. Growth and inflation worries coincide.
+- Oil: Brent $99.4, up 1.1% today but down 15.5% over five days; US-Iran risk could push it above $100.
+- Dollar bid: EUR/USD 1.12, down 0.3%.
+- Earnings: Deutsche Telekom EPS 0.63 vs 0.62, targets raised, buyback below forecasts, stock up 3.6%. Figma fell despite a beat; Cloudflare rebounded on its fastest sales growth in nearly four years.
+- Model (rule of thumb): Stoxx 600 about -1.4% (R² 0.22). Telecom +79bp, utilities +77bp, oil and gas +69bp, real estate +50bp vs market; industrials -51bp, tech -49bp.
+- Risks: crowded defensive positioning, French budget rejection and strikes, S&P futures flat and Nasdaq futures up 0.8% hint at a bounce.

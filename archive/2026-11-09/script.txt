@@ -1,0 +1,39 @@
+Happy Monday, champ. New week, new alpha.
+
+Today's thesis: Asia is bouncing, but the bounce is fragile, because oil near a hundred dollars and sticky inflation keep rates high, and that squeezes the AI trade exactly where it hurts.
+
+Start with the bounce. The Nikkei jumped two point seven percent, and Hang Seng and Shanghai are both slightly higher. The Kospi is up just a tenth of a percent. Headlines talk about AI and Middle East jitters receding. But look at the five-day picture. The Nikkei is still down almost seven percent on the week, and the Kospi is down more than thirteen percent. That's not a rally. That's a dead-cat breather after a rout in the tech-heavy markets.
+
+And the US helped. The Nasdaq 100 rose one point three percent on Friday, and futures are higher again this morning. The VIX dropped about nine percent to twenty-five point six. But it's still up roughly a third on the week. Fear is easing, not gone.
+
+Here is the complication. Oil. Brent is at ninety-seven dollars and change. It slipped a bit today and is down seven percent over five days, which is relief. But at this level it still feeds inflation and eats into margins. Trump says renewed Iran strikes are highly unlikely if talks progress, but he also says he could still strike. That's a headline-driven oil market, with Hormuz in the middle of it.
+
+Then China. Producer prices rose five point seven percent in October, ahead of the five point three percent expected, the fastest in more than four years. Consumer inflation moderated. So input costs are rising while end demand cools. That squeezes margins for anyone selling into the Chinese chain. And it exports inflation. Add the Bank of Japan's Ueda seeing some upside risks to inflation, and the yen at one fifty-eight against the dollar, and you see why central banks aren't coming to the rescue.
+
+Rates tell the same story. The US ten-year yield rose two basis points to four point nine percent. The five-year rose four. The dollar is firm on Fed bets, with the euro down half a percent to one point one two. [pause]
+
+But Europe went the other way. Bund yields fell on Friday: the two-year dropped six basis points to two point nine five percent, the ten-year four basis points to three point three percent. Yet European stocks sold off hard. The DAX fell one point nine percent, the Stoxx 600 one percent. Lower yields plus falling equities is a growth-scare signature, not a good-news rally. So Europe is pricing weaker growth while the US is pricing sticky inflation. That divergence is the tension.
+
+Now the AI wobble. Nvidia's board is investigating CEO Jensen Huang over a relationship with a woman alleged to be a Chinese spy. Huang stays in his job and is cooperating. The shares fell after hours. Analysts say the matter could cloud the stock for some time. It's a governance headline, not a demand headline, but it lands on the most crowded trade in the market. One MarketWatch piece even asks whether the S&P 500 is dangerously exposed to AI. A Taiwanese chipmaker CEO also warned memory price rises are unsustainable. So AI is running into questions on governance, pricing and China risk at the same time.
+
+So what does the model say for Europe? Treat this as a historical rule of thumb, not a forecast. Driven mainly by the Nikkei, it points to the Stoxx 600 up about forty basis points. Historically, on days like this, tech and industrials have tended to outperform, by roughly twenty-five basis points. Utilities, real estate and telecom have tended to lag by around thirty. That's the classic bounce pattern: cyclicals and tech up, bond proxies down.
+
+But the risk is chasing it. Europe fell hard Friday, so a rebound is natural. The open question is whether it's a trade or a turn. With the US ten-year near four point nine, defensives with long-duration cash flows stay vulnerable, and tech remains hostage to Nvidia headlines.
+
+What would change the picture? Brent back above a hundred, a hotter US yield move, or a fresh AI governance shock would cut the bounce short. Calm talks on Iran and falling oil would extend it. Also watch Washington, where Democrats are targeting Trump's tariffs. That's a medium-term tailwind for European exporters, but it's a story for later, not today.
+
+[pause]
+
+Take-away: the bounce is real, but fragile. Fade nothing, chase nothing, and respect the oil price.
+
+Briefing over. Go show the market who's boss.
+
+===SHOWNOTES===
+- Asia bounce: Nikkei up 2.7%, but still down 6.8% over five days; Kospi down 13.5% over five days. Looks like relief, not a trend change.
+- Oil: Brent at 97.5 dollars, down 7% on the week. Iran headlines remain the swing factor for inflation and margins.
+- China PPI 5.7% vs 5.3% expected, highest in over four years, while CPI cools. Input-cost squeeze with weak demand.
+- Rates: US 10-year 4.86%, up 2.2bp; US 5-year up 4bp. Bund 10-year 3.27%, down 4bp; 2-year 2.95%, down 6bp.
+- Europe Friday: DAX down 1.9%, Stoxx 600 down 1.0% with falling Bund yields, a growth-scare pattern.
+- Nvidia: board probe of CEO Huang over alleged Chinese spy link; shares fell after hours. Governance risk on a crowded AI trade.
+- Sensitivity model (rule of thumb): Stoxx 600 about +40bp, tech +27bp and industrials +22bp relative; utilities -33bp, real estate -32bp, telecom -28bp. Mostly Nikkei-driven, low R-squared.
+- VIX 25.6, down 9% on the day but up 32% on the week; EUR/USD 1.12, USD/JPY 158.3.

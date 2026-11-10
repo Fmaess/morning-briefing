@@ -1,0 +1,732 @@
+{
+ "datum": "Tuesday, 10 November 2026",
+ "maerkte": {
+  "asien": [
+   {
+    "name": "Nikkei 225",
+    "ticker": "^N225",
+    "last": 60367.1211,
+    "as_of": "2026-11-10",
+    "change_pct": 2.71,
+    "change_5d_pct": -4.3
+   },
+   {
+    "name": "Hang Seng",
+    "ticker": "^HSI",
+    "last": 24520.0098,
+    "as_of": "2026-11-10",
+    "change_pct": 0.29,
+    "change_5d_pct": 4.23
+   },
+   {
+    "name": "Shanghai Composite",
+    "ticker": "000001.SS",
+    "last": 3664.7285,
+    "as_of": "2026-11-10",
+    "change_pct": 0.11,
+    "change_5d_pct": 1.57
+   },
+   {
+    "name": "Kospi",
+    "ticker": "^KS11",
+    "last": 5222.4702,
+    "as_of": "2026-11-10",
+    "change_pct": 4.06,
+    "change_5d_pct": -7.55
+   },
+   {
+    "name": "ASX 200",
+    "ticker": "^AXJO",
+    "last": 9129.0,
+    "as_of": "2026-11-10",
+    "change_pct": 1.1,
+    "change_5d_pct": 2.73
+   }
+  ],
+  "usa": [
+   {
+    "name": "S&P 500",
+    "ticker": "^GSPC",
+    "last": 7549.9399,
+    "as_of": "2026-11-09",
+    "change_pct": 2.35,
+    "change_5d_pct": 0.11
+   },
+   {
+    "name": "Nasdaq 100",
+    "ticker": "^NDX",
+    "last": 27907.6309,
+    "as_of": "2026-11-09",
+    "change_pct": 3.4,
+    "change_5d_pct": -0.29
+   },
+   {
+    "name": "S&P 500 Future",
+    "ticker": "ES=F",
+    "last": 7586.0,
+    "as_of": "2026-11-10",
+    "change_pct": 0.16,
+    "change_5d_pct": -0.14
+   },
+   {
+    "name": "Nasdaq Future",
+    "ticker": "NQ=F",
+    "last": 27995.75,
+    "as_of": "2026-11-10",
+    "change_pct": -0.07,
+    "change_5d_pct": -1.1
+   }
+  ],
+  "europa": [
+   {
+    "name": "Euro Stoxx 50",
+    "ticker": "^STOXX50E",
+    "last": 6290.4502,
+    "as_of": "2026-11-09",
+    "change_pct": 1.94,
+    "change_5d_pct": 1.85
+   },
+   {
+    "name": "DAX",
+    "ticker": "^GDAXI",
+    "last": 26267.1895,
+    "as_of": "2026-11-09",
+    "change_pct": 1.73,
+    "change_5d_pct": 1.1
+   },
+   {
+    "name": "Stoxx 600",
+    "ticker": "^STOXX",
+    "last": 656.52,
+    "as_of": "2026-11-09",
+    "change_pct": 1.26,
+    "change_5d_pct": 1.09
+   }
+  ],
+  "zinsen": [
+   {
+    "name": "US 10J Rendite",
+    "ticker": "^TNX",
+    "last": 4.864,
+    "as_of": "2026-11-09",
+    "change_bp": 0.5
+   },
+   {
+    "name": "US 5J Rendite",
+    "ticker": "^FVX",
+    "last": 4.659,
+    "as_of": "2026-11-09",
+    "change_bp": 1.1
+   },
+   {
+    "name": "Bund 2J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A",
+    "last": 2.99,
+    "as_of": "2026-11-09",
+    "change_bp": 4.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   },
+   {
+    "name": "Bund 10J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A",
+    "last": 3.3,
+    "as_of": "2026-11-09",
+    "change_bp": 3.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   }
+  ],
+  "rohstoffe": [
+   {
+    "name": "Brent",
+    "ticker": "BZ=F",
+    "last": 91.47,
+    "as_of": "2026-11-10",
+    "change_pct": -1.19,
+    "change_5d_pct": -11.71
+   },
+   {
+    "name": "Gold",
+    "ticker": "GC=F",
+    "last": 4129.3999,
+    "as_of": "2026-11-10",
+    "change_pct": 0.36,
+    "change_5d_pct": 4.8
+   },
+   {
+    "name": "Kupfer",
+    "ticker": "HG=F",
+    "last": 6.3665,
+    "as_of": "2026-11-10",
+    "change_pct": 0.6,
+    "change_5d_pct": -0.19
+   }
+  ],
+  "devisen": [
+   {
+    "name": "EUR/USD",
+    "ticker": "EURUSD=X",
+    "last": 1.1231,
+    "as_of": "2026-11-10",
+    "change_pct": 0.75,
+    "change_5d_pct": 0.35
+   },
+   {
+    "name": "USD/JPY",
+    "ticker": "JPY=X",
+    "last": 157.952,
+    "as_of": "2026-11-10",
+    "change_pct": -0.21,
+    "change_5d_pct": 0.02
+   },
+   {
+    "name": "USD/CNY",
+    "ticker": "CNY=X",
+    "last": 6.6697,
+    "as_of": "2026-11-10",
+    "change_pct": -0.09,
+    "change_5d_pct": 0.33
+   }
+  ],
+  "volatilitaet": [
+   {
+    "name": "VIX",
+    "ticker": "^VIX",
+    "last": 19.92,
+    "as_of": "2026-11-09",
+    "change_pct": -22.31,
+    "change_5d_pct": -5.82
+   }
+  ]
+ },
+ "nachrichten": [
+  {
+   "source": "Investing.com",
+   "title": "US consumer prices expected to have risen at slower pace in October",
+   "summary": "",
+   "time_utc": "2026-11-10T05:12:22+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "China’s monthly imports grow at fastest pace in five years as surplus crosses $1 trillion in 2026",
+   "summary": "Goods exports soared by 35.2% last month from a year earlier, exceeding expectations for a 33.5% jump in a Reuters poll and slowing from a 36.3% jump in September.",
+   "time_utc": "2026-11-10T05:03:55+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Trump sees 'strong inclination' to end Russia-Ukraine war ahead of U.S.-brokered peace talks",
+   "summary": "President Trump signaled optimism for the end of Russia's war in Ukraine ahead of trilateral negotiation talks set to commence later today in Abu Dhabi.",
+   "time_utc": "2026-11-10T04:46:37+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Analysis-Market rout tests BOJ’s upbeat view of financial conditions",
+   "summary": "",
+   "time_utc": "2026-11-10T04:36:18+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "US extends Vietnam trade probe on intellectual property to end of February",
+   "summary": "",
+   "time_utc": "2026-11-10T04:12:25+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound",
+   "summary": "A sharp decline in oil prices lifted sentiment while renewed buying in semiconductor names overnight spilled over into Asia, following last week's bruising sell-off.",
+   "time_utc": "2026-11-10T03:58:46+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Analysis-China seeks high-tech upper hand in industry carrying 80% of global trade",
+   "summary": "",
+   "time_utc": "2026-11-10T03:48:20+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
+   "summary": "“We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”",
+   "time_utc": "2026-11-10T03:38:00+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Australia to mandate AI breach reporting, create regulator after OpenAI breach",
+   "summary": "",
+   "time_utc": "2026-11-10T03:18:42+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "China’s trade surplus soars past $1 trillion, October exports jump 35.2% y/y",
+   "summary": "",
+   "time_utc": "2026-11-10T02:48:36+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Asian stocks climb as sliding oil prices buoy sentiment",
+   "summary": "",
+   "time_utc": "2026-11-10T02:24:38+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Bank of Japan debated need for faster rate hikes, October summary shows",
+   "summary": "",
+   "time_utc": "2026-11-10T02:00:25+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "World’s No. 1 restaurant crowned as contest comes under increasing scrutiny",
+   "summary": "Asador Etxebarri in Atxondo, Spain, is the world's top restaurant, according to the 50 Best Restaurants, which announced its 2026 list.",
+   "time_utc": "2026-11-10T01:50:38+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Trump says FBI probing Nvidia CEO Huang as China controversy deepens",
+   "summary": "",
+   "time_utc": "2026-11-10T01:48:56+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Trump says Jensen Huang told him Monday he didn't know paramour 'was a spy'",
+   "summary": "President Donald Trump suggested he had only recently learned of allegations that Alice Huang was a Chinese spy.",
+   "time_utc": "2026-11-10T01:43:47+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "What is Megaspeed? The Nvidia chip buyer in the spotlight after Jensen Huang’s affair",
+   "summary": "The Singapore-based company has previously been probed for allegedly supplying China with Nvidia chips.",
+   "time_utc": "2026-11-10T01:33:36+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Australian consumer sentiment hits four-year low in November as rates rise",
+   "summary": "",
+   "time_utc": "2026-11-10T00:54:39+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
+   "summary": "‘We were confident in the research initially, and we’re still confident in it now,’ says Christian Lamarco, founder of Culper Research",
+   "time_utc": "2026-11-10T00:48:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Senate advances Trump-backed bipartisan bill to speed critical infrastructure projects",
+   "summary": "The bill would force artificial intelligence companies and data center developers to pay their own way for power and grid enhancements.",
+   "time_utc": "2026-11-09T23:54:06+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "This retired professor has reinvented himself — as a Taylor Swift scholar",
+   "summary": "His niece convinced him to spend his retirement analyzing Taylor Swift lyrics. Now he’s a successful podcaster at 72.",
+   "time_utc": "2026-11-09T23:52:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "PepsiCo to cut about 1,000 jobs as North American business struggles",
+   "summary": "PepsiCo plans to cut about 1,000 jobs across North America as it streamlines operations and works to revive sales in its home market.",
+   "time_utc": "2026-11-09T23:31:17+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Skydance outlines its $6 billion in planned cost savings. Here's the breakdown",
+   "summary": "The updates came alongside a third-quarter earnings report for the legacy Paramount Skydance.",
+   "time_utc": "2026-11-09T23:14:38+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Lucid misses Wall Street’s earnings expectations, expands loan from Saudi Arabia fund",
+   "summary": "The quarterly results are the first since Lucid CEO Silvio Napoli, who started leading the company in June, announced a restructuring plan.",
+   "time_utc": "2026-11-09T23:05:53+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "CNBC's The China Connection newsletter: Wall Street dips in again. What needs to go right",
+   "summary": "Following the latest Trump-Xi summit, China pledged further opening of its financial market to companies from all countries, including the U.S.",
+   "time_utc": "2026-11-09T23:00:02+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
+   "summary": "Jensen Huang is practically synonymous with Nvidia, the chipmaker he co-founded in 1993 and turned into one of the most valuable companies on the planet.",
+   "time_utc": "2026-11-09T22:56:39+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Rocket Lab shares dip after the company’s ‘defining’ quarter misses the mark",
+   "summary": "The rocket-launch company just posted a steeper loss than analysts were expecting.",
+   "time_utc": "2026-11-09T22:49:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’",
+   "summary": "The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes",
+   "time_utc": "2026-11-09T22:49:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Hegseth impeachment articles introduced by Rep. Massie",
+   "summary": "The House is likely to vote this week on articles of impeachment against Defense Secretary Pete Hegseth filed by Republican Rep. Thomas Masie.",
+   "time_utc": "2026-11-09T22:41:12+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal",
+   "summary": "The fallout from the board’s new investigation could become “a longer-lasting problem for the company,” analysts say.",
+   "time_utc": "2026-11-09T21:55:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.",
+   "summary": "“It took one election and a poor Nvidia headline to go from D.C. being a tailwind to D.C. as a potential headwind,” says strategist.",
+   "time_utc": "2026-11-09T21:52:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Are AMD and Broadcom the real winners of the Nvidia spy scandal?",
+   "summary": "The chip makers’ shares were posting big gains Monday — but those companies could also be subject to greater scrutiny over their sales practices, analysts say.",
+   "time_utc": "2026-11-09T21:43:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
+   "summary": "Tuesday’s CPI inflation report and a heavy lineup of Federal Reserve speakers could test the rotation trade’s resilience",
+   "time_utc": "2026-11-09T21:24:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "A failed trial for a heart drug casts shadow over rivals developing similar therapies",
+   "summary": "The full data from the closely watched clinical trial showed that the drug had no cardiovascular benefit even though it reduced Lp(a) levels.",
+   "time_utc": "2026-11-09T21:21:00+00:00"
+  },
+  {
+   "source": "Fed",
+   "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+   "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+   "time_utc": "2026-11-09T21:00:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Nvidia's CEO turmoil gives newly empowered Democrats fresh ammunition in pursuit of oversight",
+   "summary": "Nvidia CEO Jensen Huang's extramarital affair with an alleged Chinese spy comes as the company is already about to face heightened scrutiny.",
+   "time_utc": "2026-11-09T20:29:36+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Millions of dollars poured into prediction markets on election night, trading on Democratic control of Congress and Texas governor's race",
+   "summary": "Election night showed how traders reacted in real time to midterm results, as trading activity surged and market prices shifted to Democrats on Nov. 3.",
+   "time_utc": "2026-11-09T19:41:13+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Boeing to cut 5% of commercial airplane workers as production increase takes longer than expected",
+   "summary": "Boeing has been working to stabilize production rates of its bestselling 737 Max planes, which are made outside of Seattle.",
+   "time_utc": "2026-11-09T19:35:58+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds",
+   "summary": "The launch comes as Anthropic is gearing up for what is widely expected to be a blockbuster IPO",
+   "time_utc": "2026-11-09T19:00:01+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Honda to invest $3 billion in new vehicle assembly plant in Ohio",
+   "summary": "The Japanese automaker said the plant will focus on hybrid vehicles and is expected to begin production in 2029.",
+   "time_utc": "2026-11-09T18:59:43+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Goldman CEO Solomon says AI financing remains strong despite market jitters",
+   "summary": "Goldman CEO David Solomon says investor appetite for AI infrastructure remains strong despite a reset in AI stocks and political uncertainty around data centers.",
+   "time_utc": "2026-11-09T18:14:47+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Weekend trading of Nvidia scandal shines light on new financial products",
+   "summary": "Nvidia scandal shines light growing use of perpetual futures and other trading products",
+   "time_utc": "2026-11-09T15:31:32+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Why tech workers are flocking to NYC",
+   "summary": "New York City now has more tech employees than the Bay Area. Here's why workers — and companies — are flocking to the city.",
+   "time_utc": "2026-11-09T14:15:02+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Could supplements be the next big opportunity in the GLP-1 weight-loss drug boom?",
+   "summary": "Novonesis is exploring whether gut health supplements could benefit patients taking GLP-1 weight-loss drugs, opening up a potentially lucrative new market.",
+   "time_utc": "2026-11-09T13:27:57+00:00"
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "China bubble tea chain Mixue shuts more stores as growth model falters",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Democrats' midterm victory puts future of House China committee in doubt",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "WuXi AppTec shares jump following Pentagon list removal",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Australia plans new regulator for artificial intelligence after OpenAI hack",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Nikkei's Global Management Dialogue to explore AI's new paths to growth",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "China exports stay resilient as trade surplus tops $1tn",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "How Japan is charting its own path to Mars",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "India forms commando units for close combat along China border",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "India's electronics firms face PCB squeeze as AI demand drives up costs",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Integration among ASEAN, China, Japan, South Korea boosted by AI boom",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Nvidia shares drop as Jensen Huang affair raises China spy concerns",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Threat of trade curbs pushes Japan steel exports to three-decade low",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan, ASEAN to jointly report progress on greenhouse gas reductions",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan government to create AI-based Japanese-learning app for anime, manga fans",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "China is emerging as a key testing ground for healthcare innovations",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Honda to build first US auto plant in 2 decades as hybrid demand rises",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Musk's Terafab chipmaking project lines up Japan suppliers",
+   "summary": "",
+   "time_utc": null
+  }
+ ],
+ "earnings": [
+  {
+   "ticker": "UCG.MI",
+   "time_utc": "2026-11-09T06:00:00+00:00",
+   "eps_estimate": 1.88,
+   "eps_reported": 2.15,
+   "surprise_pct": 14.02,
+   "headlines": [
+    "Stocks to Watch Recap: Nvidia, AMD, Skydance",
+    "European shares climb as banks, defence stocks lead broad-based rally",
+    "UniCredit SpA (UNCFF) (Q3 2026) Earnings Call Highlights: Record Profit, 25. ..."
+   ],
+   "name": "UNICREDIT",
+   "last_move_pct": -0.49
+  }
+ ],
+ "sensitivitaeten": {
+  "hinweis": "Historische Daumenregel aus Tagesdaten, keine Prognose der Eröffnung.",
+  "faktoren_heute": {
+   "Nikkei": 2.66,
+   "Hang Seng": 0.28,
+   "Kospi": 4.1,
+   "S&P 500 (Vortag)": 2.35,
+   "Brent (Vortag)": -5.85,
+   "US 10J Rendite (Vortag)": 0.5,
+   "USD/JPY (Vortag)": 0.5
+  },
+  "faktoren_einheit": "Renditen in %, Renditeänderungen in bp",
+  "ergebnisse": [
+   {
+    "ziel": "Öl & Gas vs. Markt",
+    "erwarteter_effekt_bp": -52.0,
+    "treiber": [
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": -24.0,
+      "t_stat": -2.0
+     }
+    ],
+    "r2": 0.02
+   },
+   {
+    "ziel": "Stoxx 600 (gesamt)",
+    "erwarteter_effekt_bp": 50.0,
+    "treiber": [
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": 36.0,
+      "t_stat": 5.0
+     },
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 34.0,
+      "t_stat": 5.8
+     },
+     {
+      "faktor": "Brent (Vortag)",
+      "effekt_bp": -18.0,
+      "t_stat": 2.9
+     }
+    ],
+    "r2": 0.22
+   },
+   {
+    "ziel": "Telekom vs. Markt",
+    "erwarteter_effekt_bp": -27.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -34.0,
+      "t_stat": -4.6
+     }
+    ],
+    "r2": 0.08
+   },
+   {
+    "ziel": "Industrie vs. Markt",
+    "erwarteter_effekt_bp": 20.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 19.0,
+      "t_stat": 3.8
+     }
+    ],
+    "r2": 0.06
+   },
+   {
+    "ziel": "Versorger vs. Markt",
+    "erwarteter_effekt_bp": -13.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -27.0,
+      "t_stat": -3.6
+     },
+     {
+      "faktor": "Kospi",
+      "effekt_bp": 18.0,
+      "t_stat": 2.3
+     }
+    ],
+    "r2": 0.07
+   },
+   {
+    "ziel": "Technologie vs. Markt",
+    "erwarteter_effekt_bp": 3.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 26.0,
+      "t_stat": 3.0
+     },
+     {
+      "faktor": "Brent (Vortag)",
+      "effekt_bp": -21.0,
+      "t_stat": 2.3
+     }
+    ],
+    "r2": 0.06
+   },
+   {
+    "ziel": "Gesundheit vs. Markt",
+    "erwarteter_effekt_bp": -3.0,
+    "treiber": [
+     {
+      "faktor": "Kospi",
+      "effekt_bp": -25.0,
+      "t_stat": -3.5
+     },
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": 17.0,
+      "t_stat": 2.0
+     },
+     {
+      "faktor": "Brent (Vortag)",
+      "effekt_bp": 16.0,
+      "t_stat": -2.2
+     }
+    ],
+    "r2": 0.07
+   },
+   {
+    "ziel": "Immobilien vs. Markt",
+    "erwarteter_effekt_bp": -3.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -27.0,
+      "t_stat": -3.4
+     }
+    ],
+    "r2": 0.05
+   },
+   {
+    "ziel": "Rohstoffe vs. Markt",
+    "erwarteter_effekt_bp": 1.0,
+    "treiber": [
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": -32.0,
+      "t_stat": -2.7
+     }
+    ],
+    "r2": 0.09
+   }
+  ]
+ }
+}

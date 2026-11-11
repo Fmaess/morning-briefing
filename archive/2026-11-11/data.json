@@ -1,0 +1,642 @@
+{
+ "datum": "Wednesday, 11 November 2026",
+ "maerkte": {
+  "asien": [
+   {
+    "name": "Nikkei 225",
+    "ticker": "^N225",
+    "last": 61210.1719,
+    "as_of": "2026-11-11",
+    "change_pct": 1.24,
+    "change_5d_pct": -1.57
+   },
+   {
+    "name": "Hang Seng",
+    "ticker": "^HSI",
+    "last": 24352.5098,
+    "as_of": "2026-11-11",
+    "change_pct": -0.83,
+    "change_5d_pct": 1.81
+   },
+   {
+    "name": "Shanghai Composite",
+    "ticker": "000001.SS",
+    "last": 3670.0464,
+    "as_of": "2026-11-11",
+    "change_pct": 0.17,
+    "change_5d_pct": -0.44
+   },
+   {
+    "name": "Kospi",
+    "ticker": "^KS11",
+    "last": 5349.6802,
+    "as_of": "2026-11-11",
+    "change_pct": 2.11,
+    "change_5d_pct": -5.88
+   },
+   {
+    "name": "ASX 200",
+    "ticker": "^AXJO",
+    "last": 9153.2002,
+    "as_of": "2026-11-11",
+    "change_pct": 0.27,
+    "change_5d_pct": 3.61
+   }
+  ],
+  "usa": [
+   {
+    "name": "S&P 500",
+    "ticker": "^GSPC",
+    "last": 7520.9302,
+    "as_of": "2026-11-10",
+    "change_pct": -0.38,
+    "change_5d_pct": -0.63
+   },
+   {
+    "name": "Nasdaq 100",
+    "ticker": "^NDX",
+    "last": 27740.7891,
+    "as_of": "2026-11-10",
+    "change_pct": -0.6,
+    "change_5d_pct": -1.56
+   },
+   {
+    "name": "S&P 500 Future",
+    "ticker": "ES=F",
+    "last": 7594.25,
+    "as_of": "2026-11-11",
+    "change_pct": 0.66,
+    "change_5d_pct": -1.64
+   },
+   {
+    "name": "Nasdaq Future",
+    "ticker": "NQ=F",
+    "last": 28229.75,
+    "as_of": "2026-11-11",
+    "change_pct": 1.42,
+    "change_5d_pct": -1.18
+   }
+  ],
+  "europa": [
+   {
+    "name": "Euro Stoxx 50",
+    "ticker": "^STOXX50E",
+    "last": 6327.8701,
+    "as_of": "2026-11-10",
+    "change_pct": 0.59,
+    "change_5d_pct": 2.98
+   },
+   {
+    "name": "DAX",
+    "ticker": "^GDAXI",
+    "last": 26347.4492,
+    "as_of": "2026-11-10",
+    "change_pct": 0.31,
+    "change_5d_pct": 1.87
+   },
+   {
+    "name": "Stoxx 600",
+    "ticker": "^STOXX",
+    "last": 658.32,
+    "as_of": "2026-11-10",
+    "change_pct": 0.27,
+    "change_5d_pct": 1.96
+   }
+  ],
+  "zinsen": [
+   {
+    "name": "US 10J Rendite",
+    "ticker": "^TNX",
+    "last": 4.983,
+    "as_of": "2026-11-10",
+    "change_bp": 11.9
+   },
+   {
+    "name": "US 5J Rendite",
+    "ticker": "^FVX",
+    "last": 4.807,
+    "as_of": "2026-11-10",
+    "change_bp": 14.8
+   },
+   {
+    "name": "Bund 2J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A",
+    "last": 3.01,
+    "as_of": "2026-11-10",
+    "change_bp": 2.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   },
+   {
+    "name": "Bund 10J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A",
+    "last": 3.28,
+    "as_of": "2026-11-10",
+    "change_bp": -2.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   }
+  ],
+  "rohstoffe": [
+   {
+    "name": "Brent",
+    "ticker": "BZ=F",
+    "last": 92.16,
+    "as_of": "2026-11-11",
+    "change_pct": 0.73,
+    "change_5d_pct": -2.6
+   },
+   {
+    "name": "Gold",
+    "ticker": "GC=F",
+    "last": 4064.8,
+    "as_of": "2026-11-11",
+    "change_pct": 0.86,
+    "change_5d_pct": -0.2
+   },
+   {
+    "name": "Kupfer",
+    "ticker": "HG=F",
+    "last": 6.3295,
+    "as_of": "2026-11-11",
+    "change_pct": 1.77,
+    "change_5d_pct": -1.15
+   }
+  ],
+  "devisen": [
+   {
+    "name": "EUR/USD",
+    "ticker": "EURUSD=X",
+    "last": 1.1166,
+    "as_of": "2026-11-11",
+    "change_pct": -0.51,
+    "change_5d_pct": -0.37
+   },
+   {
+    "name": "USD/JPY",
+    "ticker": "JPY=X",
+    "last": 158.796,
+    "as_of": "2026-11-11",
+    "change_pct": 0.51,
+    "change_5d_pct": 0.21
+   },
+   {
+    "name": "USD/CNY",
+    "ticker": "CNY=X",
+    "last": 6.6737,
+    "as_of": "2026-11-11",
+    "change_pct": 0.01,
+    "change_5d_pct": 0.05
+   }
+  ],
+  "volatilitaet": [
+   {
+    "name": "VIX",
+    "ticker": "^VIX",
+    "last": 19.46,
+    "as_of": "2026-11-10",
+    "change_pct": -2.31,
+    "change_5d_pct": -6.58
+   }
+  ]
+ },
+ "nachrichten": [
+  {
+   "source": "CNBC World",
+   "title": "U.S., China should ‘harbor no illusions’ as they cooperate, compete on AI, Bessent says",
+   "summary": "During Xi's September visit, Washington and Beijing agreed to launch an AI dialogue with a communications channel to help defuse serious incidents.",
+   "time_utc": "2026-11-11T05:15:50+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Goldman expects additional Fed rate hike in March",
+   "summary": "",
+   "time_utc": "2026-11-11T05:00:42+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Fed officials open door to a quicker round of rate hikes as inflation worsens",
+   "summary": "",
+   "time_utc": "2026-11-11T05:00:27+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Bessent reportedly moved to military base over Iranian threats on his life",
+   "summary": "The move comes as the Department of Justice said late Tuesday that three Iranian nationals have been indicted on terrorism-related charges.",
+   "time_utc": "2026-11-11T04:06:47+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Fed rate hike odds in December at 88% after hot CPI- CME Fedwatch",
+   "summary": "",
+   "time_utc": "2026-11-11T03:21:34+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
+   "summary": "Alibaba noted it had already filed confidentially on Sept. 11 to list T-Head on the Hong Kong Stock Exchange.",
+   "time_utc": "2026-11-11T03:08:17+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Singapore wants a bigger slice of the global gold market. Is it too late to the party?",
+   "summary": "Singapore is stepping up efforts to become a key player in the global gold market, betting that vaulting service and tax incentives will help it attract flows.",
+   "time_utc": "2026-11-11T02:46:56+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Republicans block effort to impeach Defense Secretary Hegseth",
+   "summary": "",
+   "time_utc": "2026-11-11T02:25:26+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
+   "summary": "There is already a demographic ‘run’ on Social Security.",
+   "time_utc": "2026-11-11T02:15:00+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Bonds reel as hot inflation fuels jumbo Fed hike fears",
+   "summary": "",
+   "time_utc": "2026-11-11T02:06:19+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Fed’s Paulson says more, gradual rate hikes needed to curb inflation",
+   "summary": "",
+   "time_utc": "2026-11-11T01:57:54+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "One reason Children’s Place is filing for bankruptcy? Not enough children.",
+   "summary": "The chain has been contending with falling birth rates, cautious consumers, stiff competition and $881 million in debt.",
+   "time_utc": "2026-11-11T01:54:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Anthropic opens Australian retail IPO offering as AI scrutiny intensifies",
+   "summary": "Anthropic opened its Australia retail IPO offering on Wednesday, allowing individual investors to apply for shares ahead of its planned IPO.",
+   "time_utc": "2026-11-11T01:52:56+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "CoreWeave targets 2028 profitability as AI demand surges",
+   "summary": "",
+   "time_utc": "2026-11-11T01:18:27+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "CoreWeave’s stock pops as new financing playbook eases debt concerns",
+   "summary": "A third-quarter revenue beat and $9 billion in planned prepayments gave investors renewed confidence in CoreWeave’s business.",
+   "time_utc": "2026-11-11T01:12:00+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Dollar gains traction as Fed speakers warn of risks from inflation",
+   "summary": "",
+   "time_utc": "2026-11-11T01:00:25+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
+   "summary": "“We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”",
+   "time_utc": "2026-11-11T00:30:00+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "UK inflation to overshoot Bank of England target for next 4 years, NIESR forecasts",
+   "summary": "",
+   "time_utc": "2026-11-11T00:12:23+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
+   "summary": "“It would be a less drastic step than selling the home now and splitting the proceeds.”",
+   "time_utc": "2026-11-11T00:00:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Hegseth impeachment effort torpedoed in House",
+   "summary": "GOP Rep. Thomas Massie, who has clashed with President Donald Trump, kicked off the Hegseth impeachment fight days after a blue wave midterm election.",
+   "time_utc": "2026-11-10T23:46:41+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Jim Cramer says Anthropic's explosive growth could justify a record-breaking IPO",
+   "summary": "\"The fact that this deal is on is bullish for tech and the AI trade,\" CNBC's Jim Cramer said Tuesday.",
+   "time_utc": "2026-11-10T23:46:35+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Jim Cramer: Wall Street is focusing too much on what could go wrong instead of right",
+   "summary": "Investors shouldn't let mounting market risks overshadow the potential for a rebound, CNBC's Jim Cramer said Tuesday.",
+   "time_utc": "2026-11-10T23:41:43+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Fed’s Paulson calls for gradual rate hikes amid ongoing high inflation",
+   "summary": "",
+   "time_utc": "2026-11-10T23:36:48+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?",
+   "summary": "“Maybe next time I’ll try the other approach: I’ll board whenever I feel like it and drop my suitcase in the first open slot I see.”",
+   "time_utc": "2026-11-10T23:25:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
+   "summary": "CoreWeave's stock has been hammered heading into the neocloud's Q3 earnings report.",
+   "time_utc": "2026-11-10T23:16:15+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation",
+   "summary": "Nvidia employees described the mood as \"sad\" as CEO Jensen Huang returned to the office after disclosing an affair.",
+   "time_utc": "2026-11-10T23:11:34+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "FDA warns of vision loss risk linked to popular GLP-1 drugs like Wegovy, Zepbound",
+   "summary": "The agency has found evidence of a potential increased risk of a rare eye condition linked to the use of GLP-1 drugs used for weight management and diabetes.",
+   "time_utc": "2026-11-10T23:03:11+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "Fossil CEO says turnaround is ahead of plan as sales return to growth",
+   "summary": "Watchmaker Fossil said Tuesday that the company is returning to profit and sales growth in the first signs of its turnaround strategy.",
+   "time_utc": "2026-11-10T22:39:30+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "AMD’s stock fades as investors weigh whether Nvidia’s turmoil will mean lasting wins",
+   "summary": "It’s one thing for money to shift between stocks, but it’s another thing for customers to shift their supplier relationships.",
+   "time_utc": "2026-11-10T22:37:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Looking to buy the dip in chip stocks? Here’s how to avoid buying too soon.",
+   "summary": "Investors shouldn’t pay much attention to how the SOX chip-sector index trades until it reaches key “lines in the sand,” that define technical battleground areas above and below current levels.",
+   "time_utc": "2026-11-10T22:30:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Nvidia sells off for second day in fallout from Jensen Huang’s affair with alleged spy",
+   "summary": "Investors continue to weigh the potential fallout from CEO Jensen Huang's affair with an alleged Chinese spy.",
+   "time_utc": "2026-11-10T22:08:25+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Meet the former prosecutor Nvidia hired to investigate the Jensen Huang spy scandal",
+   "summary": "Joon Kim just joined the Wachtell Lipton law firm last month and now will lead an independent investigation into whether Nvidia’s CEO was the target of a China spy operation",
+   "time_utc": "2026-11-10T22:05:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "White House vows to press ahead with tariffs despite midterm backlash over rising prices",
+   "summary": "Business executives warned at a Washington summit of rising costs and shifting supply chains as polls showed growing opposition to Trump's tariffs.",
+   "time_utc": "2026-11-10T21:45:46+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
+   "summary": "“I don’t think they should be raising another 25 basis points,” one portfolio manager said about the Federal Reserve’s benchmark interest rate.",
+   "time_utc": "2026-11-10T21:42:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations",
+   "summary": "Treasury yields moved higher after a hotter-than-expected CPI report.",
+   "time_utc": "2026-11-10T21:06:07+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Brent crude briefly dips below $90 for first time since August on Iran hopes",
+   "summary": "President Trump said Monday he thought the conflict was \"going to be ending fairly soon,\" but some analysts still see little chance of a lasting peace deal.",
+   "time_utc": "2026-11-10T20:27:02+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Alphabet shares appear to have bottomed. How to play it for a quick rebound",
+   "summary": "After a brutal sell-off, Alphabet appears to be showing signs of a floor. Here's how to trade it with options",
+   "time_utc": "2026-11-10T18:15:24+00:00"
+  },
+  {
+   "source": "EZB",
+   "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
+   "summary": "",
+   "time_utc": "2026-11-10T16:45:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Here's the inflation breakdown for October 2026 — in one chart",
+   "summary": "The consumer price index rose 0.4% in October, a reduction from September but a level economists said is still uncomfortably high.",
+   "time_utc": "2026-11-10T16:36:40+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Anthropic's trillion-dollar IPO is coming, but retail investors could have owned AI stock much earlier",
+   "summary": "Anthropic is on target for an IPO that could value the AI company at over $1.4 trillion. Investors had multiple ways to buy the stock much earlier.",
+   "time_utc": "2026-11-10T16:30:23+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "U.S. gas prices fall below $4 for the first time since July",
+   "summary": "Americans may finally find some relief at the pump.",
+   "time_utc": "2026-11-10T16:29:09+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "House Oversight calls on DOJ to interview key Epstein witnesses, says govt. ‘failed’ survivors",
+   "summary": "\"The federal government has failed the survivors of Jeffrey Epstein and Ghislaine Maxwell's horrific crimes for decades,\" Rep. James Comer, R-Ky., said.",
+   "time_utc": "2026-11-10T16:17:20+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say",
+   "summary": "Anthropic's IPO is expected to come roughly five months after Elon Musk took SpaceX public in a record offering.",
+   "time_utc": "2026-11-10T15:42:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "CoreWeave earnings put debt-fueled AI build-out under scrutiny",
+   "summary": "CoreWeave’s earnings after the bell could calm fears about its debt-fueled AI buildout — or stoke more fear.",
+   "time_utc": "2026-11-10T15:01:21+00:00"
+  },
+  {
+   "source": "EZB",
+   "title": "Piero Cipollone: Cash and the digital euro: two sides of the same coin",
+   "summary": "",
+   "time_utc": "2026-11-10T14:00:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "France blames Iran for supermarket refrigerator cyberattacks, weighs sanctions",
+   "summary": "France said the cyber unit of Iran's Islamic Revolutionary Guard Corps carried out an \"unprecedented campaign\" that caused millions of euros in damage.",
+   "time_utc": "2026-11-10T13:43:38+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "Polymarket says annualized revenue has topped $1.8 billion",
+   "summary": "Amid growth of its U.S. exchange, the prediction market platform’s current annual run-rate is $1.8 billion.",
+   "time_utc": "2026-11-10T13:00:01+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Trump sees opening for Ukraine peace deal, but key questions remain ahead of Abu Dhabi talks",
+   "summary": "President Trump signaled optimism for the end of Russia's war in Ukraine ahead of trilateral negotiation talks on Tuesday in Abu Dhabi.",
+   "time_utc": "2026-11-10T11:52:54+00:00"
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "China offers to buy more Papua New Guinea gas after Taiwan cuts purchases",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan's Akita AI data center seen anchoring tech hub, boosting tax revenue",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "TSMC is seeing 'insatiable' demand for chips, executive tells Nikkei Forum",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Hyundai Rotem plan to build EU tank hub in Poland takes shape",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Thailand's SCG to reopen Hormuz-affected Vietnam plant in mid-2027",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Pakistan's top 3-wheeler maker enters Philippines in ASEAN push",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Thailand weighs alternative to stalled airport rail project",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "The AI pay gap: A chip boom breeds jealousy and labor unrest in Asia",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Huawei's Chinese auto alliance strains as deliveries slump",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Fuel prices drive Japan, Europe electricity futures to 4-year high",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan Tobacco shares tumble on fears of $8bn Russia loss",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan to include denial defense in revised security documents",
+   "summary": "",
+   "time_utc": null
+  }
+ ],
+ "earnings": [
+  {
+   "ticker": "IFX.DE",
+   "time_utc": "2026-11-10T00:00:00+00:00",
+   "eps_estimate": 0.62,
+   "eps_reported": 0.6,
+   "surprise_pct": -3.94,
+   "headlines": [
+    "Vertiv Holdings Co (VRT) Secures Infineon Supply Deal, Is The Valuation Gap Still Compelling?",
+    "Does Earnings Beat Change The Bull Case For Vertiv Holdings Co (VRT)?",
+    "Infineon says AI data centre boom to persist despite growing backlash"
+   ],
+   "name": "INFINEON TECHNOLOGIES AG      N",
+   "last_move_pct": 6.27
+  }
+ ],
+ "sensitivitaeten": {
+  "hinweis": "Historische Daumenregel aus Tagesdaten, keine Prognose der Eröffnung.",
+  "faktoren_heute": {
+   "Nikkei": 1.26,
+   "Hang Seng": -0.81,
+   "Kospi": 2.09,
+   "S&P 500 (Vortag)": -0.38,
+   "Brent (Vortag)": -1.17,
+   "US 10J Rendite (Vortag)": 11.9,
+   "USD/JPY (Vortag)": -0.2
+  },
+  "faktoren_einheit": "Renditen in %, Renditeänderungen in bp",
+  "ergebnisse": [
+   {
+    "ziel": "Immobilien vs. Markt",
+    "erwarteter_effekt_bp": -22.0,
+    "treiber": [
+     {
+      "faktor": "US 10J Rendite (Vortag)",
+      "effekt_bp": -22.0,
+      "t_stat": -2.7
+     }
+    ],
+    "r2": 0.05
+   },
+   {
+    "ziel": "Stoxx 600 (gesamt)",
+    "erwarteter_effekt_bp": -6.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 16.0,
+      "t_stat": 5.8
+     }
+    ],
+    "r2": 0.22
+   },
+   {
+    "ziel": "Rohstoffe vs. Markt",
+    "erwarteter_effekt_bp": 2.0,
+    "treiber": [
+     {
+      "faktor": "Hang Seng",
+      "effekt_bp": -18.0,
+      "t_stat": 6.9
+     }
+    ],
+    "r2": 0.09
+   },
+   {
+    "ziel": "Telekom vs. Markt",
+    "erwarteter_effekt_bp": 0.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -16.0,
+      "t_stat": -4.6
+     }
+    ],
+    "r2": 0.08
+   }
+  ]
+ }
+}

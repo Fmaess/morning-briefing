@@ -1,0 +1,45 @@
+Morning, sharpshooter. Sharpe ratio ready?
+
+Today's thesis: the bond market is running the tape, and it just told equities that the Fed is not done, so every rally this morning is a rally on borrowed time.
+
+Start with the trigger. US consumer prices rose zero point four percent in October. That's cooler than September, but economists still call it uncomfortably high. And the market heard something sharper than the number. The ten-year Treasury yield jumped nearly twelve basis points to just under five percent, and the five-year rose almost fifteen. Fed officials are opening the door to a quicker round of hikes, and CME FedWatch has December hike odds at eighty-eight percent. Goldman now expects another hike in March.
+
+So Wall Street gave ground. The S&P 500 fell zero point four percent, the Nasdaq 100 fell zero point six, and one portfolio manager said out loud he doesn't think the Fed should raise another twenty-five basis points.
+
+[pause]
+
+But here is the complication. Asia bounced, and the futures are pointing up. The Kospi gained two point one percent, the Nikkei one point two. S&P futures are up zero point seven percent, Nasdaq futures one point four. Sounds like relief. Look closer, though. The Kospi is still down almost six percent over five days, so this is a bounce inside a drawdown, not a recovery. So treat it as repair of oversold positioning, not a verdict on rates.
+
+What's driving the tech tone? The AI trade is being tested from two sides. On the negative side, Nvidia sold off for a second day over the fallout from its CEO's affair with an alleged Chinese spy, and the company has hired an outside investigator. That's a governance story, not a demand story, and the demand side looks healthy. TSMC talks of insatiable chip demand. CoreWeave beat on revenue, lifted guidance, and its stock popped, because a planned nine billion dollars in prepayments eased worries about its debt-fueled build-out. That matters beyond one name: the market's real fear is not whether AI demand exists, but who pays for the capex when money costs five percent. Prepayments from customers are one answer. Higher yields make the question sharper.
+
+Then there's the Anthropic IPO, with a price range of seventy to seventy-eight dollars and trading expected November nineteenth. Retail books are opening in Australia. Big supply is coming, so the open question is whether a record listing soaks up liquidity from the existing AI names.
+
+Now oil, the other half of the inflation story. Brent briefly dipped below ninety dollars for the first time since August on hopes the Iran conflict is winding down, and sits around ninety-two now, up zero point seven percent today. US gasoline fell below four dollars. That's helpful for headline inflation, but the market is looking at core pressures and tariffs. The White House says it will press ahead with tariffs despite the midterm backlash. Peace hopes are fragile, since some analysts see little chance of a lasting deal. So oil is a swing factor for margins and inflation both.
+
+Currencies follow rates. The dollar is firmer on the Fed talk, and the euro-dollar rate slipped half a percent to one point one two. The yen sits near one fifty-nine against the dollar, and that's a level where Japanese exporters cheer but policymakers get nervous.
+
+Now the nuance for Europe, and it's important. Bund yields barely moved. The ten-year is at three point three percent, down two basis points, and the two-year is at three point zero. So US yields spiked while Bunds shrugged. The transatlantic gap just widened, which supports the dollar and keeps European funding costs from jumping with the US. Europe closed yesterday up, with the Stoxx 600 gaining zero point three percent and the Euro Stoxx 50 zero point six, and it's up about two percent on the week. So Europe comes in with momentum, but also with something to lose.
+
+What does the historical rule of thumb say? Only a rule of thumb, not a forecast. Following Asia, it points to a roughly flat Stoxx 600 open, with a slight negative lean of about six basis points. The strongest signal is that a rising US ten-year has tended to weigh on real estate relative to the market, by around twenty-two basis points. That fits the story: property and other long-duration sectors are where higher-for-longer hurts first. Commodity stocks look neutral relative to the market, with the Hang Seng's weakness a small drag.
+
+On the single European print, Infineon reported earnings per share of sixty cents against sixty-two expected, a miss of almost four percent, yet the stock moved up more than six percent. The market is looking through the miss because the message was that the AI data center boom persists despite the backlash. So the read-across is for power semiconductors and electrical infrastructure tied to data centers, where demand is the story, not the quarter.
+
+Where does the risk hide? In crowding. Europe's rally leaves cyclicals and tech-adjacent names exposed if the Fed repricing continues. Defensives like healthcare face their own wrinkle, with the FDA warning of vision loss risk linked to GLP-1 drugs like Wegovy and Zepbound. That's a headline for the obesity trade, not a reason to rotate away from the sector.
+
+What would change the picture? A US ten-year decisively through five percent, Brent back above ninety-five, or a softer Fed tone.
+
+[pause]
+
+One line to take away: the AI story may be fine, but the bond market decides what it's worth, and today it's asking for a higher price of money.
+
+That's the tape. Now go make your risk manager proud.
+
+===SHOWNOTES===
+- Hot October CPI (up 0.4 percent) pushed US 10-year yield up 11.9 basis points to about 4.98 percent; 5-year up 14.8 basis points.
+- Fed hike odds for December at 88 percent (CME FedWatch); Goldman sees another hike in March.
+- Asia bounced (Kospi up 2.1 percent, Nikkei up 1.2 percent), but Kospi is still down 5.9 percent over five days: oversold repair.
+- US futures up (S&P 0.7 percent, Nasdaq 1.4 percent) after Tuesday's small declines.
+- Brent around 92 dollars after briefly dipping below 90 on Iran peace hopes; US gasoline below 4 dollars.
+- Bund 10-year at 3.28 percent, down 2 basis points: widening US-Europe yield gap, EUR/USD down 0.5 percent to 1.12.
+- Model (rule of thumb): Stoxx 600 about minus 6 basis points; real estate relative minus 22 basis points on higher US yields.
+- Infineon: EPS 0.60 vs 0.62 estimate (miss of 3.9 percent), stock up 6.3 percent on AI data center demand. CoreWeave beat and raised; Anthropic IPO range 70 to 78 dollars, trading expected Nov 19.

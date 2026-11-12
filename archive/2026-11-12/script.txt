@@ -1,0 +1,43 @@
+Good morning, future PM. Your desk is waiting.
+
+It's Thursday, November twelfth, and today's thesis is simple: the AI trade got a lifeline last night, but Nvidia's boardroom drama just cut it, and rates are not giving anyone room to forgive.
+
+Start with yesterday. The S&P 500 rallied one point three percent, the Nasdaq 100 jumped two point three. The trigger was CoreWeave, which beat on revenue and lifted guidance. The stock soared more than twenty-four percent, its best day since April 2025. That mattered beyond one name. Neoclouds had been hammered all month on doubts about AI spending and debt. CoreWeave's improved economics and its vow of debt discipline pulled Micron and the rest of the chip complex higher. The VIX dropped about ten percent to seventeen point five.
+
+[pause]
+
+But after the bell, Nvidia fell around eight percent on reports that its board may oust Jensen Huang, following his admission of an affair with a woman U.S. intelligence reportedly suspects of being a Chinese spy. The board meeting stretched into the evening. So the AI relief rally is already being handed back: Nasdaq futures are down one point one percent, S&P futures down half a percent.
+
+Here's why it matters beyond the headline. Huang opposed strict export controls on AI chips to China, and Washington is now talking about tightening them. A U.S. probe is also looking at Nvidia partner Megaspeed over restricted chips reaching China. So this is not just a governance story, it's a possible policy-risk story for the whole semiconductor chain. That's the transmission into Asia: the Kospi fell one point three percent, the Hang Seng nearly nine-tenths of a percent, the Nikkei eight-tenths. Korea is the cleanest read-through, given its chip exposure.
+
+Now the complication. Even a good AI day couldn't fix the macro backdrop. October CPI came in hotter than expected, and Fed's Goolsbee called it borderline disturbing, with the central bank weighing more hikes. The US ten-year yield sits at five point zero percent, up one and a half basis points. Mortgage rates jumped after four weeks of easing. And retail sales are rising at their slowest pace in nearly a year, so the consumer is straining.
+
+Here's the tension. Brent is down more than six percent over five days, at about ninety-two dollars, yet yields aren't following it down. MarketWatch flagged that the tight link between oil and Treasuries has broken. That suggests inflation worries now reach beyond the energy shock. So cheaper oil doesn't buy relief. The risk is stagflation-flavored: high funding costs, a squeezed consumer, and equity valuations that depend on long-duration growth, which is exactly what AI stocks are.
+
+Europe feels it through the curve. The German two-year yield rose seven basis points to three point one percent, the ten-year six basis points to three point three percent. Higher funding costs bite small and mid caps first, and push capex out. Yet European stocks rallied yesterday: the Stoxx 600 up seven-tenths of a percent, the DAX up one point two. That says Europe caught the AI bounce but not yet the Nvidia hit.
+
+Currencies add another layer. The euro is down seven-tenths of a percent against the dollar, near one point one one. That helps European exporters. The yen is near one hundred sixty per dollar, and Japan's Mimura reminded markets of intervention risk. At the same time, Japanese wholesale inflation is accelerating, which keeps the Bank of Japan hike story alive, though dovish policymaker Asada pushed back on moving early. So the yen is caught between a hawkish data trend and a dovish voice. A sharp intervention would be a volatility event for global risk.
+
+China is the other thread. The Shanghai Composite barely moved, down a quarter percent, but the Hang Seng is down nearly three percent over five days. Historically, weakness in Hong Kong has tended to weigh on luxury, and our rule of thumb points to luxury lagging the market slightly today. That's a historical pattern, not a forecast.
+
+On the same rule of thumb, the Wall Street rally points to a modestly firmer Stoxx 600 at the open, but the futures are saying otherwise. Weigh the two. The model historically has also leaned against commodity-related names relative to the market on days like this, with Hong Kong weakness the main driver. Its explanatory power is low, so treat that lightly. Metals are soft anyway: gold is down more than three percent this week, copper slipped.
+
+Two more things on the radar. Nissan cut its sales forecast for the second time on Chinese competition, a reminder that the auto pressure from China is real, and the EU is reportedly moving to delay a ten percent tariff on EVs traded with Britain. And Spain just had its first general strike in fourteen years, over housing.
+
+So where does that leave Europe today? Semiconductor equipment and chip-linked names face headwinds if Nvidia stays under pressure. Defensives and cash-generative balance sheets have the better setup if yields keep climbing. Crowding is the question: the AI trade was just rescued, and a lot of people probably bought that rescue. What would change the picture is a clean resolution at Nvidia's board, or a break lower in yields.
+
+[pause]
+
+The takeaway: AI got its lifeline, but with yields at five percent, even good news has a short shelf life.
+
+Briefing over. Go show the market who's boss.
+
+===SHOWNOTES===
+- CoreWeave beat and raised guidance, stock up more than 24 percent, easing AI spending worries and lifting chips; VIX down about 10 percent to 17.5.
+- Nvidia down roughly 8 percent after hours on reports the board may oust Jensen Huang; Nasdaq futures down 1.1 percent, S&P futures down 0.5 percent.
+- Chain: Huang's opposition to export controls, U.S. probe into Megaspeed, and possible tighter China chip rules lead to semiconductor policy risk. Kospi down 1.3 percent, Hang Seng down 0.9 percent, Nikkei down 0.8 percent.
+- Hot October CPI and Fed hike talk: US 10-year at about 5.0 percent; oil-yield link has broken, so lower oil (Brent about 92 dollars, down 6.6 percent over 5 days) isn't lowering yields.
+- Bund 2-year up 7 basis points to 3.08 percent, 10-year up 6 basis points to 3.34 percent: higher funding costs for small and mid caps, capex risk.
+- Euro-dollar about 1.108, down 0.8 percent; USD/JPY near 160 with intervention warning and mixed BOJ signals.
+- Model (historical rule of thumb): Stoxx 600 plus 8 basis points, luxury minus 6, commodities minus 45 (low R-squared 0.09); futures point the other way.
+- Other: Nissan second forecast cut on China, Spain general strike, EU reportedly delaying EV tariff with Britain.

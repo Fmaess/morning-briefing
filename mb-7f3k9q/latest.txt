@@ -1,0 +1,39 @@
+MORNING BRIEFING – Friday, 13 November 2026
+
+Friday, big dog. Don't get caught long into the weekend without a plan.
+
+It's Friday, the thirteenth of November, and the thesis is simple: the market is shrugging off a chip-sector shock, but the real risk is the bond market, because a Fed that might keep hiking is the one story that can reach every sector at once.
+
+Start with the headline everyone is talking about. Nvidia's CEO, Jensen Huang, resigned, and the stock closed down more than four percent. The chief financial officer, Colette Kress, is interim CEO. Nvidia sits at the center of a web of customers, partners and suppliers, so one commentary called this a test of its role as the central bank of AI. The S&P 500 fell just zero point three percent, and the Nasdaq 100 fell zero point three percent too. The VIX, up about seven percent on the day, sits at eighteen point seven, still down a third over the week. So the equity market absorbed it.
+
+
+
+But the bond market did not. The US ten-year yield jumped about ten basis points to five point one percent, and the five-year rose almost twelve. Headlines called it the biggest surge since 2022. The driver is expectations of more Fed hikes, with a Fed speaker saying there is work to do on inflation. Brent at ninety-five dollars keeps that inflation worry alive, even though it slipped a bit overnight.
+
+So here is the chain. Higher US yields lift the dollar. The euro-dollar rate is down to one point one oh six, off one and a half percent on the week. The dollar is also pressing the yen, with dollar-yen at one hundred sixty. Japan's finance minister is already vowing action, and a break through that level raises the intervention risk. Japan also warned arms suppliers about deep order cuts because of a budget squeeze. Yet the Nikkei still rose about half a percent and is up six and a half percent on the week. A weak yen flatters Japanese exporters, but a sudden intervention could reverse that fast.
+
+Now the Asian tape. The Hang Seng fell one point two percent, the Kospi one percent, Shanghai half a percent and Australia seven tenths. The Kospi is still up four and a half percent on the week, so some of this is simply profit-taking after a strong run. Hong Kong is the one to watch, down more than three percent over five days. Chinese shares led an Asian chip rally on the Huang turmoil, the logic being that his relationship reportedly touched companies tied to Huawei, a rival. That is the cross-current: Nvidia's problem could become someone else's opportunity. It also lands days before the Trump-Xi summit, in a political climate described as very different from September.
+
+Earnings add texture. Siemens beat, with earnings per share of three oh one against two eighty-one expected, up seven percent, and the stock rose about two percent. Management cited record orders and accelerating growth, and Siemens is buying the chip tools firm Lauterbach. That is industrial demand tied to automation and the AI build-out, in a European name. Allianz missed on the headline earnings number, but the stock was flat, as asset management offset catastrophe losses. Elsewhere, Nebius fell sixteen percent on higher capex and a weak outlook, while Cerebras jumped seventeen percent on a Microsoft deal. So the AI trade is splitting between those who spend and those who get paid.
+
+What does this mean for Europe today? Historically, on days with this setup, the rule of thumb points to a few headwinds. Real estate has tended to lag the market, by about twenty-four basis points, driven by the jump in US yields. That is a rule of thumb, with a low explanatory power, not a forecast. Commodity-linked stocks have tended to underperform by about twenty basis points, tied to the weak Hang Seng. Luxury looks roughly flat on the model, but Hong Kong weakness has historically been a drag, so I would not lean on it. Gold gained about one percent today but is down almost four percent on the week. A stronger dollar and higher real yields are a headwind there.
+
+On the other side, a softer euro helps exporters. Siemens shows the industrial order book is strong. Banks and insurers can live with higher yields. The crowded trade is long AI-adjacent momentum. The risk is that rates, not Nvidia, become the trigger for de-grossing.
+
+What would change the picture? A hawkish Fed surprise, a yen intervention, or a messy start to the Trump-Xi summit. Stoxx 600 and DAX both rose Thursday, so Europe goes into the weekend with some cushion, but yields can take that away.
+
+
+
+The takeaway: stocks shrugged off Nvidia, but they cannot shrug off five percent on the ten-year.
+
+That's a wrap for the week. Square your book, then open a cold one.
+
+KEY POINTS
+- Thesis: equities absorbed the Nvidia CEO resignation (stock down over four percent, S&P 500 down 0.3 percent, VIX 18.7), but rates are the bigger risk.
+- Rates chain: US 10-year up 10.5 basis points to 5.1 percent, 5-year up 11.8, on Fed hike expectations; biggest surge since 2022 per MarketWatch.
+- FX chain: higher yields lead to a stronger dollar, EUR/USD 1.106 (down 1.5 percent over 5 days), USD/JPY near 160, Japan's finance minister vows action.
+- Asia: Hang Seng down 1.2 percent, Kospi down 1.0, Nikkei up 0.6 (up 6.5 percent over 5 days). Chinese chip shares rallied on the Huang turmoil.
+- Earnings: Siemens EPS 3.01 vs 2.81 expected, stock up about 2 percent, record orders, buying Lauterbach. Allianz EPS 7.41 vs 8.17, stock flat.
+- AI split: Nebius down 16 percent on higher capex, Cerebras up 17 percent on Microsoft deal.
+- Sensitivity model (historical rule of thumb): real estate about minus 24 basis points vs market, commodities minus 20, luxury minus 2.
+- Watch: Trump-Xi summit next week, yen intervention risk, Fed commentary, Brent at $95.5.

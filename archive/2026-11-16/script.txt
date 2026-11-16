@@ -1,0 +1,39 @@
+Happy Monday, champ. New week, new alpha.
+
+Today's thesis: the AI trade is wobbling into a week of binary events, and with oil near ninety-five dollars and yields climbing, there is very little cushion underneath it.
+
+Here's the setup. Asia is selling tech. The Kospi fell three point eight percent, the Nikkei dropped two point three percent, and that's after both had run up more than one percent over the past week. Nasdaq futures are pointing down about one percent, after the Nasdaq 100 lost one point two percent on Friday. The trigger is Nvidia. Jensen Huang has resigned, Colette Kress is running the company, and Tuesday's earnings call is being billed as the most important in its history. Add the Anthropic IPO landing this week, which is supposed to be the bright spot for the AI trade.
+
+But the tension is this: the market isn't just nervous about one company. It's nervous about whether it can afford a stumble. The ten-year Treasury yield rose five basis points to five point one percent. The Bund ten-year went up eight basis points to three point four percent. Brent sits at ninety-five dollars. So, therefore, when the AI trade needs to justify long-duration valuations, the discount rate is rising, and the energy bill is eating into everyone else's margins.
+
+Look at Japan. Third-quarter GDP contracted, unexpectedly, as energy subsidies for households expired in September and the Iran war's energy costs bit in. But the Bank of Japan's Takata is calling for quick rate hikes. So the economy is shrinking and a hawk wants tighter policy. That's a nasty mix for Japanese equities, and it explains part of the Nikkei's weakness. Meanwhile dollar-yen is near one fifty-nine, which tells you the currency isn't getting much help yet.
+
+[pause]
+
+China adds the second leg. October industrial output, retail sales and investment all missed. Analysts say the economy leans more on external demand while domestic momentum fades. The central bank also raised the foreign currency reserve requirement for the first time in five years. So China is leaning on the exchange rate, and it's weak at home. Shanghai fell zero point eight percent. The Hang Seng rose zero point eight percent, but it's still down more than two percent on the week. Copper, down nearly five percent over five days, is telling you the same story: demand worries. Gold has fallen six percent in a week too, which is a reminder that higher real yields are hurting the traditional safe haven.
+
+There is a geopolitical wild card. A US, China and Russia summit is confirmed for Shenzhen on November nineteenth, with the Middle East war, trade and possibly Ukraine on the agenda. Separately, Iran says it won't wait for the US to attack first. So oil has a risk premium that could swing either way, and that's the open question for the week.
+
+Now Europe. We had a quiet Friday: the Stoxx 600 flat, the DAX down a hair, and both up more than three percent on the week. That's the key point. Europe goes into this with a strong week behind it and Asia handing it a bad tape. The euro slipped about one percent on the week to one point one zero, which helps exporters a little, but doesn't offset the rise in funding costs.
+
+The sensitivity model, which is a historical rule of thumb and not a forecast, points to a soft open. Historically, on days like this, the Stoxx 600 has tended to lag by around twenty basis points, with the Nikkei the main driver. Technology and industrials have tended to underperform the market by roughly twenty-five to thirty basis points. Healthcare and telecoms have tended to outperform by around twenty basis points. That is the classic defensive rotation. The explanatory power is low, so treat it as a tilt rather than a call.
+
+So what does that mean for positioning? Crowding is likely in the AI supply chain, so semiconductor equipment and European tech names are most exposed if Nvidia disappoints on Tuesday. Industrials with Asian exposure face the double hit of weaker China demand and higher energy costs. Healthcare and telecoms look like the natural landing spots, but I'd call that tactical positioning rather than a structural shift, until we see whether yields keep rising.
+
+What would change the picture? A reassuring Nvidia call, a strong Anthropic debut, or a de-escalation signal from Shenzhen would ease the pressure on tech and on oil. On the other hand, a miss, or higher yields, would spread the selling beyond technology.
+
+[pause]
+
+The AI trade doesn't need a disaster this week, it just needs to avoid disappointing a market with no cushion.
+
+That's your edge for today. Use it wisely, champ.
+
+===SHOWNOTES===
+- Thesis: AI trade fragile into Nvidia earnings Tuesday, with high oil and rising yields leaving little cushion.
+- Asia: Kospi down 3.8 percent, Nikkei down 2.3 percent; Nasdaq futures down about 1.0 percent after Nasdaq 100 fell 1.2 percent Friday.
+- Rates: US ten-year 5.15 percent, up 5.1 basis points; Bund ten-year 3.41 percent, up 8 basis points. Higher discount rate hurts long-duration tech.
+- Japan: Q3 GDP contracted (annualized minus 0.1 percent) as energy subsidies expired; BOJ's Takata wants quick hikes. USD/JPY about 159.4.
+- China: October output, retail sales and investment missed; foreign reserve requirement hiked for the first time in five years. Copper down 4.8 percent over five days.
+- Oil: Brent 95.5 dollars; Iran rhetoric and the November 19 Shenzhen summit are two-way risks.
+- Sensitivity model (historical rule of thumb): Stoxx 600 about minus 23 basis points, tech minus 29, industrials minus 25, healthcare plus 21, telecoms plus 21. Low R-squared.
+- Europe: Stoxx 600 up 2.4 percent on the week; tech and Asia-exposed industrials most at risk, healthcare and telecoms the tactical defensive.

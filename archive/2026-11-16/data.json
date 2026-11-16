@@ -1,0 +1,688 @@
+{
+ "datum": "Monday, 16 November 2026",
+ "maerkte": {
+  "asien": [
+   {
+    "name": "Nikkei 225",
+    "ticker": "^N225",
+    "last": 59720.3906,
+    "as_of": "2026-11-16",
+    "change_pct": -2.33,
+    "change_5d_pct": 1.61
+   },
+   {
+    "name": "Hang Seng",
+    "ticker": "^HSI",
+    "last": 23819.5391,
+    "as_of": "2026-11-16",
+    "change_pct": 0.77,
+    "change_5d_pct": -2.57
+   },
+   {
+    "name": "Shanghai Composite",
+    "ticker": "000001.SS",
+    "last": 3605.4292,
+    "as_of": "2026-11-16",
+    "change_pct": -0.8,
+    "change_5d_pct": -1.51
+   },
+   {
+    "name": "Kospi",
+    "ticker": "^KS11",
+    "last": 5087.5698,
+    "as_of": "2026-11-16",
+    "change_pct": -3.84,
+    "change_5d_pct": 1.37
+   },
+   {
+    "name": "ASX 200",
+    "ticker": "^AXJO",
+    "last": 9044.7002,
+    "as_of": "2026-11-16",
+    "change_pct": -0.41,
+    "change_5d_pct": 0.17
+   }
+  ],
+  "usa": [
+   {
+    "name": "S&P 500",
+    "ticker": "^GSPC",
+    "last": 7561.6699,
+    "as_of": "2026-11-13",
+    "change_pct": -0.4,
+    "change_5d_pct": 2.51
+   },
+   {
+    "name": "Nasdaq 100",
+    "ticker": "^NDX",
+    "last": 27943.7402,
+    "as_of": "2026-11-13",
+    "change_pct": -1.22,
+    "change_5d_pct": 3.53
+   },
+   {
+    "name": "S&P 500 Future",
+    "ticker": "ES=F",
+    "last": 7545.5,
+    "as_of": "2026-11-16",
+    "change_pct": -0.49,
+    "change_5d_pct": -0.38
+   },
+   {
+    "name": "Nasdaq Future",
+    "ticker": "NQ=F",
+    "last": 27739.75,
+    "as_of": "2026-11-16",
+    "change_pct": -1.05,
+    "change_5d_pct": -0.98
+   }
+  ],
+  "europa": [
+   {
+    "name": "Euro Stoxx 50",
+    "ticker": "^STOXX50E",
+    "last": 6386.8599,
+    "as_of": "2026-11-13",
+    "change_pct": -0.19,
+    "change_5d_pct": 3.51
+   },
+   {
+    "name": "DAX",
+    "ticker": "^GDAXI",
+    "last": 26749.9492,
+    "as_of": "2026-11-13",
+    "change_pct": -0.08,
+    "change_5d_pct": 3.6
+   },
+   {
+    "name": "Stoxx 600",
+    "ticker": "^STOXX",
+    "last": 664.14,
+    "as_of": "2026-11-13",
+    "change_pct": 0.02,
+    "change_5d_pct": 2.44
+   }
+  ],
+  "zinsen": [
+   {
+    "name": "US 10J Rendite",
+    "ticker": "^TNX",
+    "last": 5.154,
+    "as_of": "2026-11-13",
+    "change_bp": 5.1
+   },
+   {
+    "name": "US 5J Rendite",
+    "ticker": "^FVX",
+    "last": 4.981,
+    "as_of": "2026-11-13",
+    "change_bp": 3.6
+   },
+   {
+    "name": "Bund 2J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A",
+    "last": 3.13,
+    "as_of": "2026-11-13",
+    "change_bp": 5.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   },
+   {
+    "name": "Bund 10J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A",
+    "last": 3.41,
+    "as_of": "2026-11-13",
+    "change_bp": 8.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   }
+  ],
+  "rohstoffe": [
+   {
+    "name": "Brent",
+    "ticker": "BZ=F",
+    "last": 95.51,
+    "as_of": "2026-11-16",
+    "change_pct": -0.34,
+    "change_5d_pct": 3.18
+   },
+   {
+    "name": "TTF Gas",
+    "ticker": "TTF=F",
+    "last": 90.952,
+    "as_of": "2026-11-13",
+    "change_pct": -1.42,
+    "change_5d_pct": 6.27
+   },
+   {
+    "name": "Gold",
+    "ticker": "GC=F",
+    "last": 3865.8,
+    "as_of": "2026-11-16",
+    "change_pct": -0.53,
+    "change_5d_pct": -6.04
+   },
+   {
+    "name": "Kupfer",
+    "ticker": "HG=F",
+    "last": 6.0245,
+    "as_of": "2026-11-16",
+    "change_pct": -0.9,
+    "change_5d_pct": -4.8
+   }
+  ],
+  "devisen": [
+   {
+    "name": "EUR/USD",
+    "ticker": "EURUSD=X",
+    "last": 1.1025,
+    "as_of": "2026-11-16",
+    "change_pct": -0.22,
+    "change_5d_pct": -1.09
+   },
+   {
+    "name": "USD/JPY",
+    "ticker": "JPY=X",
+    "last": 159.426,
+    "as_of": "2026-11-16",
+    "change_pct": -0.28,
+    "change_5d_pct": 0.72
+   },
+   {
+    "name": "USD/CNY",
+    "ticker": "CNY=X",
+    "last": 6.6692,
+    "as_of": "2026-11-16",
+    "change_pct": -0.02,
+    "change_5d_pct": -0.1
+   }
+  ],
+  "volatilitaet": [
+   {
+    "name": "VIX",
+    "ticker": "^VIX",
+    "last": 19.3,
+    "as_of": "2026-11-13",
+    "change_pct": 3.21,
+    "change_5d_pct": -24.73
+   }
+  ]
+ },
+ "nachrichten": [
+  {
+   "source": "Investing.com",
+   "title": "BOJ’s Takata calls for swift hike in rates to ’good’ position",
+   "summary": "",
+   "time_utc": "2026-11-16T05:12:41+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "BOJ hawk Takata calls for quick pace of rate hikes",
+   "summary": "",
+   "time_utc": "2026-11-16T05:10:45+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "China confirms Xi-Trump-Putin historic summit. What will be on the agenda?",
+   "summary": "The talks are expected to focus on issues including nuclear non-proliferation, the Middle East war, trade policies and, possibly, the Ukraine war.",
+   "time_utc": "2026-11-16T04:34:00+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Bessent says Nvidia must ’go outside the company’ to find new CEO",
+   "summary": "",
+   "time_utc": "2026-11-16T04:18:38+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "My older brother, who has no children, cut our only sister out of his will. I’ll get everything. Do I tell her?",
+   "summary": "“I’m torn between respecting my brother’s wishes and being fair to my sister.”",
+   "time_utc": "2026-11-16T04:15:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
+   "summary": "A deepening reliance on external demand leaves China more exposed to shocks abroad as domestic momentum fades, analysts say.",
+   "time_utc": "2026-11-16T03:53:59+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Tech world's calls for Jensen Huang to return to Nvidia are growing",
+   "summary": "Calls for Jensen Huang's return as Nvidia CEO are growing, with tech executives and major shareholders backing a potential comeback following his resignation.",
+   "time_utc": "2026-11-16T03:35:09+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "A big chunk of your 401(k) is likely invested in Nvidia",
+   "summary": "The scandal at the computer-chip giant is exactly what’s wrong with the S&amp;P 500.",
+   "time_utc": "2026-11-16T03:11:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
+   "summary": "Energy subsidies for households had reportedly expired in September, exposing the economy to the higher energy prices brought about by the Iran war.",
+   "time_utc": "2026-11-16T02:56:24+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Japan’s economy unexpectedly shrinks as inflation squeezes households",
+   "summary": "",
+   "time_utc": "2026-11-16T02:36:52+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "China’s factory output, retail sales growth slow in October",
+   "summary": "",
+   "time_utc": "2026-11-16T02:12:39+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "U.S.-China-Russia trilateral summit to take place in Shenzhen on Nov. 19- Xinhua",
+   "summary": "",
+   "time_utc": "2026-11-16T01:40:41+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Stocks mostly ease with tech, Nvidia concerns; airline shares fall late in session",
+   "summary": "",
+   "time_utc": "2026-11-16T01:37:17+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Asian shares fall before Nvidia earnings, Anthropic IPO test tech rally",
+   "summary": "",
+   "time_utc": "2026-11-16T01:36:29+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "UK property asking prices fall more than usual in November, Rightmove says",
+   "summary": "",
+   "time_utc": "2026-11-16T00:13:12+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
+   "summary": "“I know older people can easily feel patronized, and I don’t want that to happen.”",
+   "time_utc": "2026-11-15T23:30:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
+   "summary": "“It would be a less drastic step than selling the home now and splitting the proceeds.”",
+   "time_utc": "2026-11-15T23:00:00+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Iran says it will not wait for U.S. to attack first",
+   "summary": "",
+   "time_utc": "2026-11-15T22:59:34+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
+   "summary": "Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”",
+   "time_utc": "2026-11-15T21:32:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Budget airlines are going upscale with first-class seats and faster wifi",
+   "summary": "Forget no-frills: Frontier and JetBlue are chasing luxury flyers, and Wall Street is buying in.",
+   "time_utc": "2026-11-15T21:31:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
+   "summary": "“He has always said he wants his daughter to inherit a chunk of his estate, and I’ve never objected to that.”",
+   "time_utc": "2026-11-15T20:30:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "‘He calls my plans a fantasy’: My husband says we can’t afford a $200,000-a-year retirement. Is he being cheap?",
+   "summary": "“We have $2 million saved in our retirement accounts and a house worth $1.3 million.”",
+   "time_utc": "2026-11-15T20:00:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
+   "summary": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
+   "time_utc": "2026-11-15T19:58:21+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "DOT Sec. Duffy ties router in southern Arkansas to issues that led to nationwide ground stop",
+   "summary": "The FAA ground stop came after updates to an older communication system managed by L3Harris Technologies, Transportation Secretary Sean Duffy said.",
+   "time_utc": "2026-11-15T18:15:14+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "What I know and respect about Colette Kress, the person now leading Nvidia",
+   "summary": "Colette Kress is the steady hand that Nvidia needs in charge during this turbulent time.",
+   "time_utc": "2026-11-15T17:14:17+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Trump breaks silence about FAA nationwide ground stop, blames Biden administration",
+   "summary": "Trump blamed the Biden administration for the FAA’s aging system after a nationwide ground stop disrupted air travel and urged Congress to approve more funding.",
+   "time_utc": "2026-11-15T16:56:40+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
+   "summary": "“We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”",
+   "time_utc": "2026-11-15T16:00:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "China’s hottest stocks these days have one thing in common: names that sound like sheep",
+   "summary": "Shares of fish processors, lighting manufacturers and appliance makers have soared ahead of the Year of the Sheep. Investor appetite has had little to do with the status of their businesses.",
+   "time_utc": "2026-11-15T15:22:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "I'm a psychologist who studies couples—5 signs you've fallen into a common rut: 'It builds through small habits that each look harmless'",
+   "summary": "Couples today are vulnerable to \"coexistence without contact,\" says psychologist Mark Travers. Here are the symptoms — and what you can do to counteract them.",
+   "time_utc": "2026-11-15T13:48:01+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
+   "summary": "Anthropic's IPO has outsized importance in the tech industry, which is heavily invested in the AI lab and is desperate for some positive momentum.",
+   "time_utc": "2026-11-15T12:00:01+00:00"
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Toyota group companies team up to move upstream in auto software",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "SK Hynix in 24/7 race to complete colossal chip plant",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "APEC China: 5 things to know about Xi Jinping's diplomatic show",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "China's economy softens across the board as factory output, spending slow",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Thailand's GDP growth picks up to 2.9% in Q3 on strong exports",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "New World stock plunge to new lows after it plans $3.2bn rights issue",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Singapore's One Championship aims to revive combat sports in Japan",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan's Q3 GDP drops an annualized 0.1%, below market expectations",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "What an Anthropic index says about Japan's AI challenges",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "China central bank hikes foreign reserve requirement for 1st time in 5 years",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Asian investors chase indirect access to Anthropic shares amid IPO fever",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Toward a stronger and more prosperous Indo-Pacific, together",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan shipping group ONE transits Red Sea choke point for 1st time in 3 years",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "How Japan's defense bases are exposed by smartphone data",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "ASEAN falls short on Myanmar crisis, South China Sea pact at Manila summit",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "APEC summit in Shenzhen, Indonesia monetary policy, ASEAN diplomacy",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Gaming emerges as a new corporate networking tool in Japan",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Sri Lanka reality contrasts with new World Bank upper-middle-income status",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "China's century-old 'porcelain capital' eyes global luxury",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Subaru retools boxer engine for fuel economy, with eye on hybrids",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Footloose in Vientiane: A capital in no great hurry",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan to require online authorization for some transit passengers",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Digital Realty Trust to spend $10bn more on Japan data centers: CEO",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Eyeing his legacy, Trump seizes chance for arms talks with Xi and Putin",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Philippines moves to secure emergency access to oil in Indonesia, Thailand",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "How Trump might be tempted to orchestrate an 'end to the Korean War'",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Osaka landmark to be centerpiece of area's redevelopment",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "China sees Nvidia chief Huang's swift downfall as political hit",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Did we really see a black hole? Australian team says 'yes'",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "No grass, no problem: Playing sand golf in the Australian outback",
+   "summary": "",
+   "time_utc": null
+  }
+ ],
+ "earnings": [],
+ "sensitivitaeten": {
+  "hinweis": "Historische Daumenregel aus Tagesdaten, keine Prognose der Eröffnung.",
+  "faktoren_heute": {
+   "Nikkei": -2.35,
+   "Hang Seng": 0.75,
+   "Kospi": -3.83,
+   "S&P 500 (Vortag)": -0.4,
+   "Brent (Vortag)": 0.02,
+   "US 10J Rendite (Vortag)": 5.1,
+   "USD/JPY (Vortag)": 0.09
+  },
+  "faktoren_einheit": "Renditen in %, Renditeänderungen in bp",
+  "ergebnisse": [
+   {
+    "ziel": "Technologie vs. Markt",
+    "erwarteter_effekt_bp": -29.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -23.0,
+      "t_stat": 3.0
+     }
+    ],
+    "r2": 0.07
+   },
+   {
+    "ziel": "Industrie vs. Markt",
+    "erwarteter_effekt_bp": -25.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -17.0,
+      "t_stat": 3.8
+     }
+    ],
+    "r2": 0.06
+   },
+   {
+    "ziel": "Stoxx 600 (gesamt)",
+    "erwarteter_effekt_bp": -23.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -30.0,
+      "t_stat": 5.8
+     }
+    ],
+    "r2": 0.22
+   },
+   {
+    "ziel": "Gesundheit vs. Markt",
+    "erwarteter_effekt_bp": 21.0,
+    "treiber": [
+     {
+      "faktor": "Kospi",
+      "effekt_bp": 23.0,
+      "t_stat": -3.5
+     }
+    ],
+    "r2": 0.07
+   },
+   {
+    "ziel": "Telekom vs. Markt",
+    "erwarteter_effekt_bp": 21.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 30.0,
+      "t_stat": -4.6
+     }
+    ],
+    "r2": 0.08
+   },
+   {
+    "ziel": "Rohstoffe vs. Markt",
+    "erwarteter_effekt_bp": -7.0,
+    "treiber": [
+     {
+      "faktor": "Hang Seng",
+      "effekt_bp": 16.0,
+      "t_stat": 7.0
+     }
+    ],
+    "r2": 0.09
+   },
+   {
+    "ziel": "Immobilien vs. Markt",
+    "erwarteter_effekt_bp": -6.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 24.0,
+      "t_stat": -3.6
+     }
+    ],
+    "r2": 0.05
+   },
+   {
+    "ziel": "Versorger vs. Markt",
+    "erwarteter_effekt_bp": 0.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 24.0,
+      "t_stat": -3.7
+     },
+     {
+      "faktor": "Kospi",
+      "effekt_bp": -16.0,
+      "t_stat": 2.2
+     }
+    ],
+    "r2": 0.07
+   }
+  ]
+ }
+}

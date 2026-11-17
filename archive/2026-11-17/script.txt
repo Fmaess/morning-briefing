@@ -1,0 +1,43 @@
+Top of the morning, maestro. Let's beat the benchmark.
+
+It's Tuesday, the seventeenth of November, and the thesis is simple: AI jitters met a hawkish rates world, and a stronger dollar is the glue that holds the whole selloff together.
+
+Start with Wall Street. The S&P 500 fell one point nine percent on Monday, the Nasdaq 100 dropped two point seven, and the VIX jumped almost nineteen percent to about twenty-three. The headlines say AI jitters, and the news flow backs that up. Nvidia reports this week, its first print since Jensen Huang's abrupt exit, with interim CEO Colette Kress in the chair. Add a Washington push to curb China's access to AI chips, and the market is asking one question: how fragile is the AI capex story?
+
+Asia answered overnight, and it answered with tech. The Kospi fell two percent, the Nikkei one point one, the ASX one point eight, the Hang Seng just under one. The Kospi is down four point six percent over five days. Reports say Asian data center stocks are weighed down by chip curbs and Nvidia uncertainty. That's the equity half of the story.
+
+[pause]
+
+Here's the complication. Normally a selloff like this pulls yields down and gives you a cushion. And on Monday it did, a bit: the US ten-year fell three basis points, to five point one percent. But that is still a very high yield, and the cushion is thin. The Reserve Bank of Australia judged a fifth rate hike necessary, and its minutes show a hawkish bias with inflation risks tilted to the upside. The dollar has hit a nineteen-month high on Fed hike bets. Euro-dollar sits at one point one oh, down almost two percent in five days.
+
+So the usual hedge is broken. Stocks are falling because AI valuations are being questioned, but bonds can't rally much because central banks are still leaning toward tightening. Even Fed Chair Kevin Warsh is saying AI matters for the economy but could disappoint. That's a chair who sees the revolution coming but can't promise it pays off on schedule.
+
+And a strong dollar makes it worse. It tightens financial conditions globally, it squeezes dollar borrowers, and it hits the earnings of multinationals. The yen is near one fifty-nine against the dollar, which is a level the market watches nervously. A dollar breakout driven by AI flows can turn into a wrecking ball for equities if the AI trade reverses. The open question is whether that's what we're watching.
+
+Now commodities, where the picture is mixed. Brent is around ninety-two dollars, slightly lower on the day, and flat over five days. US crude has slipped on recovering Middle East exports and fourth-quarter surplus forecasts. But a third US carrier has arrived in the Gulf and Iran is raising its threats. So oil is being pulled between a comfortable supply picture and a geopolitical risk premium. At ninety-two, it's still a margin and inflation headwind, which feeds the rate story. European gas fell almost seven percent to around eighty-five euros, a relief for industry, though it's still up nearly three percent over the week.
+
+Gold rose almost one percent today but is down three and a half percent over five days. That's notable: the dollar and yields are beating the safe-haven bid. Copper is also down three and a half percent over the week, a quiet signal that the market is doubting global growth.
+
+On earnings, nothing has been reported since yesterday in our data. Disney reports before the US open, with investors focused on the strategy of CEO Josh D'Amaro after a series of layoffs. Nvidia is the big event later this week.
+
+So what does that mean for Europe? Futures in the US are flat, so there's no further leg down, but no rebound either. Europe was down about half a percent on Monday, with the Stoxx 600 off point three. The historical rule of thumb, and it's only that, suggests the Stoxx 600 could open lower in sympathy with the S&P, by something like half a percent. Note the model's explanatory power is low, so treat it as a tilt rather than a call.
+
+Sector by sector, historically, days like this have favored energy relative to the market, a modest tailwind, supported by the Gulf tension. Basic resources have tended to lag a little. European tech and semiconductor equipment names carry the AI beta and look most exposed to Nvidia headlines. Banks get a bit of help from Bund yields rising two basis points, with the ten-year at three point four percent, but a weak tape caps that.
+
+The nuance is positioning. Europe is up about one percent over five days while the US and Asia fell. That makes it look like a relative haven, and relative havens get crowded. If the dollar keeps rising, European exporters get some help, but if risk-off deepens, that outperformance can reverse quickly. What would change the picture? A solid Nvidia print, a pullback in the dollar, or a calmer Gulf.
+
+[pause]
+
+The takeaway: AI sparked it, rates and the dollar are keeping the fire going, so watch the dollar as much as Nvidia.
+
+That's your briefing. Go get 'em, champ.
+
+===SHOWNOTES===
+- Thesis: AI jitters plus hawkish rates plus a strong dollar. Bonds are not offering their usual cushion.
+- Wall Street Monday: S&P 500 down 1.9 percent, Nasdaq 100 down 2.7 percent, VIX up 18.7 percent to 22.9.
+- Asia: Kospi down 2.0 percent (down 4.6 percent over five days), ASX down 1.8, Nikkei down 1.1, Hang Seng down 0.7.
+- Rates: US ten-year at 5.12 percent, down 3.3 basis points. Bund ten-year 3.43 percent, up 2 basis points. RBA sees a fifth hike needed.
+- FX: Dollar at a 19-month high on Fed hike bets. EUR/USD 1.10, USD/JPY 159.1.
+- Commodities: Brent 91.6 dollars. Gulf tension (third US carrier) versus Q4 surplus forecasts. TTF down 6.8 percent. Gold and copper both down about 3.5 percent over five days.
+- Europe: Stoxx 600 down 0.3 percent Monday. Rule of thumb implies a lower open (about minus 57 basis points, R-squared 0.22). Energy relatively favored, resources lagging.
+- Catalysts: Disney results before the US open, Nvidia earnings this week (first since Huang's exit). No earnings data since yesterday.

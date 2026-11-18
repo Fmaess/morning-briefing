@@ -1,0 +1,37 @@
+Morning, champ!
+
+Wednesday, November 18th, and the thesis is simple: this market is being squeezed by rates and war, and not even a blowout from Nvidia can break the grip.
+
+Start with the AI trade. Nvidia reported after the close, earnings per share of two dollars sixty-eight against two forty-seven expected, an eight percent beat, and a quarterly revenue forecast of one hundred thirty billion dollars. Demand for chips is still sky-high. But the stock barely moved, down about half a percent. Why? Because the story isn't the numbers, it's the leadership. Jensen Huang has resigned, interim CEO Colette Kress is running her first call, and there's an SEC probe in the headlines. So the beat eases fear about demand, but doesn't answer the question analysts keep asking: who and what comes next. [pause]
+
+And the detail I'd underline: Kress said Nvidia will take "a very strong look" at the customers it helps finance. Neoclouds are "increasingly important," but the financing taps are not unlimited. That's a disciplined tone, and it matters for anyone worried about circular AI funding. CoreWeave popped anyway. Add a bipartisan push in Congress to block AI chip sales to China, and the political overhang on the sector grows.
+
+Now the squeeze. Yesterday the S&P 500 fell one percent, the Nasdaq 100 lost seven tenths, and the VIX jumped eleven percent to twenty-five point five. Over five days the VIX is up thirty percent. That's real hedging demand, not a wobble.
+
+The cause is rates. The US ten-year yield sits at five point one percent. Fed's Williams said more hikes are likely needed, though not dramatic action now, and BofA is not ruling out a half-point hike in December. The dollar is near a nineteen-month high. So the Fed is tightening into an oil shock: Brent is ninety-three dollars, with Iran attacking Kuwait and Bahrain and the Hormuz standoff persisting. Higher oil feeds inflation, inflation keeps the Fed hawkish, and higher funding costs hit small and mid caps first, then capex, then earnings growth.
+
+Asia shows the pattern. The Kospi bounced one point seven percent today, but it's still down six percent over five days. The Nikkei gained half a percent, helped by October exports surging twenty point five percent on chip shipments, up nearly fifty percent. Yet the Bank of Japan governor says it should keep raising rates, and the yen sits near one fifty-nine against the dollar. The Hang Seng fell one percent, Shanghai was flat, and Australia lost seven tenths. Gold dropped one point seven percent, copper fell one point four, and both are down five to six percent on the week. That's not a haven bid, that's a liquidity and strong-dollar story, and copper says growth worries are in the price.
+
+Europe took the brunt yesterday: the Euro Stoxx 50 fell two point one percent, the DAX two point one, the Stoxx 600 one point eight. Bund yields eased four basis points, the ten-year at three point four percent, but that gave no relief. The euro is near one point one against the dollar, down one point six percent in five days.
+
+So what does that mean for today? US futures are slightly higher, up a third of a percent for the S&P and two thirds for the Nasdaq. That suggests a stabilization, but the historical rule of thumb points the other way for Europe. Based on yesterday's Wall Street move, the model leans toward the Stoxx 600 down about twenty basis points. It's a rule of thumb, not a forecast, and it explains only part of the variance.
+
+Sector by sector. Luxury looks vulnerable. Historically, the Hang Seng's weakness has tended to pull luxury about thirty basis points below the market on days like this, and the China consumer is the exposure. Resources, on the other hand, have tended to hold up slightly better, about four basis points ahead of the market, even with the Hang Seng drag. Energy has a tailwind from Brent and gas, with TTF at eighty-six euros, up one percent. A weaker euro helps exporters, but pricier energy hurts industrial margins. Is that crowding? Defensives and energy likely are, while the AI-linked names are where positioning may unwind further.
+
+What changes the picture? First, the Trump, Xi, and Putin meeting in Shenzhen. Xi is pushing for lower trade barriers, and any tariff easing would lift Hong Kong and luxury. Second, Anthropic's IPO on Thursday, priced above its range, which tests appetite for AI risk. Third, Gulf escalation, which is oil upside and equity downside. Also watch Target's earnings today for the consumer.
+
+[pause]
+
+Take-away: rates and war are doing the squeezing, so don't mistake a good Nvidia number for a green light.
+
+That's all. Stay humble, stay hedged.
+
+===SHOWNOTES===
+- Nvidia: EPS 2.68 vs 2.47 (+8.4%), guide about 130bn dollars, stock about minus 0.4% as CEO exit, SEC probe and governance dominate.
+- Kress: "disciplined" financing of neoclouds, so circular AI funding worries persist. Congress pushes China chip export curbs.
+- Rates: US 10-year about 5.1%, Fed's Williams sees more hikes, BofA flags a possible 50bp hike in December. Dollar near 19-month high.
+- Oil shock: Brent about 93 dollars, Iran strikes in Kuwait and Bahrain, Hormuz standoff. Chain: oil, then inflation, then yields, then funding costs for small and mid caps, then capex.
+- VIX 25.5 (+11% on day, +31% over five days). S&P minus 1.0%, Nasdaq 100 minus 0.7%.
+- Europe yesterday: Euro Stoxx 50 minus 2.2%, DAX minus 2.1%, Stoxx 600 minus 1.8%. Bund 10-year about 3.4%.
+- Model (rule of thumb, R-squared 0.22 for the Stoxx 600): Stoxx 600 about minus 20bp, luxury versus market about minus 30bp, resources versus market about plus 4bp.
+- Watch: Trump, Xi and Putin in Shenzhen, Anthropic IPO on Nov 19, Gulf escalation, Target earnings.

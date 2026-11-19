@@ -1,0 +1,43 @@
+Good morning, legend. Let's go find some alpha.
+
+It's Thursday, the nineteenth of November, and today's thesis is simple: the market is being squeezed between a Fed that wants to hike and an AI trade that's suddenly wobbling, so the question is who still has a place to hide.
+
+Start with the rates story. The US ten-year yield sits at five point one percent. That's not a typo. Fed governor Waller said the central bank may need to "shock people" with a half-point hike, and Barr said rate rises likely lie ahead. The IMF head is calling for tightening in many economies too. The Bank of Japan's Ueda says financial conditions are still loose despite hikes.
+
+Yields eased a few basis points yesterday, BUT the message is hawkish, SO every growth stock is being priced off a higher discount rate. The S&P 500 is down almost four percent over five days, the Nasdaq 100 down more than four, and the VIX, at twenty-four and a half, is up forty percent on the week.
+
+Now the complication, and it sits in tech. Nvidia sank after earnings, dragging CoreWeave and Iren with it. The numbers weren't the issue, with demand described as hard to ignore. The issue is leadership: Jensen Huang is out, interim CEO Colette Kress is trying to hold employees and customers together, and investors are asking about succession, export controls and China. Add Microsoft, down nearly nine percent from its November record, after an Outlook outage.
+
+[pause]
+
+And here's the twist. Anthropic priced the largest IPO on record, over eighty-one billion dollars, and Asia shrugged. A record supply of AI paper arrives just as investors are buying protection against AI debt. That suggests appetite is running into digestion.
+
+But it's not all one-way. Palo Alto jumped after raising its outlook, citing the threat environment, and bought an AI startup for four and a half billion dollars. So the AI story isn't dead, it's rotating toward the picks and shovels of security.
+
+Consumers, meanwhile, are holding up. Target posted its best sales growth in five years and raised guidance, TJX soared, and Lowe's lifted its outlook despite a housing market with record low sales. Walmart reports before the bell, so listen for what it says about value-seeking shoppers into the holidays. The read-across is a bifurcated consumer, trading down but still spending.
+
+Now to Asia. The Hang Seng fell one point nine percent, the ASX one percent, Shanghai half a percent, the Kospi was down slightly, and the Nikkei edged up. The Kospi is still down five and a half percent on the week. The Hang Seng is the driver for our model. Korean media and travel stocks rallied on a China trade deal, and Trump is in China for a trilateral with Xi and Putin. So headline risk cuts both ways.
+
+Commodities add a nuance. Brent is down almost three percent to eighty-nine dollars, and TTF gas fell more than five percent. That helps margins and inflation expectations, BUT reports that Trump is weighing fresh strikes on Iran mean that oil's dip could be fragile. Copper is down eight percent on the week, and that's a warning flag for the AI buildout.
+
+The dollar is near a nineteen-month high, with euro-dollar at one point one, which is a mixed blessing for European exporters. The Bund ten-year yield is at three point four percent, up two basis points, so funding costs are not falling for small and mid caps. Meanwhile US small caps have printed a death cross.
+
+[pause]
+
+So, Europe today. The Stoxx 600 fell one percent yesterday and is down almost three percent on the week. US futures point higher, with the Nasdaq future up one point one percent, which should cushion the open. But our historical rule of thumb, driven by the Hang Seng, leans cautious: the Stoxx 600 has tended to lose around twenty basis points on days like this. Commodity names have tended to underperform the most, luxury has lagged on China sensitivity, and tech has tended to trail slightly. Utilities and telecoms have historically held up best. That's a rule of thumb, not a forecast.
+
+The nuance is crowding. MarketWatch notes tech is screening cheap while staples screen expensive. So defensive rotation may be getting stretched, and a hawkish Fed makes bond proxies like utilities less safe than they look. What changes the picture? A calmer Fed tone, a stable Nvidia, or a Trump-Xi outcome that lifts China-exposed cyclicals and luxury.
+
+The takeaway: the squeeze is real, but the winners will be those who can pay their own way.
+
+That's the tape. Now go make your risk manager proud.
+
+===SHOWNOTES===
+- Thesis: hawkish Fed (Waller half-point talk, Barr) plus AI wobble squeezes risk. US 10-year at 5.1 percent, VIX 24.6, up 40 percent in five days.
+- Nvidia fell after earnings on CEO exit and succession, China and export-control worries, dragging CoreWeave and Iren. Microsoft down nearly 9 percent from its record.
+- Anthropic IPO over 81 billion dollars, with a muted Asian reaction. AI debt hedging is building.
+- Palo Alto raised its outlook and bought Applied Compute for 4.5 billion dollars, showing demand in AI security.
+- Consumer: Target, TJX and Lowe's strong. Walmart reports today.
+- Brent 89.3 dollars, down 2.9 percent. TTF down 5.3 percent. Copper down 8 percent over 5 days. Iran strike reports are an oil risk.
+- Bund 10-year 3.41 percent, up 2 basis points. EUR/USD about 1.10. Dollar near a 19-month high.
+- Model (historical, Hang Seng-driven): Stoxx 600 about minus 23 basis points. Commodities minus 40, luxury minus 37, tech minus 15, utilities plus 19, telecom plus 10 versus market.

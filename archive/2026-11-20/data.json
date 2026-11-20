@@ -1,0 +1,769 @@
+{
+ "datum": "Friday, 20 November 2026",
+ "maerkte": {
+  "asien": [
+   {
+    "name": "Nikkei 225",
+    "ticker": "^N225",
+    "last": 56665.7812,
+    "as_of": "2026-11-20",
+    "change_pct": -4.67,
+    "change_5d_pct": -7.32
+   },
+   {
+    "name": "Hang Seng",
+    "ticker": "^HSI",
+    "last": 22360.9199,
+    "as_of": "2026-11-20",
+    "change_pct": -2.1,
+    "change_5d_pct": -5.4
+   },
+   {
+    "name": "Shanghai Composite",
+    "ticker": "000001.SS",
+    "last": 3514.0994,
+    "as_of": "2026-11-20",
+    "change_pct": -1.78,
+    "change_5d_pct": -3.31
+   },
+   {
+    "name": "Kospi",
+    "ticker": "^KS11",
+    "last": 4845.5,
+    "as_of": "2026-11-20",
+    "change_pct": -5.69,
+    "change_5d_pct": -8.41
+   },
+   {
+    "name": "ASX 200",
+    "ticker": "^AXJO",
+    "last": 8592.5996,
+    "as_of": "2026-11-20",
+    "change_pct": -1.58,
+    "change_5d_pct": -5.39
+   }
+  ],
+  "usa": [
+   {
+    "name": "S&P 500",
+    "ticker": "^GSPC",
+    "last": 7175.8301,
+    "as_of": "2026-11-19",
+    "change_pct": -2.02,
+    "change_5d_pct": -5.49
+   },
+   {
+    "name": "Nasdaq 100",
+    "ticker": "^NDX",
+    "last": 26517.0508,
+    "as_of": "2026-11-19",
+    "change_pct": -2.21,
+    "change_5d_pct": -6.26
+   },
+   {
+    "name": "S&P 500 Future",
+    "ticker": "ES=F",
+    "last": 7156.0,
+    "as_of": "2026-11-20",
+    "change_pct": -0.57,
+    "change_5d_pct": -5.63
+   },
+   {
+    "name": "Nasdaq Future",
+    "ticker": "NQ=F",
+    "last": 26310.75,
+    "as_of": "2026-11-20",
+    "change_pct": -1.09,
+    "change_5d_pct": -6.15
+   }
+  ],
+  "europa": [
+   {
+    "name": "Euro Stoxx 50",
+    "ticker": "^STOXX50E",
+    "last": 6113.8599,
+    "as_of": "2026-11-19",
+    "change_pct": -0.66,
+    "change_5d_pct": -4.46
+   },
+   {
+    "name": "DAX",
+    "ticker": "^GDAXI",
+    "last": 25463.8105,
+    "as_of": "2026-11-19",
+    "change_pct": -1.06,
+    "change_5d_pct": -4.89
+   },
+   {
+    "name": "Stoxx 600",
+    "ticker": "^STOXX",
+    "last": 638.41,
+    "as_of": "2026-11-19",
+    "change_pct": -0.88,
+    "change_5d_pct": -3.86
+   }
+  ],
+  "zinsen": [
+   {
+    "name": "US 10J Rendite",
+    "ticker": "^TNX",
+    "last": 5.052,
+    "as_of": "2026-11-19",
+    "change_bp": -1.4
+   },
+   {
+    "name": "US 5J Rendite",
+    "ticker": "^FVX",
+    "last": 4.866,
+    "as_of": "2026-11-19",
+    "change_bp": -1.8
+   },
+   {
+    "name": "Bund 2J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A",
+    "last": 3.14,
+    "as_of": "2026-11-19",
+    "change_bp": 2.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   },
+   {
+    "name": "Bund 10J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A",
+    "last": 3.42,
+    "as_of": "2026-11-19",
+    "change_bp": 1.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   }
+  ],
+  "rohstoffe": [
+   {
+    "name": "Brent",
+    "ticker": "BZ=F",
+    "last": 90.06,
+    "as_of": "2026-11-20",
+    "change_pct": -2.09,
+    "change_5d_pct": -6.03
+   },
+   {
+    "name": "TTF Gas",
+    "ticker": "TTF=F",
+    "last": 84.456,
+    "as_of": "2026-11-19",
+    "change_pct": 4.46,
+    "change_5d_pct": -8.46
+   },
+   {
+    "name": "Gold",
+    "ticker": "GC=F",
+    "last": 3520.1001,
+    "as_of": "2026-11-20",
+    "change_pct": -4.49,
+    "change_5d_pct": -9.42
+   },
+   {
+    "name": "Kupfer",
+    "ticker": "HG=F",
+    "last": 5.47,
+    "as_of": "2026-11-20",
+    "change_pct": -2.76,
+    "change_5d_pct": -10.03
+   }
+  ],
+  "devisen": [
+   {
+    "name": "EUR/USD",
+    "ticker": "EURUSD=X",
+    "last": 1.0978,
+    "as_of": "2026-11-20",
+    "change_pct": 0.06,
+    "change_5d_pct": -0.65
+   },
+   {
+    "name": "USD/JPY",
+    "ticker": "JPY=X",
+    "last": 159.104,
+    "as_of": "2026-11-20",
+    "change_pct": -0.17,
+    "change_5d_pct": -0.48
+   },
+   {
+    "name": "USD/CNY",
+    "ticker": "CNY=X",
+    "last": 6.6706,
+    "as_of": "2026-11-20",
+    "change_pct": 0.04,
+    "change_5d_pct": 0.0
+   }
+  ],
+  "volatilitaet": [
+   {
+    "name": "VIX",
+    "ticker": "^VIX",
+    "last": 28.44,
+    "as_of": "2026-11-19",
+    "change_pct": 15.8,
+    "change_5d_pct": 52.09
+   }
+  ]
+ },
+ "nachrichten": [
+  {
+   "source": "CNBC World",
+   "title": "U.K.-India trade deal faces a stiff test over Scotch whisky import taxes",
+   "summary": "In the global spirits markets, while the U.S., Europe, and China are facing volume contraction, India will add nearly 100 million consumers in the next five years.",
+   "time_utc": "2026-11-20T05:09:52+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Anthropic IPO 'exactly what the markets need,' but analysts warn of volatility",
+   "summary": "The Anthropic IPO is \"what the markets need.\" However, analysts say its shares will be volatile in the coming weeks.",
+   "time_utc": "2026-11-20T04:51:28+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "China home prices seen falling again in 2027, Reuters poll shows",
+   "summary": "",
+   "time_utc": "2026-11-20T04:12:20+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Senate passes BAAJA permitting reform bill backed by AI, energy sectors",
+   "summary": "The permitting bill's Senate passage is a key step to it becoming law, but it would also need to clear the House before heading to President Trump's desk.",
+   "time_utc": "2026-11-20T03:56:17+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
+   "summary": "Tempted to ditch stocks for property or CDs? Take a deep breath before making any sudden moves.",
+   "time_utc": "2026-11-20T03:31:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut",
+   "summary": "The declines in Asia come after the tech-heavy Nasdaq Composite fell more than 2% overnight following Anthropic's highly anticipated Wall Street debut.",
+   "time_utc": "2026-11-20T03:30:34+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Asian shares head for worst week since 2020 as AI rout deepens",
+   "summary": "",
+   "time_utc": "2026-11-20T03:24:35+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+   "summary": "The core inflation figure — which strips out prices of food — was lower than the 2.3% expected by Reuters-polled economists.",
+   "time_utc": "2026-11-20T01:49:03+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Dollar near 19-month peak as AI jitters sap risk appetite",
+   "summary": "",
+   "time_utc": "2026-11-20T01:48:28+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+   "summary": "“We have a house worth $450,000. Our combined annual income is $125,000.”",
+   "time_utc": "2026-11-20T01:30:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "My wife is bankrolling her family’s trips to New York and it’s draining our savings. Should I ask her to stop?",
+   "summary": "“Hotel rooms can cost as much as $400 per night.”",
+   "time_utc": "2026-11-20T01:22:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+   "summary": "Members of Congress have pushed in the wake of the Jensen Huang scandal for legislation to tighten export controls on chip sales to China.",
+   "time_utc": "2026-11-20T00:53:55+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Analysis-BOJ’s ambiguity on rate hike path could tempt yen bears",
+   "summary": "",
+   "time_utc": "2026-11-20T00:48:23+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "UK GfK consumer sentiment edges up after October slump",
+   "summary": "",
+   "time_utc": "2026-11-20T00:19:18+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "AMD dives on short seller report of alleged China exposure",
+   "summary": "AMD closed down over 7% after a short seller alleged that its firmware showed up at a blacklisted Chinese company. AMD said it complies with U.S. law.",
+   "time_utc": "2026-11-20T00:08:34+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "After Anthropic’s ‘bittersweet’ IPO, here’s what lies ahead",
+   "summary": "Retail investors showed up, but Anthropic has so far failed to provide a broad lift to the technology sector.",
+   "time_utc": "2026-11-19T23:56:00+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "Gap names new Athleta CEO, lowers full-year guidance",
+   "summary": "Gap on Thursday announced Ashley Kechter as the new CEO of Athleta. The retailer also reported mixed fiscal third-quarter earnings.",
+   "time_utc": "2026-11-19T23:54:20+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Japan’s core inflation accelerates in October, cementing rate hike expectations",
+   "summary": "",
+   "time_utc": "2026-11-19T23:49:06+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Lumentum CEO defends Marvell deal after stock plunge: 'We've got work to do' with shareholders",
+   "summary": "Lumentum CEO defended the planned Marvell merger despite stock sell-off.",
+   "time_utc": "2026-11-19T23:47:42+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Record profits but record outflows: ’Sell Korea’ trade stalks Seoul market",
+   "summary": "",
+   "time_utc": "2026-11-19T23:43:35+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Fed’s Paulson says understanding, not guidance, drives effective communication",
+   "summary": "",
+   "time_utc": "2026-11-19T23:42:31+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Cramer says Nvidia’s woes are trumping Anthropic excitement for the rest of the AI trade",
+   "summary": "Jim Cramer warned that Nvidia's leadership crisis is overshadowing Anthropic's historic IPO.",
+   "time_utc": "2026-11-19T23:22:53+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "California attorney general issues Nvidia subpoena in probe of China chip diversion",
+   "summary": "The investigation by California Attorney General Rob Bonta comes on the heels of the resignation of Nvidia CEO Jensen Huang.",
+   "time_utc": "2026-11-19T23:21:23+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Germany launches dialogue on economic future",
+   "summary": "",
+   "time_utc": "2026-11-19T23:12:37+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "These were the only stocks that rose amid the stock market’s wipeout Thursday",
+   "summary": "All 11 sectors of the S&amp;P 500 declined — 10 of them by more than 1% — but cybersecurity stocks bucked the weakness.",
+   "time_utc": "2026-11-19T23:11:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies",
+   "summary": "TurboTax maker Intuit gives investors a fresh reason to worry about legacy software companies.",
+   "time_utc": "2026-11-19T22:53:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "A CoreWeave co-founder just made an unconventional $30 million wager on its battered bonds",
+   "summary": "While executives typically buy shares to signal confidence, CoreWeave co-founder Brian Venturo is turning to the bond market to calm AI jitters.",
+   "time_utc": "2026-11-19T22:41:00+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Stocks fall as Anthropic debut fails to ease AI concerns; dollar rises",
+   "summary": "",
+   "time_utc": "2026-11-19T22:14:02+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
+   "summary": "All four major U.S. stock indexes are now on pace for their worst week since President Trump’s “liberation day” tariffs of April 2025",
+   "time_utc": "2026-11-19T22:12:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Markets are sending troubling signals about the state of the economy",
+   "summary": "A number of recession trades have started to emerge, even as economic data has largely held up.",
+   "time_utc": "2026-11-19T21:57:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Nvidia’s stock falls further. It has lost $669 billion in six trading days.",
+   "summary": "There are only 20 companies in the world with a market capitalization of $669 billion or higher",
+   "time_utc": "2026-11-19T21:45:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+   "summary": "Palo Alto Networks reported better-than-expected first-quarter results and inked a $4.5 billion deal for AI startup Applied Compute",
+   "time_utc": "2026-11-19T21:00:57+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "Walmart hikes outlook as CEO tells CNBC retailer aims to keep prices low despite soaring fuel costs",
+   "summary": "Walmart said it saw strength with store-fulfilled pickup and delivery in its fiscal third quarter.",
+   "time_utc": "2026-11-19T19:58:30+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Trump, Xi, Putin said they plan to boost oil production, revamp UN after trilateral talks",
+   "summary": "The leaders of the U.S., China and Russia met in Shenzhen, China on Thursday for a rare trilateral gathering.",
+   "time_utc": "2026-11-19T17:01:41+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Gold's bad year is getting worse. Why its price keeps falling",
+   "summary": "Gold has fallen sharply from its January record as higher interest rates and a stronger dollar change the investment case for the precious metal.",
+   "time_utc": "2026-11-19T16:29:52+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Kash Patel skips House hearing after Mar-a-Lago gala with $50,000 access",
+   "summary": "Kash Patel missed a congressional hearing after appearing the night before at a Mar-a-Lago gala offering donors of $50,000 access to top officials.",
+   "time_utc": "2026-11-19T14:15:18+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
+   "summary": "Nvidia's interim CEO Colette Kress urges staff forward and offers pay raises after Jensen Huang exit.",
+   "time_utc": "2026-11-19T12:04:29+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Denmark ratifies Trump security deal over Greenland after months of diplomatic tensions",
+   "summary": "It follows months of tensions after President Donald Trump repeatedly said the U.S. should take control of Greenland for national security reasons.",
+   "time_utc": "2026-11-19T12:02:08+00:00"
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Chip supply chain warns of broader disruption from new US export controls",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan Tobacco shares fall 10% as Russia seizure jolts 900,000 retail holders",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Through the Lens: From ASEAN in Manila to APEC in Shenzhen",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Asian tech stocks fall sharply after Anthropic's blockbuster IPO",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "APEC China: 5 takeaways on big powers, hot tech and veiled tensions",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "APEC live: How events in Shenzhen unfolded",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "India's weak monsoon, El Nino highlight industry's growing water issues",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Singapore banks put tokenization to practical use with gold, bonds",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Global goodwill assets hit $10.5tn on M&A boom but interest rate risk looms",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "International students in Japan face language hurdles when seeking jobs",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Anthropic closes 17% above IPO price after 34% opening surge",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japanese automakers brace for 3rd year of global sales decline",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Rural Japan fears new visas will divert foreign workers to Tokyo",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Anthropic IPO draws rush of Japan retail investors",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "U.S. Steel agrees with union to raise wages 19.25% over 4 years",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Itochu, Sony partner to market artist-branded merchandise in IP push",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan ethylene output depressed despite normal naphtha supplies",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "AI volatility 'expected' as winners, losers emerge: JPMorgan co-president",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "India to let Japan use firing ranges for surface-to-ship missile tests",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan weighs raising new-drug prices closer to overseas levels",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan spacecraft supported by NEC, others set to reach Mercury",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Myanmar committed genocide against Rohingya, ICJ rules in landmark verdict",
+   "summary": "",
+   "time_utc": null
+  }
+ ],
+ "earnings": [
+  {
+   "ticker": "WMT",
+   "time_utc": "2026-11-19T11:00:00+00:00",
+   "eps_estimate": 0.64,
+   "eps_reported": 0.65,
+   "surprise_pct": 2.16,
+   "headlines": [
+    "Walmart, Costco see some panic-buying after tech outages",
+    "Sky-high diesel prices take a $2 billion bite out of Walmart",
+    "Anthropic makes its IPO debut on the Nasdaq: Sozzi hot takes and what to watch"
+   ],
+   "name": "Walmart Inc.",
+   "last_move_pct": -1.04
+  }
+ ],
+ "sensitivitaeten": {
+  "hinweis": "Historische Daumenregel aus Tagesdaten, keine Prognose der Eröffnung.",
+  "faktoren_heute": {
+   "Nikkei": -4.66,
+   "Hang Seng": -2.1,
+   "Kospi": -5.71,
+   "S&P 500 (Vortag)": -2.02,
+   "Brent (Vortag)": 0.03,
+   "US 10J Rendite (Vortag)": -1.4,
+   "USD/JPY (Vortag)": -0.08
+  },
+  "faktoren_einheit": "Renditen in %, Renditeänderungen in bp",
+  "ergebnisse": [
+   {
+    "ziel": "Stoxx 600 (gesamt)",
+    "erwarteter_effekt_bp": -105.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -58.0,
+      "t_stat": 5.7
+     },
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": -32.0,
+      "t_stat": 5.2
+     },
+     {
+      "faktor": "Hang Seng",
+      "effekt_bp": -23.0,
+      "t_stat": 5.8
+     }
+    ],
+    "r2": 0.22
+   },
+   {
+    "ziel": "Telekom vs. Markt",
+    "erwarteter_effekt_bp": 70.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 58.0,
+      "t_stat": -4.5
+     },
+     {
+      "faktor": "Hang Seng",
+      "effekt_bp": 17.0,
+      "t_stat": -3.3
+     }
+    ],
+    "r2": 0.08
+   },
+   {
+    "ziel": "Rohstoffe vs. Markt",
+    "erwarteter_effekt_bp": -68.0,
+    "treiber": [
+     {
+      "faktor": "Hang Seng",
+      "effekt_bp": -46.0,
+      "t_stat": 6.9
+     },
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": 28.0,
+      "t_stat": -2.7
+     }
+    ],
+    "r2": 0.09
+   },
+   {
+    "ziel": "Technologie vs. Markt",
+    "erwarteter_effekt_bp": -68.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -44.0,
+      "t_stat": 3.0
+     },
+     {
+      "faktor": "Hang Seng",
+      "effekt_bp": -16.0,
+      "t_stat": 2.8
+     }
+    ],
+    "r2": 0.06
+   },
+   {
+    "ziel": "Versorger vs. Markt",
+    "erwarteter_effekt_bp": 55.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 46.0,
+      "t_stat": -3.6
+     },
+     {
+      "faktor": "Hang Seng",
+      "effekt_bp": 23.0,
+      "t_stat": -4.5
+     },
+     {
+      "faktor": "Kospi",
+      "effekt_bp": -23.0,
+      "t_stat": 2.2
+     }
+    ],
+    "r2": 0.07
+   },
+   {
+    "ziel": "Gesundheit vs. Markt",
+    "erwarteter_effekt_bp": 52.0,
+    "treiber": [
+     {
+      "faktor": "Kospi",
+      "effekt_bp": 35.0,
+      "t_stat": -3.6
+     }
+    ],
+    "r2": 0.07
+   },
+   {
+    "ziel": "Industrie vs. Markt",
+    "erwarteter_effekt_bp": -44.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -33.0,
+      "t_stat": 3.8
+     }
+    ],
+    "r2": 0.06
+   },
+   {
+    "ziel": "Immobilien vs. Markt",
+    "erwarteter_effekt_bp": 38.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 47.0,
+      "t_stat": -3.5
+     }
+    ],
+    "r2": 0.05
+   },
+   {
+    "ziel": "Öl & Gas vs. Markt",
+    "erwarteter_effekt_bp": 36.0,
+    "treiber": [
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": 21.0,
+      "t_stat": -2.1
+     }
+    ],
+    "r2": 0.02
+   },
+   {
+    "ziel": "Versicherungen vs. Markt",
+    "erwarteter_effekt_bp": 23.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 25.0,
+      "t_stat": -2.6
+     }
+    ],
+    "r2": 0.03
+   },
+   {
+    "ziel": "Luxus vs. Markt",
+    "erwarteter_effekt_bp": -17.0,
+    "treiber": [
+     {
+      "faktor": "Hang Seng",
+      "effekt_bp": -38.0,
+      "t_stat": 4.8
+     }
+    ],
+    "r2": 0.04
+   }
+  ]
+ }
+}

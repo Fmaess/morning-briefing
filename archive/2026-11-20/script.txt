@@ -1,0 +1,41 @@
+It's Friday, champ! One more session, then the weekend.
+
+Today, November twentieth, the story is that an AI sell-off has turned into a global de-risking, and Europe is about to be handed the bill.
+
+Here's the setup. Anthropic made its Nasdaq debut and closed seventeen percent above its IPO price after a thirty-four percent opening surge. Retail investors rushed in, in the US and in Japan. But the rest of the market dove anyway. The Nasdaq 100 fell two point two percent, the S&P 500 two percent, and all eleven S&P sectors closed lower. So the IPO that was supposed to calm AI nerves did the opposite.
+
+The reason is Nvidia. Its chief executive, Jensen Huang, has resigned, a California subpoena over alleged China chip diversion has landed, and the stock has lost six hundred and sixty-nine billion dollars in market value in six trading days. AMD fell more than seven percent on a short-seller report about China exposure. Intuit's downbeat outlook added to the worry about legacy software. So the AI trade is being hit from both sides: the leader is in crisis, and the old guard is seen as a loser.
+
+[pause]
+
+Asia took the full impact. The Kospi fell five point seven percent, the Nikkei four point seven, and the Hang Seng two point one. SoftBank plunged more than sixteen percent. Asian shares are heading for their worst week since 2020. The Kospi is down more than eight percent over five days, and the headlines talk of record profits met by record outflows. That is a crowded trade being unwound, not a valuation debate.
+
+But there's a second layer, and that's the tension. This isn't only about tech. Japan's core inflation rose to its highest this year as energy subsidies expired, which cements rate-hike expectations. So the Bank of Japan is being pushed toward tightening just as equities are being sold. The US ten-year yield sits at five point one percent, a level that squeezes any long-duration growth story. And the dollar is near a nineteen-month high.
+
+So what usually acts as a hedge isn't working. Gold fell four and a half percent, nearly ten percent in five days. That fits the story that higher rates and a stronger dollar have changed gold's investment case. Copper dropped almost three percent and is down ten percent on the week, which is a growth warning. Brent slipped to ninety dollars, but at that level it still weighs on margins. Walmart said sky-high diesel prices took a two billion dollar bite, yet it raised its outlook and promised to hold prices down. Resilient demand, then, but a company absorbing the cost instead of passing it on. Its shares still slipped about one percent.
+
+The VIX jumped nearly sixteen percent to twenty-eight point four, up more than fifty percent on the week. One piece of commentary says markets are flashing recession trades even though economic data has largely held up. That gap is the open question. Either the data catches down, or the market is overshooting.
+
+Now Europe. Bund yields barely moved, with the ten-year at three point four percent, so there's no flight to safety in German paper. Euro-dollar is around one point one, a touch softer on the week. The Stoxx 600 fell nearly one percent yesterday and has lost almost four percent in five days. US futures are lower again this morning, with the Nasdaq future down about one percent.
+
+Historically, the sensitivity model points to a Stoxx 600 around one percent lower, driven mostly by the Nikkei, then by Wall Street, then by the Hang Seng. That's a rule of thumb, not a forecast. The model would suggest defensives holding up better: telecom, utilities, healthcare and real estate have tended to outperform on days like this. Technology, industrials, and resources have tended to lag, and luxury too, given its Hang Seng sensitivity. Oil and gas have tended to hold up relatively well. Gas is a flag, by the way. TTF jumped four and a half percent yesterday even as it fell on the week.
+
+The nuance is positioning. Defensives look attractive today, but if money is fleeing crowded AI winners, the risk is that this rotation is just temporary de-grossing, not a structural shift. And China's property outlook, with home prices seen falling again in 2027, plus new US export-control worries for the chip supply chain, argue against rushing to buy cyclicals.
+
+What would change the picture? A stabilizing Nvidia, calmer Asia overnight, or yields easing. Without those, Friday can turn a bad week into a worse one.
+
+[pause]
+
+The take-away: the AI party was the story, and Europe is paying for the hangover.
+
+That's the last briefing of the week. Have a great weekend, champ.
+
+===SHOWNOTES===
+- Thesis: AI sell-off becomes global de-risking. Anthropic IPO up seventeen percent on day one, yet Nasdaq 100 down two point two percent and S&P 500 down two percent.
+- Trigger chain: Huang resignation, subpoena, Nvidia down 669 billion dollars in six days, AMD down over seven percent, Intuit weak outlook.
+- Asia: Kospi down five point seven percent, Nikkei down four point seven, Hang Seng down two point one. SoftBank down over sixteen percent. Worst week since 2020.
+- Rates and FX: US ten-year at five point one percent, dollar near 19-month high, Japan core inflation up and rate-hike expectations firm. Bund ten-year at three point four percent.
+- Commodities: gold down four point five percent, copper down two point eight percent and ten percent on the week, Brent at ninety dollars.
+- VIX at twenty-eight point four, up fifty-two percent in five days.
+- Walmart: EPS 0.65 vs 0.64 estimate, outlook raised, diesel cost hit of 2 billion dollars, stock down about one percent.
+- Model (rule of thumb): Stoxx 600 about minus 105 basis points. Telecom, utilities, healthcare, real estate favored; tech, industrials, resources, luxury lag.

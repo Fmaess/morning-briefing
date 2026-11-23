@@ -1,0 +1,647 @@
+{
+ "datum": "Monday, 23 November 2026",
+ "maerkte": {
+  "asien": [
+   {
+    "name": "Nikkei 225",
+    "ticker": "^N225",
+    "last": 56436.6484,
+    "as_of": "2026-11-20",
+    "change_pct": -5.06,
+    "change_5d_pct": -7.7
+   },
+   {
+    "name": "Hang Seng",
+    "ticker": "^HSI",
+    "last": 22354.0293,
+    "as_of": "2026-11-23",
+    "change_pct": -0.25,
+    "change_5d_pct": -5.89
+   },
+   {
+    "name": "Shanghai Composite",
+    "ticker": "000001.SS",
+    "last": 3520.7034,
+    "as_of": "2026-11-23",
+    "change_pct": -0.37,
+    "change_5d_pct": -2.27
+   },
+   {
+    "name": "Kospi",
+    "ticker": "^KS11",
+    "last": 4735.6899,
+    "as_of": "2026-11-23",
+    "change_pct": -2.76,
+    "change_5d_pct": -7.15
+   },
+   {
+    "name": "ASX 200",
+    "ticker": "^AXJO",
+    "last": 8570.5996,
+    "as_of": "2026-11-23",
+    "change_pct": -0.26,
+    "change_5d_pct": -5.24
+   }
+  ],
+  "usa": [
+   {
+    "name": "S&P 500",
+    "ticker": "^GSPC",
+    "last": 6910.3901,
+    "as_of": "2026-11-20",
+    "change_pct": -3.7,
+    "change_5d_pct": -8.61
+   },
+   {
+    "name": "Nasdaq 100",
+    "ticker": "^NDX",
+    "last": 25028.9805,
+    "as_of": "2026-11-20",
+    "change_pct": -5.61,
+    "change_5d_pct": -10.43
+   },
+   {
+    "name": "S&P 500 Future",
+    "ticker": "ES=F",
+    "last": 7085.5,
+    "as_of": "2026-11-23",
+    "change_pct": 2.17,
+    "change_5d_pct": -4.75
+   },
+   {
+    "name": "Nasdaq Future",
+    "ticker": "NQ=F",
+    "last": 25870.0,
+    "as_of": "2026-11-23",
+    "change_pct": 2.96,
+    "change_5d_pct": -5.18
+   }
+  ],
+  "europa": [
+   {
+    "name": "Euro Stoxx 50",
+    "ticker": "^STOXX50E",
+    "last": 5941.9502,
+    "as_of": "2026-11-20",
+    "change_pct": -2.81,
+    "change_5d_pct": -6.97
+   },
+   {
+    "name": "DAX",
+    "ticker": "^GDAXI",
+    "last": 24802.7793,
+    "as_of": "2026-11-20",
+    "change_pct": -2.6,
+    "change_5d_pct": -7.28
+   },
+   {
+    "name": "Stoxx 600",
+    "ticker": "^STOXX",
+    "last": 625.65,
+    "as_of": "2026-11-20",
+    "change_pct": -2.0,
+    "change_5d_pct": -5.8
+   }
+  ],
+  "zinsen": [
+   {
+    "name": "US 10J Rendite",
+    "ticker": "^TNX",
+    "last": 4.912,
+    "as_of": "2026-11-20",
+    "change_bp": -14.0
+   },
+   {
+    "name": "US 5J Rendite",
+    "ticker": "^FVX",
+    "last": 4.701,
+    "as_of": "2026-11-20",
+    "change_bp": -16.5
+   },
+   {
+    "name": "Bund 2J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A",
+    "last": 3.08,
+    "as_of": "2026-11-20",
+    "change_bp": -6.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   },
+   {
+    "name": "Bund 10J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A",
+    "last": 3.37,
+    "as_of": "2026-11-20",
+    "change_bp": -5.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   }
+  ],
+  "rohstoffe": [
+   {
+    "name": "Brent",
+    "ticker": "BZ=F",
+    "last": 90.24,
+    "as_of": "2026-11-23",
+    "change_pct": -2.52,
+    "change_5d_pct": -2.38
+   },
+   {
+    "name": "TTF Gas",
+    "ticker": "TTF=F",
+    "last": 88.451,
+    "as_of": "2026-11-20",
+    "change_pct": 4.73,
+    "change_5d_pct": -2.75
+   },
+   {
+    "name": "Gold",
+    "ticker": "GC=F",
+    "last": 3616.6001,
+    "as_of": "2026-11-23",
+    "change_pct": 2.88,
+    "change_5d_pct": -6.14
+   },
+   {
+    "name": "Kupfer",
+    "ticker": "HG=F",
+    "last": 5.5265,
+    "as_of": "2026-11-23",
+    "change_pct": 0.9,
+    "change_5d_pct": -7.85
+   }
+  ],
+  "devisen": [
+   {
+    "name": "EUR/USD",
+    "ticker": "EURUSD=X",
+    "last": 1.0993,
+    "as_of": "2026-11-23",
+    "change_pct": 0.21,
+    "change_5d_pct": -0.29
+   },
+   {
+    "name": "USD/JPY",
+    "ticker": "JPY=X",
+    "last": 158.966,
+    "as_of": "2026-11-23",
+    "change_pct": -0.46,
+    "change_5d_pct": -0.51
+   },
+   {
+    "name": "USD/CNY",
+    "ticker": "CNY=X",
+    "last": 6.6702,
+    "as_of": "2026-11-23",
+    "change_pct": 0.06,
+    "change_5d_pct": -0.01
+   }
+  ],
+  "volatilitaet": [
+   {
+    "name": "VIX",
+    "ticker": "^VIX",
+    "last": 35.89,
+    "as_of": "2026-11-20",
+    "change_pct": 26.2,
+    "change_5d_pct": 85.96
+   }
+  ]
+ },
+ "nachrichten": [
+  {
+   "source": "CNBC World",
+   "title": "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case",
+   "summary": "The U.S. is investigating Megaspeed and Alice Huang after it emerged a former associate of hers was reportedly \"deeply involved\" in the firm's activities",
+   "time_utc": "2026-11-23T05:08:03+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "India factory demand offsets weaker services growth in November, PMI shows",
+   "summary": "",
+   "time_utc": "2026-11-23T05:06:36+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "The number of 401(k) millionaires drops amid stock-market swings",
+   "summary": "‘It was a rocky quarter’: 401(k) balances drop and affordability concerns persist, Fidelity says",
+   "time_utc": "2026-11-23T05:01:00+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "California AG Bonta filed lawsuit against OpenAI over model security, public safety",
+   "summary": "",
+   "time_utc": "2026-11-23T04:54:34+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Australia’s treasurer warns jobless rate to climb above 5% as rate hikes bite",
+   "summary": "",
+   "time_utc": "2026-11-23T04:54:22+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Tata Steel to buy $1.67 billion stake in India’s largest steel pipe maker; shares plunge nearly 5%",
+   "summary": "Tata Steel will buy a 26.4% stake in India's leading structural steel pipes and tubes maker to boost downstream capacity.",
+   "time_utc": "2026-11-23T04:26:49+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Dollar edges off 19-month high after market rout; yen softens",
+   "summary": "",
+   "time_utc": "2026-11-23T04:18:20+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
+   "summary": "Yemen's Iran-aligned Houthis claimed an operation against Saudi Arabia's Rabigh oil refinery, as diplomatic efforts to end the war face long odds.",
+   "time_utc": "2026-11-23T03:52:17+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "South Korea’s finance minister sees solid growth next year, flags chip volatility risks",
+   "summary": "",
+   "time_utc": "2026-11-23T02:48:19+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "India’s RBI expected to raise rates in December, deliver final hike in February",
+   "summary": "",
+   "time_utc": "2026-11-23T02:06:18+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "3 big things we're watching in the market this Thanksgiving week",
+   "summary": "Can the AI trade rebound? Plus, a big week for retail activity and Fed policy discussion.",
+   "time_utc": "2026-11-23T00:42:54+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "US futures bounce while Asia markets brace for AI wipeout",
+   "summary": "",
+   "time_utc": "2026-11-22T23:48:25+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Corporate America hunts for ‘generational’ growth in AI, trading cards and the L.A. airport",
+   "summary": "There’s been no shortage of trends deemed once-in-a-generation by executives on earnings calls.",
+   "time_utc": "2026-11-22T21:51:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Ron Johnson’s Social Security gaffe buried important news",
+   "summary": "The Wisconsin Republican’s remarks overshadowed what might have been a useful Senate committee hearing about fixing Social Security.",
+   "time_utc": "2026-11-22T21:28:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Social Security should be shut down, this Republican senator says",
+   "summary": "The program’s trust funds are forecast to run out of money in the next six years.",
+   "time_utc": "2026-11-22T20:26:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Medicare beneficiaries could skip the nursing home for cheaper care at home under new bill",
+   "summary": "The plan would free up hospital and nursing-home beds — and lower costs.",
+   "time_utc": "2026-11-22T19:24:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+   "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
+   "time_utc": "2026-11-22T18:55:05+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "These little-known investments could be among the best bargains in a crash",
+   "summary": "If this stock market turmoil turns into a full-blown crash, look for low-risk investment bargains among closed-end funds.",
+   "time_utc": "2026-11-22T18:23:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "I’ve studied over 200 kids—to avoid raising a people pleaser, ditch 6 parenting habits: It starts in ‘ordinary, well-intentioned moments’",
+   "summary": "Reem Raouda, a conscious parenting coach who's worked with over 200 families, shares six habits worth reconsidering, like treating disagreement as disrespect.",
+   "time_utc": "2026-11-22T17:33:25+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Private equity has been buying up hospice centers — with striking consequences",
+   "summary": "Medicare costs are higher and patients stay longer at hospice providers owned by private-equity firms, new research has found.",
+   "time_utc": "2026-11-22T17:22:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages",
+   "summary": "Clayton’s warning comes ahead of Thanksgiving travel, after separate outages disrupted air travel, Microsoft 365 and some bank transactions.",
+   "time_utc": "2026-11-22T17:14:03+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate?",
+   "summary": "If you are tempted to ditch stocks for property or CDs, take a deep breath before making any sudden moves.",
+   "time_utc": "2026-11-22T17:00:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+   "summary": "“We have a house worth $450,000. Our combined annual income is $125,000.”",
+   "time_utc": "2026-11-22T16:32:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "‘I felt so seen’: Why families across America are laughing — and crying — over SNL’s ‘Sister’ sketch",
+   "summary": "The late-night comedy sketch does the impossible by making female caregivers feel seen.",
+   "time_utc": "2026-11-22T16:18:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "26-year-old Google worker earns $323,000 a year—but lives on less than minimum wage",
+   "summary": "Charles Broomfield set a post-college goal of reaching $750,000 in investments by age 30. Now 26, he expects to get there within the next year.",
+   "time_utc": "2026-11-22T14:00:01+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Pizza chains are under pressure. GLP-1 use is only one part of the problem",
+   "summary": "Domino's, Papa Johns and Pizza Hut face weaker demand, more delivery competition and changing eating habits, including GLP-1 use.",
+   "time_utc": "2026-11-22T13:00:01+00:00"
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan's Ricoh shoots for younger buyers with stripped-down cameras",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "US-India energy ties tighten as New Delhi snaps up Venezuelan oil",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan decarbonization agency invests in US metal recycling startup",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Crypto exchange's collapse hits Chinese investors hunting for yield",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan's new spy bureau faces a long road to Five Eyes",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Chinese automakers lead Japanese rivals in 39 markets, aided by EVs",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Corporate Japan races to revive rare-earth supply chain amid China curbs",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Laos 'least-developed' status shift, Tata meeting, Taiwan local elections",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "World Bank's India poverty estimates questioned over scale of gains",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "The ramen lectures: Japan company tries new expansion strategy",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Hello Kitty owner Sanrio bets on games to expand global reach",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Restored Okinawa castle to reopen with extensive fire safety measures",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "AI good for business but may sap joy of creation: game creator Hideo Kojima",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Bangkok revisited: Fresh finds and old favorites",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Bro hugs, no deals: Why Shenzhen was a win for Beijing",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan weighs scaling back missile and warship purchases",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Global crude exports hit record high despite Hormuz closure",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan stamp maker stomps into AI realm by authenticating videos on X",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Indonesian leader chases Sukarno's phantom with defiant posture",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "US, Japan should lead next-gen transportation: Trump's ex-transport chief",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan's listening bars find a global audience",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Peru can be Japan's gateway for South America investment, president says",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Chinese 3D printer maker Bambu Lab scales up production in Shenzhen",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Battery maker GS Yuasa targets defense, space as growth fields: CEO",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "How to save your dragon: Japan zoo joins quest to breed Komodo lizards",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan weighs early funding to ICC before US sanctions cutoff",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Nvidia server suppliers halt Southeast Asia shipments over US curbs",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan Tobacco's Russia freezeout threatens its pursuit of Philip Morris, BTI",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Asahi pours $85mn into AI cybersecurity upgrades after ransomware attack",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan sovereign AI project faces $5bn cost surge on chip prices, weak yen",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Hyundai, Honda feature US hybrids at auto show amid investment wave",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan wins 25% quota increase for large bluefin tuna from 2027",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Sushiro opens in New York's Times Square, hoping $5 sushi will make a splash",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan to transfer H3 rocket launch operations to Mitsubishi Heavy",
+   "summary": "",
+   "time_utc": null
+  }
+ ],
+ "earnings": [],
+ "sensitivitaeten": {
+  "hinweis": "Historische Daumenregel aus Tagesdaten, keine Prognose der Eröffnung.",
+  "faktoren_heute": {
+   "Nikkei": 0.0,
+   "Hang Seng": -0.36,
+   "Kospi": -2.77,
+   "S&P 500 (Vortag)": -3.7,
+   "Brent (Vortag)": 0.64,
+   "US 10J Rendite (Vortag)": -14.0,
+   "USD/JPY (Vortag)": 0.2
+  },
+  "faktoren_einheit": "Renditen in %, Renditeänderungen in bp",
+  "ergebnisse": [
+   {
+    "ziel": "Stoxx 600 (gesamt)",
+    "erwarteter_effekt_bp": -58.0,
+    "treiber": [
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": -59.0,
+      "t_stat": 5.3
+     }
+    ],
+    "r2": 0.23
+   },
+   {
+    "ziel": "Öl & Gas vs. Markt",
+    "erwarteter_effekt_bp": 40.0,
+    "treiber": [
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": 38.0,
+      "t_stat": -2.1
+     }
+    ],
+    "r2": 0.02
+   },
+   {
+    "ziel": "Rohstoffe vs. Markt",
+    "erwarteter_effekt_bp": 33.0,
+    "treiber": [
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": 51.0,
+      "t_stat": -2.7
+     }
+    ],
+    "r2": 0.09
+   },
+   {
+    "ziel": "Immobilien vs. Markt",
+    "erwarteter_effekt_bp": 8.0,
+    "treiber": [
+     {
+      "faktor": "US 10J Rendite (Vortag)",
+      "effekt_bp": 29.0,
+      "t_stat": -3.1
+     }
+    ],
+    "r2": 0.05
+   },
+   {
+    "ziel": "Gesundheit vs. Markt",
+    "erwarteter_effekt_bp": -0.0,
+    "treiber": [
+     {
+      "faktor": "Kospi",
+      "effekt_bp": 17.0,
+      "t_stat": -3.6
+     }
+    ],
+    "r2": 0.07
+   }
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+Monday again, legend. Weekend's over, the market's back.
+
+Today's thesis: this is an AI-driven crash that has jumped the Pacific and landed on Europe's desk, but the futures are bouncing hard, so the question this morning is whether that's relief or a trap.
+
+Let's build it. Friday was ugly. The Nasdaq 100 fell five point six percent, the S&P 500 fell three point seven, and the VIX jumped twenty-six percent to almost thirty-six. That's an eighty-six percent rise in five days. The headlines say Nvidia's turmoil, and the Asian tape says AI wipeout. The Nikkei fell five percent on Friday, and the Kospi is down two point eight percent this morning, nearly seven and a half percent below where it was a week ago. Korea matters because it's the chip supply chain in one index. And the finance minister there is already flagging chip volatility risks.
+
+[pause]
+
+Here's the complication. Normally a rout like this is about growth fear, and you'd expect bonds to rally. They did. The US ten-year yield fell fourteen basis points to four point nine percent, and the Bund ten-year slipped five basis points to three point four percent. But a four point nine percent ten-year is still a heavy funding cost. So the rally in bonds is a flight to safety, not a relief on financing conditions. Small and mid caps still carry that burden, and capex plans built on cheap money are still being questioned.
+
+Now add oil. Brent is ninety dollars, down two and a half percent this morning. The Houthis claim an attack on Saudi Arabia's Rabigh refinery, and Nikkei Asia notes crude exports hit a record despite the Hormuz closure. So supply risk is real, but demand fear is winning the argument today. Gas pulled the other way: Dutch TTF rose nearly five percent Friday to about eighty-eight euros. For European industry, that is a margin problem that sits on top of an equity selloff.
+
+Gold is interesting. It's up almost three percent today at about thirty-six hundred dollars, but it's still down six percent over five days. That tells me even the safe haven got sold in the liquidation, and it's only now bouncing. Copper is down nearly eight percent over the week, which is the market voting on global growth. The dollar sits near a nineteen-month high, though the euro is steady at one point one oh. The yen is firm at about one fifty-nine, a level worth watching for anyone tracking Japanese stress.
+
+And the futures? The S&P future is up two point two percent, and the Nasdaq future up three percent. That's a bounce, but remember, it comes after a five-day drop of roughly five percent on those same contracts. So it recovers about a third of the damage.
+
+[pause]
+
+So what does it mean for Europe today? Friday, the Stoxx 600 fell two percent, the DAX two point six, and the Euro Stoxx 50 two point eight. Europe has been dragged down, not broken by its own news. The historical rule of thumb points to a weak open, with the Stoxx 600 tending to lag by about fifty-eight basis points on a Friday like this. That's a rule of thumb, not a forecast, and with futures bouncing it may be overstated.
+
+Sector by sector, history is a bit more helpful. On days like this, energy and commodity names have tended to outperform the market, by around forty and thirty basis points. The statistical fit is weak, though, so treat it as a lean, not a call. Real estate has tended to hold up when US yields fall, which is today's setup, but with the ten-year at nearly five percent, I wouldn't call it a refuge. Health care looks roughly neutral, which is itself a message: defensives aren't getting a bid so much as they're just falling less.
+
+Where is positioning crowded? In AI. The 401(k) story from Fidelity, with millionaire balances shrinking, shows how widely this trade was held. And there's a regulatory angle too: a US probe into Megaspeed in the Nvidia chip case, and Nvidia server suppliers halting Southeast Asia shipments over US curbs. That's a supply chain risk for European semiconductor equipment and anyone selling into the AI buildout.
+
+There are no earnings since Friday to guide us, so the tone comes from macro. It's also Thanksgiving week, so liquidity will be thin, which cuts both ways: bounces can fade, and bad news gets amplified.
+
+What would change the picture? A stabilizing Kospi and Nasdaq futures holding their gains through the US open would say forced selling is done. A VIX staying above thirty-five, or a push in Bund yields back up with oil, would say this isn't over.
+
+[pause]
+
+The takeaway: the AI crash is global, the bounce is real, but the volatility says nobody has earned the all-clear yet.
+
+That's it from me. Buy low, sell high, and don't forget to hydrate.
+
+===SHOWNOTES===
+- Core chain: AI and chip selloff, Nasdaq 100 down 5.6 percent, Nikkei down 5.1 percent, Kospi down 2.8 percent, then Europe down 2 to 2.8 percent on Friday.
+- VIX at 35.9, up 26 percent on the day and 86 percent in five days.
+- Bonds rallied: US 10-year 4.91 percent, down 14 bp; Bund 10-year 3.37 percent, down 5 bp. Safe-haven flows, but funding costs remain high.
+- Oil: Brent 90.2 dollars, down 2.5 percent; Houthi claim on Rabigh refinery; TTF gas 88.5, up 4.7 percent Friday.
+- Gold up 2.9 percent to 3,617 dollars but down 6.1 percent over five days; copper down 7.9 percent over five days.
+- Futures bounce: S&P up 2.2 percent, Nasdaq up 3.0 percent, but both still down about 5 percent over the week.
+- Sensitivity model (rule of thumb): Stoxx 600 about minus 58 bp; energy about plus 40 bp and commodities about plus 33 bp versus market; weak fit.
+- Risks: US probe of Megaspeed in the Nvidia chip case, suppliers halting Southeast Asia shipments, thin Thanksgiving-week liquidity.

@@ -1,0 +1,45 @@
+Morning, sharpshooter. Sharpe ratio ready?
+
+Tuesday, November twenty-fourth, and the thesis is simple: one man's return just flipped the AI trade from panic to relief, but the plumbing underneath, rates, oil and a hawkish Fed, hasn't changed, so Europe is being asked to chase a rally it didn't build.
+
+Here's the setup. Jensen Huang is back as Nvidia's CEO, and the market exploded. The S&P 500 jumped four point seven percent on Monday, the Nasdaq 100 rose almost seven percent, and Nvidia itself rallied more than thirty percent, reportedly the biggest one-day gain in stock market history. Short sellers got crushed. Oracle and CoreWeave surged too, because Nvidia's financing keeps the AI cash flowing through the cloud names. And remember where we came from: the Nasdaq slid ten percent last week, its worst week since the early days of Covid.
+
+Asia followed through overnight. The Kospi surged seven percent, the Nikkei gained four percent, and Taiwan's Nvidia suppliers ran close to their price limits. The Hang Seng, though, slipped a third of a percent and is still down five percent on the week. So this is an AI-supply-chain rally, not a broad Asian one.
+
+[pause]
+
+But here's the complication. Look at what the rally did not fix. The Fed's Williams said inflation is still too high and signaled more hikes are possible. The dollar jumped on that. The US ten-year yield sits at four point nine percent, and the five-year rose almost three basis points. Mortgage rates spiked in September and the housing market is frozen. So equities are celebrating while the cost of money stays punishing.
+
+And there's a political catch. Trump says he gave Nvidia's board assurances that Huang is no national security threat. Congress members from both parties have blasted that as a failure of character. The US also blacklisted Megaspeed over suspected diversion of advanced chips. So the bounce rests on one personal reversal, with governance questions and a looming Washington fight attached. Strategists call it a bottom, for now. The word "now" matters.
+
+So what does that mean for the cross-currents? Look at the VIX. It fell almost twenty-six percent, but at twenty-six point six it is still elevated. That is relief, not calm.
+
+Oil adds another layer. Brent is down almost four percent at eighty-five point nine dollars, and down nearly eight percent on the week. That helps margins and eases the inflation worry. But Iran says three tankers hit mines in the Strait of Hormuz despite US escorts, and Washington is widening sanctions. So the oil drop looks fragile, and European gas is moving the other way, up one and a half percent, nearly six percent on the week, at almost ninety euros. For European industry, that gas bill is the quiet headwind.
+
+Copper is down more than two percent, and gold is down too. Sell-offs in both suggest the market is leaning on the AI story and the strong dollar, not on a growth boom. The euro is down half a percent at one point oh nine.
+
+Now to Europe. The Stoxx 600 rose one point eight percent on Monday, but it's still down almost four percent on the week, and the DAX is down nearly five. So Europe bounced, but it hasn't recovered. Our historical rule of thumb, which is not a forecast, points to a gain of roughly ninety basis points for the Stoxx 600 today, driven by Wall Street's rally and the Nikkei. The caveat is that this model explains only about a fifth of the variation, so treat it as a lean, not a call.
+
+Under the surface, history says the rotation matters. Industrials have tended to outperform when Japan rallies, and technology too, so cyclicals and the AI-linked European names should catch a bid. By contrast, utilities, telecoms and real estate have tended to lag on days like this. Health care has tended to lag when the Kospi surges. Those are the defensives the market just dumped. In the US, Kroger and Tyson Foods were among the S&P's biggest losers as money left safe havens for Nvidia. Oil and gas has tended to underperform too, and so have broad commodity names, after a big US rally.
+
+Is that temporary positioning or structural? I'd say positioning. One day of violent short covering doesn't rewrite allocation. If the Fed keeps talking hikes, defensives with real cash flows could win the money back quickly.
+
+On earnings, there's nothing fresh since yesterday in our data. But HPE posted its strongest growth ever and raised its forecast on AI demand, and the stock is sinking. That tells you expectations are sky-high, and good news isn't enough. And CrowdStrike's deal for Zscaler is a reminder that AI is also driving defensive spending in cybersecurity.
+
+What would change the picture? A Congressional backlash that forces Nvidia back into the headlines. A stronger-than-expected Fed message. Or Hormuz pushing Brent back up. Any of those hits the funding-cost story fast. Also watch the Bank of Korea, expected to hike on Thursday.
+
+[pause]
+
+The takeaway: the AI trade got its hero back, but rates and oil still decide whether Europe gets to follow.
+
+That's all. Stay humble, stay hedged.
+
+===SHOWNOTES===
+- Dominant theme: Huang's return to Nvidia triggered a huge relief rally. S&P 500 up 4.7 percent, Nasdaq 100 up 6.9 percent, Nvidia up more than 30 percent, after a 10 percent Nasdaq drop last week.
+- Asia: Kospi up 7.0 percent, Nikkei up 4.1 percent, Hang Seng down 0.3 percent and down 5.1 percent over five days. An AI-supply-chain rally, not a broad one.
+- Complication: Fed's Williams signals more hikes possible. US 10-year yield at 4.9 percent, dollar firm, housing frozen. Congress is critical of the Huang decision; Megaspeed blacklisted.
+- VIX down 25.8 percent but still 26.6, so relief rather than calm.
+- Oil and gas: Brent down 3.9 percent to 85.9 dollars, but Hormuz tanker mine incidents add risk. TTF gas up 1.5 percent to about 89.7. Copper down 2.4 percent, gold down 0.6 percent.
+- Europe: Stoxx 600 up 1.8 percent Monday but down 3.8 percent over five days. Model rule of thumb: about plus 94 basis points, R-squared 0.22.
+- Sector lean: industrials (plus 40 bp) and tech (plus 24 bp) tend to benefit. Oil and gas (minus 84 bp), utilities and telecom (minus 27 bp each), commodities (minus 24 bp), health care (minus 14 bp) tend to lag.
+- Earnings and watchlist: HPE record growth and raised forecast, but stock fell. Watch the Fed, Hormuz, Congress on Nvidia and the Bank of Korea hike on Thursday.

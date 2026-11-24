@@ -1,0 +1,717 @@
+{
+ "datum": "Tuesday, 24 November 2026",
+ "maerkte": {
+  "asien": [
+   {
+    "name": "Nikkei 225",
+    "ticker": "^N225",
+    "last": 58721.75,
+    "as_of": "2026-11-24",
+    "change_pct": 4.05,
+    "change_5d_pct": -1.58
+   },
+   {
+    "name": "Hang Seng",
+    "ticker": "^HSI",
+    "last": 22308.75,
+    "as_of": "2026-11-24",
+    "change_pct": -0.34,
+    "change_5d_pct": -5.1
+   },
+   {
+    "name": "Shanghai Composite",
+    "ticker": "000001.SS",
+    "last": 3554.9395,
+    "as_of": "2026-11-24",
+    "change_pct": 0.45,
+    "change_5d_pct": -0.83
+   },
+   {
+    "name": "Kospi",
+    "ticker": "^KS11",
+    "last": 5039.29,
+    "as_of": "2026-11-24",
+    "change_pct": 7.02,
+    "change_5d_pct": 1.43
+   },
+   {
+    "name": "ASX 200",
+    "ticker": "^AXJO",
+    "last": 8726.4004,
+    "as_of": "2026-11-24",
+    "change_pct": 1.82,
+    "change_5d_pct": -1.77
+   }
+  ],
+  "usa": [
+   {
+    "name": "S&P 500",
+    "ticker": "^GSPC",
+    "last": 7237.1699,
+    "as_of": "2026-11-23",
+    "change_pct": 4.73,
+    "change_5d_pct": -2.42
+   },
+   {
+    "name": "Nasdaq 100",
+    "ticker": "^NDX",
+    "last": 26746.0996,
+    "as_of": "2026-11-23",
+    "change_pct": 6.86,
+    "change_5d_pct": -1.66
+   },
+   {
+    "name": "S&P 500 Future",
+    "ticker": "ES=F",
+    "last": 7273.0,
+    "as_of": "2026-11-24",
+    "change_pct": 0.26,
+    "change_5d_pct": -1.17
+   },
+   {
+    "name": "Nasdaq Future",
+    "ticker": "NQ=F",
+    "last": 26856.5,
+    "as_of": "2026-11-24",
+    "change_pct": 0.18,
+    "change_5d_pct": -0.81
+   }
+  ],
+  "europa": [
+   {
+    "name": "Euro Stoxx 50",
+    "ticker": "^STOXX50E",
+    "last": 6074.4702,
+    "as_of": "2026-11-23",
+    "change_pct": 2.23,
+    "change_5d_pct": -4.31
+   },
+   {
+    "name": "DAX",
+    "ticker": "^GDAXI",
+    "last": 25337.2695,
+    "as_of": "2026-11-23",
+    "change_pct": 2.15,
+    "change_5d_pct": -4.74
+   },
+   {
+    "name": "Stoxx 600",
+    "ticker": "^STOXX",
+    "last": 636.97,
+    "as_of": "2026-11-23",
+    "change_pct": 1.81,
+    "change_5d_pct": -3.83
+   }
+  ],
+  "zinsen": [
+   {
+    "name": "US 10J Rendite",
+    "ticker": "^TNX",
+    "last": 4.918,
+    "as_of": "2026-11-23",
+    "change_bp": 0.6
+   },
+   {
+    "name": "US 5J Rendite",
+    "ticker": "^FVX",
+    "last": 4.728,
+    "as_of": "2026-11-23",
+    "change_bp": 2.7
+   },
+   {
+    "name": "Bund 2J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A",
+    "last": 3.08,
+    "as_of": "2026-11-23",
+    "change_bp": 0.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   },
+   {
+    "name": "Bund 10J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A",
+    "last": 3.35,
+    "as_of": "2026-11-23",
+    "change_bp": -2.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   }
+  ],
+  "rohstoffe": [
+   {
+    "name": "Brent",
+    "ticker": "BZ=F",
+    "last": 85.9,
+    "as_of": "2026-11-24",
+    "change_pct": -3.88,
+    "change_5d_pct": -7.77
+   },
+   {
+    "name": "TTF Gas",
+    "ticker": "TTF=F",
+    "last": 89.736,
+    "as_of": "2026-11-23",
+    "change_pct": 1.45,
+    "change_5d_pct": 5.88
+   },
+   {
+    "name": "Gold",
+    "ticker": "GC=F",
+    "last": 3629.5,
+    "as_of": "2026-11-24",
+    "change_pct": -0.6,
+    "change_5d_pct": -6.07
+   },
+   {
+    "name": "Kupfer",
+    "ticker": "HG=F",
+    "last": 5.4895,
+    "as_of": "2026-11-24",
+    "change_pct": -2.44,
+    "change_5d_pct": -8.14
+   }
+  ],
+  "devisen": [
+   {
+    "name": "EUR/USD",
+    "ticker": "EURUSD=X",
+    "last": 1.0915,
+    "as_of": "2026-11-24",
+    "change_pct": -0.52,
+    "change_5d_pct": -0.76
+   },
+   {
+    "name": "USD/JPY",
+    "ticker": "JPY=X",
+    "last": 159.182,
+    "as_of": "2026-11-24",
+    "change_pct": 0.16,
+    "change_5d_pct": -0.21
+   },
+   {
+    "name": "USD/CNY",
+    "ticker": "CNY=X",
+    "last": 6.6604,
+    "as_of": "2026-11-24",
+    "change_pct": -0.25,
+    "change_5d_pct": -0.06
+   }
+  ],
+  "volatilitaet": [
+   {
+    "name": "VIX",
+    "ticker": "^VIX",
+    "last": 26.62,
+    "as_of": "2026-11-23",
+    "change_pct": -25.83,
+    "change_5d_pct": 16.19
+   }
+  ]
+ },
+ "nachrichten": [
+  {
+   "source": "CNBC World",
+   "title": "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts",
+   "summary": "Jensen Huang’s return has underscored Nvidia’s deep reliance on its founder, putting the company's board oversight and corporate governance under scrutiny.",
+   "time_utc": "2026-11-24T05:09:34+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "AI adoption grows in Asia, but measuring the gains remains tricky",
+   "summary": "Businesses across Asia-Pacific are seeing returns from AI investments, even as confidence in measuring those gains varies, according to an AWS survey.",
+   "time_utc": "2026-11-24T05:07:16+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions",
+   "summary": "Iran said three oil tankers caught fire after hitting naval mines in the Strait of Hormuz, as the U.S. escalates sanctions aimed at cutting off Tehran's financial lifelines.",
+   "time_utc": "2026-11-24T05:05:08+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Indian economy in 2027: BofA forecasts strength despite inflation, rupee risks",
+   "summary": "",
+   "time_utc": "2026-11-24T04:42:46+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "China has changed tactics but is still thwarting India's rise, a U.S. panel says",
+   "summary": "China is increasingly focused on containing India economically rather than through military actions.",
+   "time_utc": "2026-11-24T04:27:38+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "U.S. court orders to proceed with planned ammunition detonation in Iowa",
+   "summary": "A U.S. court cleared the Army to detonate degraded explosives at an Iowa ammunition plant amid public concern over contamination and health risks.",
+   "time_utc": "2026-11-24T03:32:26+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "US chip curbs won’t impact Malaysia’s China ties, PM says",
+   "summary": "",
+   "time_utc": "2026-11-24T03:18:46+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Six key questions raised by Jensen Huang's return to Nvidia",
+   "summary": "As Jensen Huang returns to Nvidia, questions remained around the board's reversal, Trump's involvement and the tech giant's future.",
+   "time_utc": "2026-11-24T03:05:49+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy",
+   "summary": "The U.S. has added Megaspeed and six other companies to its trade blacklist over concerns about the potential diversion of advanced computing products.",
+   "time_utc": "2026-11-24T02:37:39+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Asian Nvidia-related stocks jump after Huang's return, with Taiwan's near price limits",
+   "summary": "Investors piled back into the tech market, following the reinstatement of Nvidia CEO Jensen Huang by its board.",
+   "time_utc": "2026-11-24T02:20:36+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Asian stocks rally as Huang’s Nvidia return revives AI trade",
+   "summary": "",
+   "time_utc": "2026-11-24T01:30:21+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+   "summary": "“My wife stopped working outside the home in 1970.”",
+   "time_utc": "2026-11-24T01:01:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "HPE just posted its strongest growth ever — but its stock is sinking",
+   "summary": "HPE boosted its financial forecast on Monday in the face of strong AI demand.",
+   "time_utc": "2026-11-24T01:01:00+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Australia’s Pauline Hanson faces biggest test as debt and anger align in state vote",
+   "summary": "",
+   "time_utc": "2026-11-24T01:00:42+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Amazon faces FAA probe after delivery drone strikes Michigan fiber cable, garage",
+   "summary": "An Amazon drone \"struck a fiber cable, a residential garage, and became entangled in power lines during takeoff,\" a preliminary FAA report stated.",
+   "time_utc": "2026-11-24T00:56:10+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "South Korea’s central bank seen raising rates on Thursday, once more next quarter - Reuters poll",
+   "summary": "",
+   "time_utc": "2026-11-24T00:49:01+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Singapore raises 2026 growth forecast after 6.1% Q3 expansion",
+   "summary": "",
+   "time_utc": "2026-11-24T00:30:44+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Fed’s Williams says inflation still too high, signals more rate hikes possible",
+   "summary": "",
+   "time_utc": "2026-11-23T23:42:41+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Trump sealed deal for Nvidia to rehire Jensen Huang as CEO",
+   "summary": "President Trump said his administration gave Nvidia's board assurance that Jensen Huang would not be a national security threat if he was reinstated as CEO.",
+   "time_utc": "2026-11-23T23:42:17+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+   "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
+   "time_utc": "2026-11-23T23:28:19+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "The newest addition to the S&P 500 is a maker of viral ice-cream machines",
+   "summary": "SharkNinja will join the S&amp;P 500, replacing AES.",
+   "time_utc": "2026-11-23T23:18:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "CNBC's The China Connection newsletter: AI race spreads from robots to smartphones",
+   "summary": "More powerful artificial intelligence models are raising expectations for more powerful on-device chips that can run on devices from robots to smartphones.",
+   "time_utc": "2026-11-23T23:00:01+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Exclusive-Some US banks tighten AI-agent controls on concern about models escaping safeguards",
+   "summary": "",
+   "time_utc": "2026-11-23T22:48:26+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Nvidia surge: What investors should do with the stock and the AI trade now",
+   "summary": "The market is loving the return of Jensen Huang, but investors and lawmakers have their guards up.",
+   "time_utc": "2026-11-23T22:43:38+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Trading Day: Market euphoria as Huang returns to Nvidia",
+   "summary": "",
+   "time_utc": "2026-11-23T22:12:24+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Nvidia’s stock is surging again. What to know before chasing the AI rally.",
+   "summary": "Jensen Huang’s return to Nvidia was the good news that the AI trade needed, but investors should prepare for more volatility",
+   "time_utc": "2026-11-23T22:04:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm",
+   "summary": "Jensen Huang’s return as CEO of Nvidia powered a massive bounce in the U.S. stock market on Monday by helping to restore faith in the artificial-intelligence trade.",
+   "time_utc": "2026-11-23T21:51:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday",
+   "summary": "Shares of Kroger and Tyson Foods fall, as Nvidia storms higher",
+   "time_utc": "2026-11-23T21:45:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "These stocks are the biggest gainers after Jensen Huang’s return to Nvidia",
+   "summary": "Huang’s comeback offers relief to the battered AI trade and drives major boosts across the tech sector.",
+   "time_utc": "2026-11-23T21:36:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Amazon may have just found a ‘cheap’ way to get a lot more out of its chips",
+   "summary": "Amazon’s deal for Decart’s AI technology, with a reported price of $7.5 billion, may be a relatively inexpensive way to boost the speed and efficiency of its custom chips, says an analyst.",
+   "time_utc": "2026-11-23T21:33:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Oracle and CoreWeave stocks stage big gains as investors bet the AI cash will keep flowing",
+   "summary": "Nvidia’s financing of the AI ecosystem has been crucial for cloud companies like Oracle, CoreWeave, Nebius and Iren.",
+   "time_utc": "2026-11-23T21:24:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Tech stocks see monster rally after Jensen Huang returns as Nvidia CEO",
+   "summary": "The Nasdaq slid 10% last week in its worst week since the early days of Covid in 2020.",
+   "time_utc": "2026-11-23T21:22:13+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Short sellers get smoked as Nvidia tallies biggest one-day gain in stock-market history",
+   "summary": "Two products aiming to profit off daily declines in Nvidia shares were nearly wiped out as the stock rallied more than 30%.",
+   "time_utc": "2026-11-23T21:19:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "2-year Treasury yield jumps as stocks rebound, investors await New York Fed President Williams speech",
+   "summary": "U.S. Treasury yields rose Monday, partially unwinding price action seen at the end of last week, as stocks experienced a strong rebound on Wall Street.",
+   "time_utc": "2026-11-23T21:05:02+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "CrowdStrike to buy Zscaler in $44 billion deal as AI supercharges cyberattacks",
+   "summary": "CrowdStrike and competitors have shelled out billions to ramp up defenses in the wake of AI cyberattacks.",
+   "time_utc": "2026-11-23T21:04:03+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Peterson: Here’s what Bessent’s about-face on Jensen Huang reveals about Trump and China",
+   "summary": "Treasury Secretary Scott Bessent was becoming the face of an emerging harder line on Nvidia— until he reversed course",
+   "time_utc": "2026-11-23T21:00:59+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Dollar jumps on hawkish Fed bets, AI rally",
+   "summary": "",
+   "time_utc": "2026-11-23T20:30:42+00:00"
+  },
+  {
+   "source": "CNBC Earnings",
+   "title": "Investors are missing the bigger picture in CrowdStrike's deal to buy Zscaler",
+   "summary": "CrowdStrike's quarterly results, released alongside the deal's announcement, show a company acting from a position of strength rather than weakness.",
+   "time_utc": "2026-11-23T20:26:39+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Congress shreds Nvidia's 'outrageous' decision to bring back Huang: 'Failure of character'",
+   "summary": "Congress members of both parties are sharply questioning President Donald Trump's conclusion that Jensen Huang poses no national security risk leading Nvidia.",
+   "time_utc": "2026-11-23T20:22:49+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "‘This establishes a bottom’: Jensen Huang’s return seen as likely to stop market sell-off, for now",
+   "summary": "Wall Street strategists say Jensen Huang’s return to Nvidia could steady the AI trade, though spending and data-center risks remain.",
+   "time_utc": "2026-11-23T18:00:47+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "SpaceX sued by Oregon and Virginia over AI deepfake porn, Grok safety claims",
+   "summary": "The states are seeking civil penalties and injunctions to stop Grok and X from creation and distribution of nonconsensual sexualized images.",
+   "time_utc": "2026-11-23T16:45:31+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Tokenized stocks face pushback as NYSE, Nasdaq pivot for a new market",
+   "summary": "OKXICE is set to debut Monday despite objections from 90% of the companies whose stocks it initially proposed to list.",
+   "time_utc": "2026-11-23T15:30:27+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "26-year-old Google worker earns $323,000 a year—but lives on less than minimum wage",
+   "summary": "Charles Broomfield set a post-college goal of reaching $750,000 in investments by age 30. Now 26, he expects to get there within the next year.",
+   "time_utc": "2026-11-23T15:26:57+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Stuck: How a frozen housing market is hitting buyers, sellers and the economy",
+   "summary": "A sharp spike in mortgage rates in September has pushed the already chilly real estate sector into a deep freeze.",
+   "time_utc": "2026-11-23T15:22:03+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Netflix’s ‘The Altruists’ sparks FTX portrayal debate among crypto bigwigs from CZ to Star Xu",
+   "summary": "Netflix’s \"The Altruists\" has drawn backlash over its portrayal of the FTX collapse, with prominent crypto industry figures questioning the series’ accuracy",
+   "time_utc": "2026-11-23T15:18:51+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case",
+   "summary": "The U.S. is investigating Megaspeed and Alice Huang after it emerged a former associate of hers was reportedly \"deeply involved\" in the firm's activities",
+   "time_utc": "2026-11-23T14:40:11+00:00"
+  },
+  {
+   "source": "EZB",
+   "title": "Philip R. Lane: Climate change and monetary policy",
+   "summary": "",
+   "time_utc": "2026-11-23T14:30:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Trump hosts crypto gala as his meme coin falls below $1",
+   "summary": "Donald Trump hosted a dinner for top holders of his meme coin that has fallen to under $1. Bitcoin rebounded after falling to lowest level since September 2024.",
+   "time_utc": "2026-11-23T14:15:42+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Zelenskyy praises ‘exemplary’ drone operation that sank Russian warship in a Libyan port",
+   "summary": "The incident comes alongside a suspected Ukrainian drone strike on a Russian cargo ship in the Baltic Sea over the weekend.",
+   "time_utc": "2026-11-23T13:28:15+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "‘Worst COP ever’: Climate talks collapse after draft deal fails to include fossil fuels",
+   "summary": "Governments and campaigners rejected the \"cover decision\" drafted at the U.N.'s climate summit, COP31, on Sunday.",
+   "time_utc": "2026-11-23T13:16:38+00:00"
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Asian stocks leap on return of Nvidia's Jensen Huang",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Anthropic IPO raises the bar for Asia's AI labs",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "EU's EV incentives to exclude Japan-made cars even in amended proposal",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Huang's Nvidia return sets up clash with China hawks in Congress",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Nikkei Asia Forum 'The Global Chip Game: Our predictions for 2027'",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Singapore GDP grows 6.1% in Q3 as AI demand stays strong",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "US to place Megaspeed on trade blacklist amid Nvidia scandal",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan to bolster coast guard with patrol boats, drones to counter China",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Southeast Asia's concert 'ticket wars' turn Malaysian fans into concierges",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Tokyo power provider to unify cleanup of Fukushima nuclear accident site",
+   "summary": "",
+   "time_utc": null
+  }
+ ],
+ "earnings": [],
+ "sensitivitaeten": {
+  "hinweis": "Historische Daumenregel aus Tagesdaten, keine Prognose der Eröffnung.",
+  "faktoren_heute": {
+   "Nikkei": 4.0,
+   "Hang Seng": -0.35,
+   "Kospi": 7.02,
+   "S&P 500 (Vortag)": 4.73,
+   "Brent (Vortag)": -3.46,
+   "US 10J Rendite (Vortag)": 0.6,
+   "USD/JPY (Vortag)": -0.49
+  },
+  "faktoren_einheit": "Renditen in %, Renditeänderungen in bp",
+  "ergebnisse": [
+   {
+    "ziel": "Stoxx 600 (gesamt)",
+    "erwarteter_effekt_bp": 94.0,
+    "treiber": [
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": 68.0,
+      "t_stat": 4.8
+     },
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 53.0,
+      "t_stat": 6.1
+     }
+    ],
+    "r2": 0.22
+   },
+   {
+    "ziel": "Öl & Gas vs. Markt",
+    "erwarteter_effekt_bp": -84.0,
+    "treiber": [
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": -50.0,
+      "t_stat": -2.1
+     }
+    ],
+    "r2": 0.02
+   },
+   {
+    "ziel": "Industrie vs. Markt",
+    "erwarteter_effekt_bp": 40.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 29.0,
+      "t_stat": 3.9
+     }
+    ],
+    "r2": 0.07
+   },
+   {
+    "ziel": "Versorger vs. Markt",
+    "erwarteter_effekt_bp": -27.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -41.0,
+      "t_stat": -3.7
+     },
+     {
+      "faktor": "Kospi",
+      "effekt_bp": 29.0,
+      "t_stat": 2.1
+     }
+    ],
+    "r2": 0.07
+   },
+   {
+    "ziel": "Telekom vs. Markt",
+    "erwarteter_effekt_bp": -27.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -51.0,
+      "t_stat": -4.6
+     }
+    ],
+    "r2": 0.08
+   },
+   {
+    "ziel": "Rohstoffe vs. Markt",
+    "erwarteter_effekt_bp": -24.0,
+    "treiber": [
+     {
+      "faktor": "S&P 500 (Vortag)",
+      "effekt_bp": -66.0,
+      "t_stat": -2.7
+     }
+    ],
+    "r2": 0.09
+   },
+   {
+    "ziel": "Technologie vs. Markt",
+    "erwarteter_effekt_bp": 24.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 40.0,
+      "t_stat": 3.1
+     }
+    ],
+    "r2": 0.07
+   },
+   {
+    "ziel": "Gesundheit vs. Markt",
+    "erwarteter_effekt_bp": -14.0,
+    "treiber": [
+     {
+      "faktor": "Kospi",
+      "effekt_bp": -44.0,
+      "t_stat": -3.6
+     }
+    ],
+    "r2": 0.07
+   },
+   {
+    "ziel": "Versicherungen vs. Markt",
+    "erwarteter_effekt_bp": 5.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -22.0,
+      "t_stat": -2.7
+     }
+    ],
+    "r2": 0.04
+   },
+   {
+    "ziel": "Immobilien vs. Markt",
+    "erwarteter_effekt_bp": 1.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -42.0,
+      "t_stat": -3.7
+     }
+    ],
+    "r2": 0.05
+   }
+  ]
+ }
+}

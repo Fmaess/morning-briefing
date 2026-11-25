@@ -1,0 +1,45 @@
+Morning, champ! It's Wednesday, November 25th, and the thesis today is simple: the AI trade just lost its footing in Asia, and Europe opens with the defensives in front and the cyclicals in the line of fire.
+
+Start with Asia, because that's where the pain was. The Kospi fell almost six percent, its fifth straight session of damage, and it's down seven percent over the week. The Nikkei dropped two point eight percent, and SoftBank collapsed fifteen percent as Japanese chip names got hit hardest. The trigger was Wall Street. The Nasdaq 100 fell two percent yesterday, giving back Monday's Nvidia-fueled rally. Nasdaq futures are down another one point four percent this morning.
+
+Now the Nvidia story, because it's why the bounce didn't hold. Jensen Huang is back as CEO after the board reversed course, but the investigations aren't over. He faces Washington questioning on the same day the company shows off new products. So the one stock that was supposed to anchor the AI trade is carrying headline risk. That matters well beyond one company.
+
+The earnings tape says the same thing: demand is fine, but the market isn't paying for it. Dell's sales more than doubled on AI servers, and it announced a twenty-five billion dollar buyback. The stock rose. But Hewlett Packard Enterprise posted its strongest growth ever, raised guidance, and the stock sank. Micron fell after a BNP Paribas analyst warned that oversupply risk in memory is mounting. And Anthropic slipped below its eighty-three dollar IPO price less than a week after listing. So this isn't a demand scare. It's a question of how much of the good news is already priced in, and whether the capex boom ends in a supply glut.
+
+[pause]
+
+Here's the but. Normally, when tech sells off like this, bonds rally and cushion the blow. And oil is helping: Brent is down four and a half percent to eighty-seven dollars, which eases margins and inflation pressure. But the rates market isn't giving much. The US ten-year yield barely moved, down just over one basis point to four point nine percent. The Bund ten-year is at three point three percent, down four basis points. Those are high levels, and the inflation signals say they may stay there.
+
+Japan's key services inflation gauge hit a thirty-six-year high, and the yen is hovering around one fifty-nine and a half against the dollar. Australian core inflation hit a two-year high, and the Reserve Bank's Jacobs said financial conditions are restrictive. The Fed's John Williams said higher rates are likely over time to bring inflation down. So the chain runs like this: sticky services inflation means central banks can't ride to the rescue, so yields stay elevated, so funding costs stay high. That's a real problem for long-duration growth stocks whose valuations already lean on the AI story. Hence the pressure on tech.
+
+And it's not just tech. Gold is down more than five percent this week, and copper is down about four. That doesn't look like a flight to safety. It looks like investors selling what they can to cut risk. The VIX is at twenty-six, elevated but not panicking. That suggests a grind lower, not a crash.
+
+Now bring it to Europe. Yesterday the DAX fell one point three percent, the Euro Stoxx 50 one point two, and the Stoxx 600 two-thirds of a percent. The Stoxx 600 is down almost three percent over five days. So Europe is already adjusting. But the overnight moves in Asia suggest more to come. Our historical rule of thumb, and that's all it is, with low explanatory power, points to the Stoxx 600 opening about thirty basis points lower. Treat it as a tilt, not a forecast.
+
+Within that, the sector pattern is clear. Historically, a weak Nikkei has coincided with tech underperforming the market by about forty basis points, and industrials by around thirty. Industrials make sense: they're the capex and global-cycle trade, and with a weak Korean and Japanese tape, the market worries about export demand. Add TTF gas, up over seven percent in five days to around ninety-two euros, and European manufacturers face an energy cost headwind on top of that.
+
+On the other side, healthcare has historically outperformed on days when the Kospi falls this hard, by roughly forty basis points. And there's a story here beyond positioning. Sanofi agreed to buy Insmed, the biggest pharma deal in three years, and Insmed jumped fourteen percent. Sanofi faces a revenue cliff toward the end of the decade as top drugs lose exclusivity. That's a sign that big pharma is hunting for growth and is willing to pay for it, which supports the sector's earnings outlook. Telecoms have also tended to hold up, by around twenty-seven basis points, and insurers and real estate have a small edge too. That's the classic defensive basket.
+
+Is this a temporary rotation or a structural shift? My view: mostly positioning. Defensives are bought when investors want to cut risk without leaving the market. The question is whether they're getting crowded. If they are, the rotation could reverse on any hint of calm in tech. Watch Nvidia and the Washington hearings. If the AI names stabilize, the rotation fades.
+
+There's also a consumer counterpoint. Best Buy posted its best comparable sales growth in five years and raised guidance. US consumer confidence jumped to one hundred three point three. So the underlying economy isn't the problem, and that makes this more a valuation and rates story than a recession story.
+
+A few risks to keep on the radar. The Houthis hit a Saudi sovereign wealth fund tower for the second time in six days. Russia is warning Estonia about open war as Tallinn prepares to close border crossings on December first. And the euro is at one point zero nine five, up slightly. Any geopolitical flare-up could change the oil picture quickly, and oil is currently the one thing helping margins.
+
+What would change the picture? A calmer Nvidia story, softer inflation prints, or a bond rally that finally gives growth stocks relief.
+
+[pause]
+
+So the take-away: the AI trade got shaken, rates won't rescue it, and Europe's defensives are today's shelter.
+
+Briefing over. Go show the market who's boss.
+
+===SHOWNOTES===
+- Main chain: Wall Street AI wobble (Nasdaq 100 down 2.0%) leads to Asian tech rout (Kospi down 5.9%, Nikkei down 2.8%, SoftBank down 15%), then to a risk-off tone in European tech and cyclicals.
+- Earnings read-through: Dell sales more than doubled on AI servers, $25B buyback, stock up. HPE record growth, raised guide, stock down. Micron down on BNP oversupply warning. Anthropic below its $83 IPO price. Takeaway: demand is strong, but the market questions pricing and a possible supply glut.
+- Rates: the US 10-year is at 4.90% (down 1.4bp), the Bund 10-year at 3.31% (down 4bp). Japan services inflation at a 36-year high, Australian core inflation at a two-year high, Fed's Williams points to higher rates over time. Bonds are not offering a cushion.
+- Oil: Brent down 4.5% to $87.3, helps margins and inflation. TTF gas $91.7, up 7.3% over five days, a headwind for European industry.
+- Gold down 5.3% and copper down 4.0% over five days, which looks like broad risk reduction rather than a flight to safety. VIX at 26.4.
+- Sensitivity model (rule of thumb, low R2): Stoxx 600 about minus 28bp; tech vs market minus 40bp, industrials minus 31bp; healthcare plus 39bp, telecom plus 27bp, insurance plus 12bp, real estate plus 11bp, utilities plus 6bp.
+- Healthcare: Sanofi buying Insmed (biggest pharma deal in three years, Insmed up 14%) signals the sector is hunting growth ahead of patent cliffs.
+- Risks and swing factors: Nvidia and Huang hearings, Houthi attack on the PIF tower, Russia-Estonia tensions. Defensives may be crowded if tech stabilizes.

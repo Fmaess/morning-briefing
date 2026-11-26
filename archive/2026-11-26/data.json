@@ -1,0 +1,703 @@
+{
+ "datum": "Thursday, 26 November 2026",
+ "maerkte": {
+  "asien": [
+   {
+    "name": "Nikkei 225",
+    "ticker": "^N225",
+    "last": 57995.4102,
+    "as_of": "2026-11-26",
+    "change_pct": 1.73,
+    "change_5d_pct": -1.74
+   },
+   {
+    "name": "Hang Seng",
+    "ticker": "^HSI",
+    "last": 22418.9297,
+    "as_of": "2026-11-26",
+    "change_pct": 2.06,
+    "change_5d_pct": -1.85
+   },
+   {
+    "name": "Shanghai Composite",
+    "ticker": "000001.SS",
+    "last": 3484.0437,
+    "as_of": "2026-11-26",
+    "change_pct": 0.22,
+    "change_5d_pct": -2.62
+   },
+   {
+    "name": "Kospi",
+    "ticker": "^KS11",
+    "last": 4758.6602,
+    "as_of": "2026-11-26",
+    "change_pct": 1.3,
+    "change_5d_pct": -7.38
+   },
+   {
+    "name": "ASX 200",
+    "ticker": "^AXJO",
+    "last": 8763.7998,
+    "as_of": "2026-11-26",
+    "change_pct": 0.82,
+    "change_5d_pct": 0.38
+   }
+  ],
+  "usa": [
+   {
+    "name": "S&P 500",
+    "ticker": "^GSPC",
+    "last": 7182.7798,
+    "as_of": "2026-11-25",
+    "change_pct": -0.25,
+    "change_5d_pct": -1.92
+   },
+   {
+    "name": "Nasdaq 100",
+    "ticker": "^NDX",
+    "last": 26046.9004,
+    "as_of": "2026-11-25",
+    "change_pct": -0.64,
+    "change_5d_pct": -3.94
+   },
+   {
+    "name": "S&P 500 Future",
+    "ticker": "ES=F",
+    "last": 7253.5,
+    "as_of": "2026-11-26",
+    "change_pct": 0.8,
+    "change_5d_pct": 0.78
+   },
+   {
+    "name": "Nasdaq Future",
+    "ticker": "NQ=F",
+    "last": 26401.5,
+    "as_of": "2026-11-26",
+    "change_pct": 1.15,
+    "change_5d_pct": -0.75
+   }
+  ],
+  "europa": [
+   {
+    "name": "Euro Stoxx 50",
+    "ticker": "^STOXX50E",
+    "last": 5894.46,
+    "as_of": "2026-11-25",
+    "change_pct": -1.82,
+    "change_5d_pct": -4.22
+   },
+   {
+    "name": "DAX",
+    "ticker": "^GDAXI",
+    "last": 24702.1309,
+    "as_of": "2026-11-25",
+    "change_pct": -1.26,
+    "change_5d_pct": -4.02
+   },
+   {
+    "name": "Stoxx 600",
+    "ticker": "^STOXX",
+    "last": 626.03,
+    "as_of": "2026-11-25",
+    "change_pct": -1.06,
+    "change_5d_pct": -2.8
+   }
+  ],
+  "zinsen": [
+   {
+    "name": "US 10J Rendite",
+    "ticker": "^TNX",
+    "last": 4.848,
+    "as_of": "2026-11-25",
+    "change_bp": -5.6
+   },
+   {
+    "name": "US 5J Rendite",
+    "ticker": "^FVX",
+    "last": 4.66,
+    "as_of": "2026-11-25",
+    "change_bp": -5.2
+   },
+   {
+    "name": "Bund 2J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A",
+    "last": 3.02,
+    "as_of": "2026-11-25",
+    "change_bp": -3.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   },
+   {
+    "name": "Bund 10J Rendite",
+    "ticker": "BBSIS.D.I.ZAR.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A",
+    "last": 3.27,
+    "as_of": "2026-11-25",
+    "change_bp": -4.0,
+    "quelle": "Deutsche Bundesbank (Umlaufrendite, Stand Vortag)"
+   }
+  ],
+  "rohstoffe": [
+   {
+    "name": "Brent",
+    "ticker": "BZ=F",
+    "last": 91.05,
+    "as_of": "2026-11-26",
+    "change_pct": -3.76,
+    "change_5d_pct": -1.01
+   },
+   {
+    "name": "TTF Gas",
+    "ticker": "TTF=F",
+    "last": 87.303,
+    "as_of": "2026-11-25",
+    "change_pct": -4.76,
+    "change_5d_pct": 7.98
+   },
+   {
+    "name": "Gold",
+    "ticker": "GC=F",
+    "last": 3626.7,
+    "as_of": "2026-11-26",
+    "change_pct": 2.57,
+    "change_5d_pct": -1.6
+   },
+   {
+    "name": "Kupfer",
+    "ticker": "HG=F",
+    "last": 5.5115,
+    "as_of": "2026-11-26",
+    "change_pct": 3.36,
+    "change_5d_pct": -2.02
+   }
+  ],
+  "devisen": [
+   {
+    "name": "EUR/USD",
+    "ticker": "EURUSD=X",
+    "last": 1.0964,
+    "as_of": "2026-11-26",
+    "change_pct": 0.01,
+    "change_5d_pct": -0.08
+   },
+   {
+    "name": "USD/JPY",
+    "ticker": "JPY=X",
+    "last": 159.199,
+    "as_of": "2026-11-26",
+    "change_pct": -0.04,
+    "change_5d_pct": -0.11
+   },
+   {
+    "name": "USD/CNY",
+    "ticker": "CNY=X",
+    "last": 6.6632,
+    "as_of": "2026-11-26",
+    "change_pct": -0.01,
+    "change_5d_pct": -0.07
+   }
+  ],
+  "volatilitaet": [
+   {
+    "name": "VIX",
+    "ticker": "^VIX",
+    "last": 28.29,
+    "as_of": "2026-11-25",
+    "change_pct": 7.32,
+    "change_5d_pct": 15.19
+   }
+  ]
+ },
+ "nachrichten": [
+  {
+   "source": "CNBC World",
+   "title": "Beware higher correlation but nab high U.S. credit yields, fund managers say",
+   "summary": "The AI boom could trigger a recession, but data centers remain an attractive investment opportunity, a hedge fund manager said.",
+   "time_utc": "2026-11-26T05:36:01+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "North Korea's Kim calls for nuclear arsenal expansion, says status 'will never change'",
+   "summary": "Kim Jong Un called for wider use of tactical nuclear weapons and an expanded arsenal, rejecting international denuclearization pressure.",
+   "time_utc": "2026-11-26T05:16:38+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "China, Japan, South Korea and ASEAN launch talks on digital payments across borders",
+   "summary": "",
+   "time_utc": "2026-11-26T05:06:51+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Analysis-Spain’s economic gains miss voters’ wallets as Sanchez seeks reelection",
+   "summary": "",
+   "time_utc": "2026-11-26T05:06:24+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "South Korea's Kospi leads gains as tech rebound lifts Asia markets",
+   "summary": "Investors appear to have looked past a fresh set of U.S. tariffs unveiled by the White House on Wednesday, targeting more than a dozen major trading partners.",
+   "time_utc": "2026-11-26T04:49:03+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Hedge funds are no longer just for the rich. They’re wooing everyday investors",
+   "summary": "Hedge funds are increasingly courting retail investors as the industry seeks new avenues for growth.",
+   "time_utc": "2026-11-26T04:20:18+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "South Korea’s central bank raises rates, upgrades 2027 growth outlook",
+   "summary": "",
+   "time_utc": "2026-11-26T04:18:41+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "How Trump’s latest tariff moves hand India an edge over rival Asian exporters",
+   "summary": "Proposed tariffs of 18% on Bangladesh, Cambodia, Thailand, and 20% on China and Vietnam, subject to their respective trade deals, offer India a competitive advantage.",
+   "time_utc": "2026-11-26T04:12:18+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Judge blocks FCC early-renewal process for Disney-owned ABC stations, for now",
+   "summary": "A judge has blocked the FCC's early license renewal process for Disney-owned ABC stations in 'important victory for the First Amendment'",
+   "time_utc": "2026-11-26T04:00:15+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "BOJ’s Tamura flags faster pace of rate hikes amid inflation risk",
+   "summary": "",
+   "time_utc": "2026-11-26T03:55:28+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "South Korea upgrades growth forecast, raises benchmark rates to highest in two years",
+   "summary": "The central bank raised rates by 25 basis points to 3.25% for its final meeting of the year, in line with expectations from economists.",
+   "time_utc": "2026-11-26T03:32:53+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
+   "summary": "S&amp;P Global Ratings said Nvidia's credit rating could be cut by one notch as it flagged \"rising\" management and governance risk at the chipmaker.",
+   "time_utc": "2026-11-26T03:19:44+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "‘Your booth is waiting’: Denny’s welcomes Jensen Huang back as Nvidia CEO",
+   "summary": "Denny's reaffirmed its longstanding ties with Jensen Huang following his return as Nvidia CEO, revealing that a plaque had been restored.",
+   "time_utc": "2026-11-26T03:13:43+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "K-beauty stocks rally as Korean brands top Amazon bestseller lists globally ahead of Black Friday",
+   "summary": "South Korean beauty stocks rose as K-beauty brands dominated Amazon's skincare rankings ahead of Black Friday.",
+   "time_utc": "2026-11-26T03:09:47+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "BOJ policymaker signals chance of faster-pace interest rate hikes",
+   "summary": "",
+   "time_utc": "2026-11-26T02:54:34+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Data centre rush drives biggest rise in Australian business investment since mining boom",
+   "summary": "",
+   "time_utc": "2026-11-26T02:36:51+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "New York court upholds Mayor Mamdani’s rent freeze",
+   "summary": "",
+   "time_utc": "2026-11-26T02:36:24+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+   "summary": "SpaceX won approval from the FCC to put 1 million orbital data center satellites into space, a proposal that was opposed by Amazon and other groups.",
+   "time_utc": "2026-11-26T02:35:39+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Taiwan says it is confident of keeping previously agreed tariffs with US",
+   "summary": "",
+   "time_utc": "2026-11-26T02:24:25+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Dollar steady as sliding yields temper safe-haven bid",
+   "summary": "",
+   "time_utc": "2026-11-26T01:54:20+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Norse Atlantic flights suspended after warning finances 'critical'",
+   "summary": "Norse Atlantic suspended flights as it warned its financial position was \"critical.\" The airline is seeking short-term financing and exploring a potential takeover.",
+   "time_utc": "2026-11-26T01:52:20+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance",
+   "summary": "Why did a futurist with Huang’s prescient vision build a company where all roads lead to him?",
+   "time_utc": "2026-11-26T01:15:00+00:00"
+  },
+  {
+   "source": "Investing.com",
+   "title": "Bank of Korea hikes interest rates to 2-yr high",
+   "summary": "",
+   "time_utc": "2026-11-26T01:10:58+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Why this stock-market selloff is probably going to get worse before it gets better",
+   "summary": "Monday’s rally helped to paper over deeper issues that must be resolved before a durable bottom can arrive.",
+   "time_utc": "2026-11-26T00:33:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
+   "summary": "SpaceX said it will donate one share of the company's class A stock to every active Trump Account, and CEO Elon Musk would match it.",
+   "time_utc": "2026-11-26T00:27:52+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Inside India newsletter: Roaring economy, foreign investors’ return and now record auto sales",
+   "summary": "Automakers in India are poised to sell over 30 million vehicles in the financial year ending March 2027.",
+   "time_utc": "2026-11-26T00:12:16+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
+   "summary": "“Retirement is a financial status, not an age.”",
+   "time_utc": "2026-11-25T23:30:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?",
+   "summary": "“Given my age, I never make a major new purchase without thinking about the future.”",
+   "time_utc": "2026-11-25T23:30:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+   "summary": "“My wife stopped working outside the home in 1970.”",
+   "time_utc": "2026-11-25T23:00:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+   "summary": "Doing nothing and maintaining an even temperament is often the work of gods.",
+   "time_utc": "2026-11-25T22:45:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Macy's postpones Thanksgiving Day Parade due to severe weather",
+   "summary": "Macy's announced Wednesday that its annual Thanksgiving Day Parade is being postponed to Saturday due to severe weather.",
+   "time_utc": "2026-11-25T22:26:56+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Oracle, CoreWeave and other tech stocks bounce back after selloff",
+   "summary": "Oracle, CoreWeave and other technology stocks bounced back from early losses on Wednesday, after what appeared to be a major selloff eased ahead of the market’s close.",
+   "time_utc": "2026-11-25T22:16:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Nvidia’s stock has given back a big chunk of Monday’s rally as dip buyers cash in",
+   "summary": "Based on where retail investors bought Nvidia shares on the dip last week, their gains are now nearly all gone, according to Vanda Research.",
+   "time_utc": "2026-11-25T22:11:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Elon Musk and SpaceX to donate roughly $17.8 billion to ‘Trump accounts’",
+   "summary": "SpaceX to provide one newly issued Class A share to every active ‘Trump account,’ and CEO Musk will match that gift.",
+   "time_utc": "2026-11-25T21:50:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "HP’s stock is a standout gainer in the tech selloff, as an earnings beat still matters",
+   "summary": "PC maker’s ‘low-quality’ beat is enough to propel its shares amid the tech rout.",
+   "time_utc": "2026-11-25T21:36:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Vance says he was assured Jensen Huang was not under DOJ investigation",
+   "summary": "Whether the Trump administration has investigated Jensen Huang for potential national security risks has been the subject of questions.",
+   "time_utc": "2026-11-25T21:00:08+00:00"
+  },
+  {
+   "source": "Fed",
+   "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+   "summary": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+   "time_utc": "2026-11-25T20:00:00+00:00"
+  },
+  {
+   "source": "Fed",
+   "title": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
+   "summary": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
+   "time_utc": "2026-11-25T20:00:00+00:00"
+  },
+  {
+   "source": "EZB",
+   "title": "ECB and Sveriges Riksbank conclude agreement for Sweden to join T2",
+   "summary": "",
+   "time_utc": "2026-11-25T17:30:00+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Even the price of toys is on the rise. How Americans are scaling back holiday plans",
+   "summary": "U.S. consumers face higher food, travel and gift costs in 2026 as inflation and Iran-war energy shocks pressure holiday budgets.",
+   "time_utc": "2026-11-25T16:17:13+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+   "summary": "The new levies seek to counter foreign trade practices deemed unfair, discriminatory or burdensome to U.S. commerce.",
+   "time_utc": "2026-11-25T16:02:52+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Trump open to pardoning Jensen Huang if needed: NY Post",
+   "summary": "Trump said he would be willing to pardon Jensen Huang if needed and argued that the Nvidia CEO should not have to invoke the Fifth Amendment before Congress.",
+   "time_utc": "2026-11-25T14:32:09+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
+   "summary": "Nvidia CEO Jensen Huang resigned after multiple reported affairs, including one with a Chinese businesswoman who is alleged to be a spy for Beijing.",
+   "time_utc": "2026-11-25T14:29:50+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
+   "summary": "The personal consumption expenditures price index was expected to show an annual inflation rate of 3.8% in October, according to the Dow Jones consensus.",
+   "time_utc": "2026-11-25T14:18:45+00:00"
+  },
+  {
+   "source": "CNBC World",
+   "title": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
+   "summary": "The extreme market gyrations and the drama surrounding Nvidia this past week have highlighted the dilemma facing Federal Reserve Chairman Kevin Warsh.",
+   "time_utc": "2026-11-25T12:26:41+00:00"
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "36% minimum wage hike tests Bangladesh garment sector's low-cost model",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Wife of Japanese journalist held in Russia pleads for his release",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Humanoid robots meet factory reality on Toyota's home turf",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Pakistan-US economic ties to grow further, with exception of crypto",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "FSB flags leverage risks in sovereign bond markets amid public debt rise",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Hong Kong fire survivors and families mark anniversary as questions linger",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Bank of Korea hikes rate to 3.25% against backdrop of strong economy",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Fall of Shanghai party chief clouds China's leadership reset in 2027",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Nvidia turmoil casts pall over high-flying global AI chip industry",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan arcade snags world record with 600 claw machines",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Nvidia's shares drop, credit rating on watch two days after Huang's return",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan's Mitsui plans $125bn business asset overhaul to boost ROE",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Japan's Preferred Networks sows seeds of physical AI with robots, software and chips",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "Huang back at Nvidia as China builds own chip production system",
+   "summary": "",
+   "time_utc": null
+  },
+  {
+   "source": "Nikkei Asia",
+   "title": "China widens graft crackdown, putting ex-officials, crypto in crosshairs",
+   "summary": "",
+   "time_utc": null
+  }
+ ],
+ "earnings": [],
+ "sensitivitaeten": {
+  "hinweis": "Historische Daumenregel aus Tagesdaten, keine Prognose der Eröffnung.",
+  "faktoren_heute": {
+   "Nikkei": 1.72,
+   "Hang Seng": 2.07,
+   "Kospi": 1.23,
+   "S&P 500 (Vortag)": -0.25,
+   "Brent (Vortag)": 3.51,
+   "US 10J Rendite (Vortag)": -5.6,
+   "USD/JPY (Vortag)": 0.16
+  },
+  "faktoren_einheit": "Renditen in %, Renditeänderungen in bp",
+  "ergebnisse": [
+   {
+    "ziel": "Rohstoffe vs. Markt",
+    "erwarteter_effekt_bp": 72.0,
+    "treiber": [
+     {
+      "faktor": "Hang Seng",
+      "effekt_bp": 47.0,
+      "t_stat": 7.1
+     }
+    ],
+    "r2": 0.09
+   },
+   {
+    "ziel": "Technologie vs. Markt",
+    "erwarteter_effekt_bp": 57.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 19.0,
+      "t_stat": 3.4
+     },
+     {
+      "faktor": "Hang Seng",
+      "effekt_bp": 17.0,
+      "t_stat": 2.9
+     }
+    ],
+    "r2": 0.07
+   },
+   {
+    "ziel": "Stoxx 600 (gesamt)",
+    "erwarteter_effekt_bp": 54.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": 23.0,
+      "t_stat": 6.1
+     },
+     {
+      "faktor": "Hang Seng",
+      "effekt_bp": 23.0,
+      "t_stat": 6.0
+     }
+    ],
+    "r2": 0.22
+   },
+   {
+    "ziel": "Telekom vs. Markt",
+    "erwarteter_effekt_bp": -50.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -23.0,
+      "t_stat": -4.8
+     },
+     {
+      "faktor": "Hang Seng",
+      "effekt_bp": -17.0,
+      "t_stat": -3.4
+     }
+    ],
+    "r2": 0.08
+   },
+   {
+    "ziel": "Gesundheit vs. Markt",
+    "erwarteter_effekt_bp": -39.0,
+    "treiber": [
+     {
+      "faktor": "Hang Seng",
+      "effekt_bp": -15.0,
+      "t_stat": -3.3
+     }
+    ],
+    "r2": 0.07
+   },
+   {
+    "ziel": "Versorger vs. Markt",
+    "erwarteter_effekt_bp": -37.0,
+    "treiber": [
+     {
+      "faktor": "Hang Seng",
+      "effekt_bp": -23.0,
+      "t_stat": -4.6
+     },
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -18.0,
+      "t_stat": -3.8
+     }
+    ],
+    "r2": 0.07
+   },
+   {
+    "ziel": "Luxus vs. Markt",
+    "erwarteter_effekt_bp": 24.0,
+    "treiber": [
+     {
+      "faktor": "Hang Seng",
+      "effekt_bp": 37.0,
+      "t_stat": 4.8
+     }
+    ],
+    "r2": 0.04
+   },
+   {
+    "ziel": "Immobilien vs. Markt",
+    "erwarteter_effekt_bp": -21.0,
+    "treiber": [
+     {
+      "faktor": "Nikkei",
+      "effekt_bp": -19.0,
+      "t_stat": -3.8
+     }
+    ],
+    "r2": 0.05
+   }
+  ]
+ }
+}

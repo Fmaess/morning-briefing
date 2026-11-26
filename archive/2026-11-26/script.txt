@@ -1,0 +1,39 @@
+Rise and grind, champ. The market waits for no one.
+
+It's Thursday, the twenty-sixth of November, and the thesis is simple: Asia is bouncing, but the bounce is built on falling yields and a weaker oil price, not on conviction, and Europe walks into it after a rough session.
+
+Start with Asia. The Kospi rose one point three percent, the Hang Seng two point one, the Nikkei one point seven. Tech rebounded. Investors even looked past a fresh set of U.S. tariffs, proposed on fourteen trading partners including China and the EU. That's the setup. But look at the five-day numbers. The Kospi is still down seven point four percent over the week, and the Nikkei and Hang Seng are both down close to two. So this reads as a bounce inside a drawdown, not a recovery.
+
+Why the bounce? Rates and oil. The US ten-year yield fell five point six basis points to four point eight percent. Brent dropped three point eight percent to about ninety-one dollars. That matters because inflation is the problem. The Fed's preferred gauge, the PCE price index, was expected at three point eight percent for October. Lower oil takes some pressure off that number. Lower yields take some pressure off valuations. So tech gets a breather.
+
+[pause]
+
+But the tension is Nvidia. S&P warned it could cut the chipmaker's credit rating by one notch, citing rising management and governance risk, just two days after Jensen Huang returned as CEO. Nvidia has given back a big chunk of Monday's rally, and Vanda Research says retail dip buyers' gains from last week are nearly gone. Oracle and CoreWeave bounced late on Wednesday after early losses, but the Nasdaq 100 still fell zero point six percent and is down almost four percent over five days. The VIX rose seven percent to twenty-eight point three. That's not a calm tape. So the AI trade, which has carried this market, now has a single-name governance question sitting on top of it. The open question is whether the bounce in US futures, up point eight percent for the S&P, is real appetite or just short covering.
+
+Now the rates chain, because it cuts both ways. Bank of Korea raised rates twenty-five basis points to three point two five percent, a two-year high, and upgraded its growth outlook. A Bank of Japan policymaker flagged a faster pace of hikes on inflation risk. So central banks in Asia are leaning hawkish, even as bond yields fall. That suggests the bond market is pricing growth worries rather than relief. Falling yields from fear and falling yields from comfort look the same on a screen, but they mean opposite things for equities.
+
+Add a nuance from the commodity side. Gold jumped two point six percent to about thirty-six hundred dollars, and copper rose three point four percent. Gold up says investors still want protection. Copper up says someone still believes in demand. Mixed signal, and I'd note it rather than resolve it. Also, European gas, TTF, is up eight percent over five days at about eighty-seven euros, even after falling almost five percent on the day. That's the real squeeze for European industry, and the consumer story from the US, where holiday budgets are being pressured by what reports call Iran-war energy shocks, shows where it ends up.
+
+[pause]
+
+Now Europe, which is the problem child. The Stoxx 600 fell one point one percent yesterday, the DAX one point three, the Euro Stoxx 50 one point eight, and the Euro Stoxx is down four point two percent over five days. Europe sold off while the US sold off less, partly because of those tariff headlines aimed at the EU. German two-year yields are at three point oh percent and ten-year at three point three, both lower by three to four basis points. The euro-dollar is flat at one point ten.
+
+So what does today look like? Historically, on days with an Asian bid like this, the model points to a better Stoxx 600, roughly fifty basis points, with Nikkei and Hang Seng each contributing about twenty-three. That's a rule of thumb, not a forecast, and it explains only a modest share of moves. Same caveat for the sectors. Historically, resources have tended to outperform on a strong Hang Seng, and tech and luxury have tended to do well, luxury especially given its China link. Defensives like telecom, healthcare and utilities have tended to lag on days like this, which fits a relief bounce rather than a flight to safety.
+
+Where is positioning crowded? Probably in the AI complex, and the retail dip-buying data shows it. And in defensives, which would be vulnerable if the bounce holds. What changes the picture? A real tariff escalation against the EU. A further Nvidia downgrade. Or a hot inflation print that pushes yields back up and removes the support this bounce stands on.
+
+[pause]
+
+The takeaway: Asia's bounce is borrowed from lower yields and cheaper oil, so treat it as a rental, not a purchase.
+
+That's it from me. Buy low, sell high, and don't forget to hydrate.
+
+===SHOWNOTES===
+- Theme: Asian bounce (Kospi +1.3%, Hang Seng +2.1%, Nikkei +1.7%) inside a drawdown; Kospi still -7.4% over five days.
+- Driver chain: Brent -3.8% to about $91 and US 10-year down 5.6bp to 4.85% ease inflation and valuation pressure, supporting tech.
+- Risk: S&P warned of a one-notch Nvidia downgrade over governance risk; Nasdaq 100 -0.6%, VIX up 7.3% to 28.3.
+- Inflation backdrop: PCE expected at 3.8% for October; BoK hiked 25bp to 3.25%; a BOJ policymaker flagged faster hikes.
+- Gold +2.6% (~$3,627) and copper +3.4%: mixed signals on protection versus demand.
+- Europe: Stoxx 600 -1.1%, DAX -1.3%, Euro Stoxx 50 -1.8%; Bund 10-year 3.27%; TTF gas ~87, up 8% over five days.
+- Model (historical rule of thumb): Stoxx 600 +54bp expected, commodities and tech and luxury favored; telecom, healthcare, utilities lag. Low R-squared.
+- Watch: EU tariff escalation, Nvidia rating, hot inflation data pushing yields up.
